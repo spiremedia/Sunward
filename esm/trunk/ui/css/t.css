@@ -1,0 +1,120 @@
+	div#toolbar{
+		height: 35px; 
+		padding:5px 0px 0px 10px;
+		background:url('images/toolbar-bg.jpg') repeat-x;
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin-top: -35px;
+		}
+
+body { margin-top: 35px !important; }
+
+	div#toolbar *{
+		margin: 0; 
+		padding: 0; 
+		font-family: verdana, sans-serif;
+		font-size: 12px !important;
+		color: black;
+		}
+	
+	div#toolbar .clearing{ clear: both;}
+	
+	div#toolbar #page-status-container{ float:left;}
+	
+	div#toolbar #page-status-container #page-status-heading{
+		font-weight: bold;
+		color:#FF0000;
+		}
+	
+	div#toolbar #page-status-container #page-status{
+		font-weight: normal;
+		}
+		
+	div#toolbar #button-container{ float: right; }		
+	
+	div#toolbar #button-container button{
+		height:25px;
+		text-align:center;
+		}
+	
+	div#toolbar #button-container ul, div#toolbar #button-container ul li{
+		list-style-type: none;
+		margin:0;
+		padding:0;
+		}
+	
+	div#toolbar #button-container ul li{
+		height: 25px;
+		float: left;
+		margin-right: 20px;
+		}
+		
+	div#toolbar{
+		height: 35px; 
+		padding:5px 0px 0px 10px;
+		background:url('images/toolbar-bg.jpg') repeat-x;
+		}
+	
+	div#toolbar *{
+		margin:0; 
+		padding:0; 
+		font: 65%/1.0em verdana, sans-serif;
+		color: black;
+		}
+	
+	div#toolbar .clearing{ clear: both;}
+	
+	div#toolbar #page-status-container{ float:left;}
+	
+	div#toolbar #page-status-container #page-status-heading{
+		font-weight: bold;
+		color:#FF0000;
+		}
+	
+	div#toolbar #page-status-container #page-status{
+		font-weight: normal;
+		}
+	
+	div#toolbar #button-container { float: right;}		
+	
+	div#toolbar #button-container button{
+		height:25px;
+		text-align:center;
+		}
+	
+	div#toolbar #button-container ul, div#toolbar #button-container ul li{
+		list-style-type: none;
+		margin:0;
+		padding:0;
+		}
+	
+	div#toolbar #button-container ul li{
+		height: 25px;
+		float: left;
+		margin-right: 20px;
+		}
+	
+	div#toolbar #button-container ul li#edit-btn{
+		width: 100px;
+		}
+	
+	div#toolbar #button-container ul li#revision-btn{
+		width: 140px;
+		}
+	
+	div#toolbar #button-container ul li#publish-btn{		
+		width: 100px;
+		}
+		
+	
+	#revision-form-container{
+	 padding:5px 10px; 
+	 position: absolute; 
+	 z-index:1; 
+	 top:35px; 
+	 left:400px; 
+	 text-align:left; 
+	 background-color:#e5e5e5; 
+	 border: 1px solid black;
+	 }

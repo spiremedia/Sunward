@@ -1,0 +1,106 @@
+/****
+*		Hired Gun: Matthew Gaddis <matthew@spiremedia.com>
+*		Created: 2006-05-11
+*		File: Platform2006 Edit Site Map css
+****/
+
+div#body-left { width: 403px; }
+
+div#body-right { width: 600px; }
+
+div#sitemap_breadcrumb{
+	border: 1px solid #969696;
+	margin-top: 2px;
+	background: #fff url("images/div%23sitemap-breadcrumb-bkgd.gif") repeat-x 0 0;
+	height: 20px;
+	}
+
+/*  firefox styles */
+html>body div#sitemap_breadcrumb{
+	border-width: 1px;
+	border-color: #969696;
+	border-bottom-color: #ccc;
+	border-style: solid;
+	background: #fff url("images/div%23sitemap-breadcrumb-bkgd.gif") repeat-x 0 0;
+	margin-top: 0px;
+	height: auto;
+	}
+
+div#sitemap_breadcrumb ul,
+div#sitemap_section ul,
+div#sitemap_sidebar ul
+{
+	margin: 0 !important;
+	padding: 0 !important;
+	padding-left: 0;
+	list-style: none;
+}
+
+div#sitemap_breadcrumb li
+{
+	float: left;
+	padding: 13px 5px 13px 11px;
+	background: url("images/div%23sitemap-breadcrumb-li-bkgd.gif") no-repeat 0 17px;
+}
+
+div#sitemap_breadcrumb li.alternate
+{
+	padding-left: 51px;
+	background: url("images/div%23sitemap-breadcrumb-li.alternate-bkgd.gif") no-repeat 18px 8px;
+}
+
+div#sitemap_section
+{
+	border-width: 0 1px 1px 1px;
+	border-color: #969696;
+	border-style: solid;
+	width: 584px;
+}
+
+
+div#sitemap_section li,
+div#sitemap_sidebar li
+{ 
+	padding: 5px 5px 4px 0px; 
+}
+div#sitemap_section li.drag span,
+div#sitemap_sidebar li.drag span 
+{ 
+	cursor: move; 
+	float: left;
+	height: 0;
+	padding-top: 15px;
+	width: 50px;
+	background: url("images/div%23sitemap-section-li-bkgd.gif") no-repeat 5px 3px;
+	overflow: hidden;
+}
+
+
+div#sitemap_section a,
+div#sitemap_sidebar a
+{
+	float: left;
+	padding-left: 44px;
+	background: url("images/div%23sitemap-section-a-bkgd.gif") no-repeat 22px 0.2em;
+}
+
+div#sitemap_section a.alternate{ background: url("images/div%23sitemap-section-a.alternate-bkgd.gif") no-repeat 22px 0.1em; }
+
+div#sitemap_sidebar
+{
+	padding: 15px 1px;
+}
+
+div#sitemap_sidebar ul
+{
+	margin: 0;
+	border: solid #ccc 1px;
+}
+
+html body div#sitemap_sidebar li.drag span { background: url("images/div%23sitemap-sidebar-li-bkgd.gif") no-repeat 5px 3px; }
+
+div#sitemap_sidebar a
+{
+	text-decoration: none;
+	color: #000; 
+}

@@ -1,0 +1,437 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ADDRESS,APPLET,AREA,A,BASE,BASEFONT,BIG,BODY,BR,B,CAPTION,CENTER,CITE,CODE,DD,DFN,DIR,DIV,DL,DT,EM,FONT,FORM,H1,H2,H3,H4,H5,H6,HEAD,HR,HTML,INPUT,ISINDEX,I,KBD,LINK,LI,MAP,MENU,META,OL,OPTION,PARAM,PRE,P,SAMP,SCRIPT,SELECT,SMALL,STRIKE,STRONG,STYLE,SUB,SUP,TABLE,TD,TEXTAREA,TH,TITLE,TR,TT,UL,U,VAR {
+	margin:0;
+	padding:0;
+	}
+
+br.clear, .clear {
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+	}
+
+img {
+	border: none;
+	}
+
+/* header table and header content*/
+.ht {
+	width: 100%;
+	background-color: #000000;
+	height: 150px;
+	}
+
+.hc {
+	width: 900px;
+	height: 150px;
+	background-image: url(/ui/images/headerBG.jpg);
+	background-repeat: no-repeat;
+	}
+
+.hc div {
+	margin: 54px 0 0 0;
+	}
+
+.hlf {
+	background-color: #3366ff;
+	}
+
+.hrf {
+	background-color: #000000;
+	}
+
+/* upper table and upper content*/
+.ut {
+	width: 100%;
+	top: 0;
+	z-index: 11;
+	border-top: solid 1px #ff0000;
+	border-bottom: solid 1px #ff0000;
+	}
+
+.uc {
+	width: 880px;
+	background-repeat: no-repeat;
+	background-position: center;
+	vertical-align: middle;
+	padding: 8px 0 5px 0;
+	z-index: 1;
+	}
+
+.uclf {
+	background-image: url(/ui/images/lGradBG.jpg);
+	background-position: right top;
+	background-repeat: repeat-y;
+	background-color: #3366ff;
+	z-index: 11;
+	width: auto;
+	}
+
+.ucrf {
+	background-image: url(/ui/images/rGradBG.jpg);
+	background-repeat: repeat-y;
+	background-color: #000;
+	z-index: -11;
+	width: auto;
+	}
+
+/* lower content*/
+#lc {
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	height: 195px;
+	top: 0;
+	width: 100%;
+	}
+
+#lc div {
+	width: 902px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	}
+	
+#lc div div {
+	float: right;
+	border: solid 2px #ff0000;
+	background-color: #333;
+	width: 285px;
+	height: 176px;
+	margin: 0 10px 0 0;
+	padding: 0;
+	}
+	
+#lc div div div.pictureImage {
+	border: none;
+	width: 285px;
+	height: 156px;
+	margin: 0;
+	padding: 0;
+	}
+	
+#lc div div div.pictureImage img {
+	max-height: 156px;
+	max-width: 285px;
+	border: none;
+	}
+	
+#lc div div div.pictureText {
+	border: none;
+	width: 285px;
+	height: 16px;
+	margin: 0;
+	padding: 3px 0 0 0;
+	color: #ffffff;
+	font-weight: bold;
+	border-top: thin solid #232323;
+	}
+	
+#lc div div div.pictureText a {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	border: none;
+	}
+	
+#lc div div div.pictureText a:hover {
+	text-decoration: underline;
+	}
+
+#missionStatement {
+	background-image: url(/ui/images/missionstatement.jpg);
+	background-repeat: no-repeat;
+	background-color: #3366ff;
+	height: 100px;
+	width: 900px;
+	border-bottom: solid 1px #ff0000;
+	}
+
+.fillerBlack {
+	height: 100px;
+	background-color: #000000;
+	border-bottom: solid 1px #ff0000;
+	}
+
+.fillerTheme {
+	height: 100px;
+	background-color: #3366ff;
+	border-bottom: solid 1px #ff0000;
+	}
+
+/* interior text template */
+div#container {
+	width: 100%;
+	}
+
+#interiorContainer {
+	width: 100%;
+	position: relative;
+	margin: 0 0 0 0;
+	border-top: thin solid #ff0000;
+	border-bottom: thin solid #ff0000;
+	}
+
+#textpageContainer {
+	width: 962px;
+	position: relative;
+	margin: 0 auto;
+	}
+	
+#textPageBodyContent {
+	background:white url(/ui/images/menubg.jpg) repeat-y scroll left center;
+	height: 100%;
+	width: 930px;
+	margin: 0 auto 10px auto;
+	}
+
+#textPageCrumbs {
+	width: 1000px;  
+	margin: 0 auto -5px auto;
+	padding: 5px 0 0 12px;
+	font-size: 10px;
+	}
+
+#textPageCrumbs ul li {
+	display: inline; 
+	list-style-type: none;
+	}
+	
+#textPageInteriorTitle {
+	width: 930px;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	font-size: 18px;
+	color: #345c6f;
+	background-image: url(/ui/images/titleBg.jpg);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	padding: 9px 0;
+	}
+
+/* Split Right Coluumn */
+.splitright, .splitrightImagePage {
+	float: right;
+	width: 250px;
+	margin: 0;
+	padding: 0;
+	}
+	
+.splitright hr, splitrightImagePage hr {
+	background: #000000;
+	border: 0;
+	height: 2px;
+	margin-top: 8px;
+	margin-bottom: 8px;	
+	}
+
+.splitrightImagePage div img {
+	max-width: 250px;
+	}
+
+.splitright div img {
+	max-width: 220px;
+	}
+
+.splitright p, splitrightImagePage p {
+	margin: 0;
+	padding: 0;
+}
+
+.txtTopBar {
+	float: right;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 11px;
+	width: 701px;
+	}	
+
+.txtBottomBar {
+	
+	width: 700px;
+	height: auto;
+	float: right;
+	}
+
+.imageText,
+.imageText p {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 10px;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+	}
+
+/* Split Left Coluumn */
+.splitleft {
+	width: 450px;
+	margin: 0;
+	padding: 0;
+	}
+	
+.splitleft div img {
+	max-width:450px;
+	}
+	
+#bodyContent .splitright h1{
+	color: #335a6c;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	font-size: 18px;
+	margin: 0;
+	font-style: normal;
+	line-height: 21px;
+	}
+	
+#bodyContent h1{
+	color: #335a6c;
+	padding-top: 8px;
+	padding-bottom: 3px;
+	font-size: 22px;
+	margin: 0;
+	font-style: normal;
+	line-height: 23px;
+	}
+	
+.rightCol50 {
+	float: right;
+	width: 48%;
+	margin: 0;
+	padding: 0;
+}
+
+.rightCol50 img {
+	max-width: 335px;
+}
+
+.leftCol50 {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 48%;
+}
+
+.leftCol50 img {
+	max-width: 335px;
+}
+	
+.txtBottomBar1 {
+	width: 703px;
+	margin: 0;
+	padding: 0;
+	float: right;
+	}
+
+.txtBottomBar1TextOnly {
+	width: 675px;
+	margin: 10px 25px 0 0;
+	padding: 0;
+	float: right;
+	}
+
+/* footer css */
+#footer {
+	position: relative;
+	top: 0;
+	width: 100%;
+	}
+
+.footerL {
+	background-image: url(/ui/images/footerBG.jpg);
+	text-align: right;
+	width: 60%;
+	height: 104px;
+	float: left;
+	}
+
+.footerL div span {
+	color: #ffffff;
+	position: relative;
+	top: 40px;
+	right: 100px;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 12px;
+	text-decoration: underline;
+	}
+
+.footerL ul li {
+	position: relative;
+	top: 30px;
+	right: 30px;
+	}
+
+.footerL ul li {
+	display: inline;
+	list-style: none;
+	padding: 0 12px 0 0;
+	font-size: 10px;
+	}
+
+.footerL ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	border: none;
+	}
+
+.footerL ul li a:hover {
+	text-decoration: underline;
+	}
+
+.footerR {
+	float: right;
+	background-image: url(/ui/images/footerGrad.jpg);
+	background-repeat: no-repeat;
+	background-color: #132661;
+	height: 104px;
+	width: 40%;
+	}
+	
+.homeDeals {
+	float: left;
+	margin: 0 0 -7px 0;
+	padding: 0;
+	}
+
+.homeFlash {
+	float: right;
+	margin: 0 10px -7px 0;
+	padding: 0; 
+	}
+
+/* Search Form (Top Right) */
+.searchForm {
+	 color: white;
+	 text-decoration: none;
+	 font-size: 12px;
+	 white-space: nowrap;
+	 padding: 69px 0 0 6px;;
+	 float: left;
+	}
+
+.searchForm input.text {
+	 font-size: 12px;
+	 padding: 2px 0 2px 0;
+	 width: 204px;
+	}
+
+.searchButton {
+	color: #ffffff;
+	font-style: italic;
+	font-weight: bold;
+	background-color: #ff0000;
+	border-top: 2px #f32c49 solid;
+	border-right: 2px #f32c49 solid;
+	border-bottom: 2px #a90820 solid;
+	border-left: 2px #a90820 solid;
+	margin: -1px 0 0 0;
+	padding: 1px 4px;
+	}

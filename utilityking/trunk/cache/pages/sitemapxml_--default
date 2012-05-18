@@ -1,0 +1,110 @@
+<cfsavecontent variable="html"><?xml version="1.0" encoding="UTF-8"?>
+				<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//</loc>
+					  <lastmod>2009-11-04</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//404/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//AboutUs/</loc>
+					  <lastmod>2009-05-11</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//Dealers/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//Products/</loc>
+					  <lastmod>2009-05-18</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//ContactUs/</loc>
+					  <lastmod>2009-04-30</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//DealsSales/</loc>
+					  <lastmod>2011-11-15</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//Dealerships/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//Definitions/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//PrivacyPolicy/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//Specifications/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//Dealers/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//QualityFeatures/</loc>
+					  <lastmod>2011-06-08</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//AboutUs/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//Products/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//ContactUs/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//CareerOpportunities/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//DealsSales/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//Dealerships/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//QualityFeatures/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://utilityking.amazonaws.com//Products/EquipmentStorage/tiledistributor/</loc>
+					  <lastmod>2011-06-20</lastmod>
+				   </url>
+				
+				</urlset> 
+			</cfsavecontent>

@@ -1,0 +1,80 @@
+<div class="helpNav" style="border: 1px solid gray; margin: 5px; padding: 14px; float: right; width: 200px;">
+<p><strong>Table of Contents</strong> <br /><a href="#formintro">Introduction</a><br /><a href="#addform">Add a form</a><br /><a href="#updateform">Update a form</a><br /><a href="#deleteform">Delete a form</a> <br /><a href="#formfields">Form Fields</a><br /><a href="#createformstructure">Creating the form structure</a><br /><a href="#embedform">Embedding a form in a page</a><br /><a href="#viewsubmitted">Viewing form submissions</a><a href="#commonformmessages"><br /></a></p>
+</div>
+<h1><a title="formintro" name="formintro"></a>Introduction to Forms<br /></h1>
+<p>The forms area addresses the need for the ESM end user to be able to create end user submittable forms on managed sites.  Users can receive form submissions by email and or view previous submissions in the ESM.</p>
+<p><strong>Summary :</strong> Forms are created in the ESM, in the forms area, and then become accessible to pages as embeddable objects. One form can be embedded in multiple places on the site.</p>
+<h1><a title="addform" name="addform"></a>Adding a form</h1>
+<p>To add a form to the system, follow these steps.</p>
+<ol>
+<li>Click the Forms tab in the main ESM navigation.</li>
+<li>Click the "Add Form" link directly below the main ESM navigation.</li>
+<li>Fill in the form fields.  See the Form Fields section of this document for more info on the purpose of each field.</li>
+<li>Click Save. </li>
+</ol>
+<p><strong>Note : </strong>When a form is saved, changes will be immediately updated on any embedded form on the site. Data submitted before the change will still be available in the submitted <a href="#viewsubmitted">Form Data</a> section of the site.</p>
+<p>&nbsp;</p>
+<h1><a title="updateform" name="updateform"></a>Update a form</h1>
+<p>To edit a form in the system, follow these steps.</p>
+<ol>
+<li>Click the Forms tab in the main ESM navigation.</li>
+<li>Find the form that you wish to edit by locating it in the left nav or using the search feature also in the left area.</li>
+<li>If you wish to update for properties of the form, update the fields as per the <a href="#formfields">Form Fields</a> section of this document.  If you wish to update the fields presented to the end user, see the <a href="#createformstructure">Creating the form structure</a> section of this document.</li>
+<li>Click Save.</li>
+</ol>
+<p><strong>Note : </strong>When a form is saved, changes will be immediately updated on any embedded form on the site. Data submitted before the change will still be available in the submitted <a href="#viewsubmitted">Form Data</a> section of the site.</p>
+<p>&nbsp;</p>
+<h1><a title="deleteform" name="deleteform"></a>Delete a form</h1>
+<p>To delete a form in the system, follow these steps.</p>
+<ol>
+<li>Click the Forms tab in the main ESM navigation.</li>
+<li>Find the form that you wish to delete by locating it in the left nav or using the search feature also in the left area.</li>
+<li>Click Delete.</li>
+</ol>
+<p><strong>Note : </strong>A form may not be deleted if it is currently embedded in a page. Clicking delete on an active form will result in an error message that will notify you of the page on which the form is embedded.  Remove the reference in that page and then come back and delete the form.</p>
+<h1><a title="formfields" name="formfields"></a>Form fields</h1>
+<p>This section describes the fields in the <em>Properties</em> accordion available when adding or editing a form.  To learn more about creating the form structure visible to the end user, see the <a href="#createformstructure">Creating the form structure</a> section of this document.</p>
+<blockquote>
+<p><strong>Form Name : </strong>The form name is the unique handle that is referenced while embedding a form in a page or when identifying form submissions in the submitted <a href="#viewsubmitted">Form Data</a> area.</p>
+<p><strong>Email Recipient : </strong>A valid email. Submitted forms will be sent to this email address.  Currently only supports a single recipient.</p>
+<p><strong>Form Submission Reply : </strong>This is the text that a user will see after submitting the form.  The page will reload and the text will be displayed above the form.</p>
+</blockquote>
+<p>&nbsp;</p>
+<h1><a title="createformstructure" name="createformstructure"></a>Creating the form structure</h1>
+<p>To edit the form structure, follow these steps.</p>
+<ol>
+<li>Click the Forms tab in the main ESM navigation.</li>
+<li>Find and edit the form that you wish to edit by locating it in the left nav or using the search feature also in the left area.</li>
+<li>In the <em>form content</em> accordion, either click on the existing forms or in the upper left of the gray box on the blue highlighted area.  This should open the form editor.</li>
+</ol>
+<p>The form editor has two columns. The first is where you choose the control from. The second is where you see what the form will look like.</p>
+<p>Use the first column as a toolbox of icons that you can drag over to the content area.</p>
+<p>Once the icon is dropped into the content box, it will go to the bottom of the list.  The item will then be dragable via its red drag handle.  Use this feature to order the fields of the form.</p>
+<p>Also note the delete icon to the right of the drag icon. Use this to remove this field from the form.</p>
+<p>Once the item is in the right order, you will be able to configure it.</p>
+<p><strong>Field Configuration</strong></p>
+<p><strong>All fields: </strong></p>
+<blockquote>
+<p><strong>Make Required :</strong> All fields can be made required or optional by checking or unchecking this checkbox.  Checking it will generate client-side form validation.</p>
+<p><strong> </strong>All fields have a label. This label will appear to the left of the form when displayed. To activate the label, click on the  text.  It will highlight and then turn into a textbox with an <em>Ok</em> Button.  Enter some text for the label of the field and click <em>Ok</em> to save it.</p>
+</blockquote>
+<p><strong>Options for Select Menu, Radio Group, and Checkbox Group : </strong></p>
+<blockquote>
+<p>The select, radio, and checkbox field types can have multiple preset options.  Configure these by using the  <em>Add</em> or <em>Remove</em> items.</p>
+<p>To add an option, click on the  text.  It will highlight and then turn into a textbox with an <em>Ok</em> Button.  Enter some text for the label of the option and click <em>Ok</em> to save it.</p>
+<p>To add more options, click Add next to the last option and repeat the instruction above.</p>
+</blockquote>
+<p>Click the <em>Save </em>button to commit your changes.</p>
+<h1><a title="embedform" name="embedform"></a>Embedding a form in a page</h1>
+<p>To learn more about embedding modules in pages, see the <a href="/Help/HelpItem/?m=Pages#contentobjects">Pages -&gt; Embedding objects</a> document.</p>
+<h1><a title="viewsubmitted" name="viewsubmitted"></a>Viewing form submissions</h1>
+<p>To view form submissions, follow these steps:</p>
+<ol>
+<li>Click the Forms tab in the main ESM navigation. </li>
+<li>Click the <em>Form Data </em>link just below the main navigation.</li>
+<li>Locate in the first column the form for which you wish to see submissions by the form name.</li>
+<li>View the form submissions by clicking on either the xls or xml links on that same line.  The xls link will open an xls spreadsheet.  The xml link will open an xml document that can be used in with other programs. </li>
+</ol>
+<p><strong>Note : </strong>If the form structure of the document was changed, then the xls document may not format correctly. Use the xml link in this case.</p>
+<p>&nbsp;</p>
+<h1><br /></h1>

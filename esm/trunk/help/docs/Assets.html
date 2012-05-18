@@ -1,0 +1,87 @@
+<div class="helpNav" style="border: 1px solid gray; margin: 5px; padding: 14px; float: right; width: 200px;">
+<p><strong>Table of Contents</strong><br /> <a href="#introtoassets">Introduction to Assets</a><br /><a href="#addasset">Add an Asset</a><br /><a href="#editasset">Edit an Asset</a><br /><a href="#deleteasset">Delete an Asset</a><br /><a href="#assetfieldlist">Assets Field List<br /></a><a href="#assetsecurity">Assets Security<br /></a><a href="#introtoassetgroups">Introduction to Asset Groups</a> <br /><a href="#addassetgroup">Add an Asset Group</a><br /><a href="#editassetgroup">Edit an Asset Group</a><br /><a href="#deleteassetgroup">Delete an Asset Group</a><a href="#assetsecurity"></a></p>
+</div>
+<p><a title="introtoassets" name="introtoassets"></a></p>
+<h1>Introduction to Assets<br /></h1>
+<p>The Assets module is used to make file based assets such as word documents, excel spreadsheets, Adobe pdf documents, jpg and gif images, or any other type of document available on the ESM, easy to manage.</p>
+<p>Once a document has been uploaded to the Assets module, it will be available to the embeddable assets module.  (find more information on embedding modules here)</p>
+<p>The embeddable assets module has two modes - both of which show assets first with an icon as to what type of file it is, followed by a link to download the asset, finished by the size of the asset.</p>
+<p>The first mode displays a list of user selected assets.&nbsp;  The second mode is used to embed a list of all of the assets in an Asset Group.  Use this mode to make available a list of related documents.</p>
+<p><strong>Important Note :</strong>&nbsp; Assets are subject to security.&nbsp; See the <a href="#assetsecurity">Assets Security</a> section of this document.</p>
+<p><strong>Important Note:</strong> Assets uploaded with either the .jpg or .gif extension will be available in html wysiwyg editors in the image editor in the image list.  i.e. If you want to make an image available for use on the website, upload it to the assets and find it in the image list of the images editor.</p>
+<p><strong>Important Note:</strong> Assets with the extension .doc(x) or .xls(x) or .pdf will be incorporated into the site search.&nbsp;</p>
+<p><strong>VERY IMPORTANT NOTE :</strong> Do not upload sensitive documents such as those containing social security numbers, credit cards, company secrets, etc.&nbsp;</p>
+<h1><a title="addasset" name="addasset"></a>Add an Asset</h1>
+<p>To add an asset, follow these steps:</p>
+<ol>
+<li>Click on the <em>Assets </em>tab in the main navigation.</li>
+<li>Click on the <em>Add Asset </em>link just below the main navigation.</li>
+<li>Fill in the Assets fields. For more information, see the <a href="#assetfieldlist">Asset Field List</a> section of this document.</li>
+<li>Click <em>Save</em> to commit your new asset. </li>
+</ol>
+<p>The asset will now be visible when the Asset Group is opened in the left navigation of this module.&nbsp; It will also be available in pages to be embedded (more info on embedding modules <a href="/Help/HelpItem/?m=Pages#contentobjects">here</a> and in the image manager of the HTML editor.</p>
+<h1><a title="editasset" name="editasset"></a>Edit an Asset</h1>
+<p>To edit an asset, follow these steps:</p>
+<ol>
+<li>Click on the <em>Assets </em>tab in the main navigation.</li>
+<li>Find the asset that you wish to edit by either finding it in the left navigation or using the search function also in the left navigation.</li>
+<li>Update the Assets fields. For more information, see the <a href="#assetfieldlist">Asset Field List</a> section of this document.</li>
+<li>Click <em>Save</em> to commit your changes. </li>
+</ol>
+<p>The edit screen also has a <em>download</em>, and <em>history </em>accordion.&nbsp; Use these to either download the asset for personal review or to see the assets individual history.</p>
+<h1><a title="deleteasset" name="deleteasset"></a>Delete an Asset</h1>
+<p>To delete an asset, follow these steps:</p>
+<ol>
+<li>Click on the <em>Assets </em>tab in the main navigation.</li>
+<li>Find the asset that you wish to delete by either finding it in the left navigation or using the search function also in the left navigation.</li>
+<li>Click <em>Delete</em> to delete the asset. </li>
+</ol>
+<p><strong>Note : </strong>Assets that are currently individually embedded in pages cannot be deleted.&nbsp; Attempts to do so will result in an error message describing the page that contains the asset.&nbsp; If you are certain that you wish to remove the asset, do so on the page in the warning message and then follow these steps again.</p>
+<p>&nbsp;</p>
+<h1><a title="assetfieldlist" name="assetfieldlist"></a>Assets Field List</h1>
+<blockquote>
+<p><strong>Asset Name : </strong>The asset name is the handle that you will use to identify the asset.&nbsp; Name it appropriately such that it can be easily identified.&nbsp; This name will appear while embedding assets in pages (more info  <a href="/Help/HelpItem/?m=Pages#contentobjects">here</a>), and in the html page image editor.&nbsp; This field is used as the title of the document in the search results.</p>
+<p><strong>Asset Group: </strong>The asset group is the list to which the asset belongs to.&nbsp; Select the asset group that is relevant for your asset. To add a new asset group, see the instructions <a href="#addassetgroup">here</a>.</p>
+<p><strong>Show Date and Hide Date :</strong> Use these date fields to control the assets visibility by time.&nbsp; For instance, you could set an asset to appear on the site only after or before a certain date depending on business needs.</p>
+<p><strong>Search Results List Description :</strong>&nbsp; This snippet of text will appear in the search results list.&nbsp; When an asset is found by the search, it will display it to the user in a list format.&nbsp; The description will be shown below the title in this list.&nbsp; Keep this field short - 2 or 3 sentences.&nbsp; Make certain that someone who is searching will know if this is the right document.</p>
+<p><strong>File :</strong> This is the actual asset.&nbsp; Find the file on your computer or network by clicking on the <em>browse</em> button to open a local file browser.&nbsp; Allowed file types include .doc, .xls, .pdf, .jpg, .gif, and .png.</p>
+<p><strong>Note :</strong>&nbsp; This field only controls visibility in terms of links from the site and search.&nbsp; The asset will still be downloadable by direct http request.</p>
+</blockquote>
+<h1><a title="assetsecurity" name="assetsecurity"></a>Assets Security</h1>
+<p>Assets are subject to security rules such that users can only embed assets to which they have permissions.&nbsp; For an asset to be visible to a user, the following 3 step chain must be satisfied:</p>
+<ul>
+<li>The asset must be associated with an Asset Group.&nbsp; </li>
+<li>The Asset group must be associated with a Content Group.&nbsp; The association occurs in the <em>Assets Group</em> accordion seen while editing a Content Group.&nbsp; <br />More information on Content Groups <a href="/Help/HelpItem/?m=Content%20Groups">here</a>.</li>
+<li>The user must be associated with that same content group.&nbsp;  The association occurs in the <em>Users</em> accordion seen while editing a Content Group.&nbsp; <br />More information on Content Groups <a href="/Help/HelpItem/?m=Content%20Groups">here</a>.</li>
+</ul>
+<p>Once this chain of relationships is satisfied, the user should be able to use the asset in the content.&nbsp; More info on this  <a href="/Help/HelpItem/?m=Pages#contentobjects">here</a>.</p>
+<p>Use this to enforce users only embedding documents which they have rights over.</p>
+<p><a title="introtoassetgroups" name="introtoassetgroups"></a></p>
+<h1>Introduction to Asset Groups<br /></h1>
+<p>Asset Groups are a means to categorize assets.&nbsp; In the assets area, the groups appear as the categories that assets are stored under in the navigation.&nbsp;</p>
+<p>Assets groups are also a part of security.</p>
+<h1><a title="addassetgroup" name="addassetgroup"></a>Add an Asset Group</h1>
+<p>To add an asset group, follow these steps:</p>
+<ol>
+<li>Click on the <em>Assets </em>tab in the main navigation.</li>
+<li>Click on the <em>Add Asset Group </em>link just below the main navigation.</li>
+<li>Fill in the fields. Each group must have a unique name.&nbsp; A short description that will serve as a reminder.</li>
+<li>Click <em>Save</em> to commit your new Asset Group. </li>
+</ol>
+<p>The new Asset Group will now be visible when creating assets and in the <em>Content Groups</em> edit view in the <em>Asset Groups</em> accordion.</p>
+<h1><a title="editassetgroup" name="editassetgroup"></a>Edit an Asset Group</h1>
+<p>To edit an asset group, follow these steps:</p>
+<ol>
+<li>Click on the <em>Assets </em>tab in the main navigation.</li>
+<li>Find the Asset Group that you wish to edit by either finding it in the left navigation or using the search function also in the left navigation.</li>
+<li>Update the Assets Group fields.&nbsp; Each group must have a unique name.&nbsp; A short description that will serve as a reminder.</li>
+<li>Click <em>Save</em> to commit your changes. </li>
+</ol>
+<h1><a title="deleteassetgroup" name="deleteassetgroup"></a>Delete an Asset Group</h1>
+<p>To delete an asset group, follow these steps:</p>
+<ol>
+<li>Click on the <em>Assets Group </em>tab in the main navigation.</li>
+<li>Find the Asset Group that you wish to delete by either finding it in the left navigation or using the search function also in the left navigation.</li>
+<li>Click <em>Delete</em> to delete the Asset Group. </li>
+</ol>
+<p><strong>Note : </strong>Asset Groups that have assets assigned in the Assets area may not be deleted. Attempts to do so will result in an error message. If you are certain that you wish to remove the Asset Group, please reassign the assets to other groups and then try again.</p>

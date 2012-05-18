@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+#interiorLeftBarNav  {
+	margin: 0 0 0 -25px;
+	}
+
+#textPageBodyContent {
+	background:white url(/ui/images/menubgIE6.jpg) repeat-y scroll left center;
+	}
+
+.hc {
+	background-repeat: repeat-y;	
+}
+
+.hc div {
+	margin: 0px;
+	}
+
+#nav {
+	width: auto;	
+}
+
+.searchForm {
+	padding: 124px 0 0 8px;	
+}
+
+.searchForm input.text {
+	 width: 180px;
+	}
+
+.navDiv {
+	 white-space: nowrap;
+	 width: auto;
+	padding: 120px 0 0 22px;	
+	 }
+
+#nav  .sub {
+	padding: 3px 0 0 0;
+	}

@@ -1,0 +1,143 @@
+
+form div,
+form p {
+	font-size: 1em;
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+label{
+	font-weight: normal;
+	width: 110px;
+	float: left;
+	text-align: right;
+	margin-right: 0.5em;
+	display: block;
+}
+
+input, select, textarea {
+	font-size:9px;
+	border:1px solid black;
+	padding:3px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+textarea {
+	width: 180px;
+}
+* input, select, textarea {
+	font-size:11px;
+}
+div.headerSearch input#txtSearch {
+	width:113px;
+	height:12px;
+}
+#txtSearchResults {
+	width: 113px;
+	border-color: #616d71;
+	color: #616d71;
+}
+input.submitImage {
+	border:0;
+}
+
+ul.asset {
+	padding-left:35px;
+	list-style-type:none;
+	padding-top:7px;
+	padding-bottom:7px;
+}
+ul.asset li {
+	height:auto;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.asset{
+	background-repeat:no-repeat;
+	background-position:center left;
+	display:block;
+	height:auto;
+	/*padding-left:35px;*/
+	padding-left: 0 !important;
+	padding-top:7px;
+	padding-bottom:7px;
+	position:relative;
+	left:3px;
+	top:1px;
+}
+.asset a {
+	padding-left: 35px !important;
+}
+
+.a_doc {background-image:url(/ui/images/doctypes/doc.gif);}
+.a_pdf {background-image:url(/ui/images/doctypes/pdf.gif);}
+.a_gif {background-image:url(/ui/images/doctypes/gif.gif);}
+.a_jpg {background-image:url(/ui/images/doctypes/jpg.gif);}
+.a_xls {background-image:url(/ui/images/doctypes/xls.gif);}
+.a_ppt {background-image:url(/ui/images/doctypes/ppt.gif);}
+.a_unknown {background-image:url(/ui/images/doctypes/unknown.gif);}
+
+div.content p.formMessage {
+	color:red;
+	font-weight:bold;
+	margin-bottom:4px !important;
+}
+div.content ul.errors {
+	margin-top:0;
+	padding-top:0;
+	color:red;
+	font-weight:bold;
+}
+div.content ul.errors li {
+	list-style: none;
+	color:red;
+	font-weight:bold;
+}
+label.error {
+	color:red;
+	font-weight:bold;
+}
+
+		
+/****
+*
+*	User Defined (esm) Forms
+*
+****/
+
+dl.userform { width: 280px; } 
+dl.userform dt 
+{ 
+	width: 100px; 
+	float: left; 
+	clear: both; 
+	text-align: left; 
+	padding: 5px 3px; 
+} 
+dl.userform dd 
+{
+	width: 164px; 
+	float: left; 
+	margin: 0; 
+	padding: 0; 
+	padding: 5px 0; 
+} 
+dl dt.clear 
+{ 
+	height: 0; 
+	clear: both; 
+	float: none; 
+	padding: 0; 
+} 
+
+label.required
+{
+	font-weight: bold;
+	color: red;
+	/*padding-left: 12px;
+	background: url("images/label.required-bkgd.gif") no-repeat -4px -4px;*/
+}
+
+div.loginForm label {
+	width:70px;
+	text-align:left;
+}

@@ -1,0 +1,1 @@
+Welcome to the Site Search start page!  View the searches that have occured on this site.

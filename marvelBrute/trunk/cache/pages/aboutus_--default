@@ -1,0 +1,201 @@
+<cfsavecontent variable="html"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+
+			
+			
+			
+			<title>About Us</title>
+			
+			
+			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+			<meta name="description" content="default description" />
+			<meta name="keywords" content="default keywords" />
+			
+			
+			<link rel="stylesheet" href="/ui/css/layout.css" type="text/css" />
+			<link rel="stylesheet" href="/ui/css/typo.css" type="text/css" />
+			<link rel="stylesheet" href="/ui/css/nav.css" type="text/css" />
+			<link rel="stylesheet" href="/ui/css/form.css" type="text/css" />
+			<link rel="stylesheet" href="/ui/css/print.css" type="text/css" media="print" />
+			<link rel="stylesheet" href="/ui/css/widgets.css" type="text/css"/>
+			
+			<!--[if lte IE 7]>
+			<link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie7.css" />
+			<![endif]-->
+			<!--[if lte IE 6]>
+			<link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie6.css" />
+			<![endif]-->
+			
+			
+			<script type="text/javascript" src="/ui/js/jquery-1.2.6.pack.js"></script>
+			<script type="text/javascript" src="/ui/js/ui.core.js"></script>
+			<script type="text/javascript" src="/ui/js/ui.accordion.js"></script>
+			<script type="text/javascript" src="/ui/js/ui.tabs.js"></script>
+			<script type="text/javascript" src="/ui/js/navigation.js"></script>
+		
+		
+		
+	</head> 
+
+	<body class="home">
+		<div id="outercontainer">
+			<div id="container">
+
+
+
+	<table class="ht" cellspacing="0" cellpadding="0">
+		<tr>
+			<td class="hlf">&nbsp;</td>
+			<td class="hc" nowrap="nowrap">
+	<div class="searchForm">
+		<form action="/Search/" method="get" >
+			<input name="search" type="text"  size="19" class="text" />
+			<input type="submit" name="button" value="Search" class="searchButton" />
+		</form>
+	</div>
+				<div class="navDiv">
+			<ul id="nav"><li class="first"><a href="/Products/" onmouseover="document.Image1.src='/ui/images/menuButtons/btn_Products_over.gif'"
+onmouseout="document.Image1.src='/ui/images/menuButtons/btn_Products.gif'"><img src="/ui/images/menuButtons/btn_Products.gif" name="Image1" /></a><ul class="sub"><li><a href="/Products/">Products</a></li><li><a href="/Products/MassiveGrainStorage/">Massive Grain Storage</a></li><li><a href="/Products/EquipmentStorage/">Equipment Storage</a></li><li><a href="/Products/livestockshelter/">Livestock Shelter</a></li><li><a href="/Products/Haystorage/">Hay Storage</a></li><li><a href="/Products/archhangars/">Aircraft Hangars</a></li><li><a href="/Products/UnlimitedLengths/">Unlimited Lengths</a></li><li><a href="/Products/Brute-Strong/">Brute-Strength</a></li><li><a href="/Products/BruteWarehouses/">Marvel Brute Warehouses</a></li><li><a href="/Products/erectionanimation/">Erection Animation</a></li><li><a href="/Products/governmentbuilding/">Government Buildings</a></li><li><a href="/Products/ParksandRecreation/">Parks & Recreation</a></li><li><a href="/Products/InteriorOptions/">Interior Options</a></li></ul></li><li ><a href="/Dealerships/" onmouseover="document.Image2.src='/ui/images/menuButtons/btn_Dealerships_over.gif'"
+onmouseout="document.Image2.src='/ui/images/menuButtons/btn_Dealerships.gif'"><img src="/ui/images/menuButtons/btn_Dealerships.gif" name="Image2" /></a><ul class="sub"><li><a href="/Dealerships/">Dealerships</a></li><li><a href="/Dealerships/Projectconsultantsupport/">Project Consultant Support</a></li></ul></li><li ><a href="/ContactUs/" onmouseover="document.Image3.src='/ui/images/menuButtons/btn_ContactUs_over.gif'"
+onmouseout="document.Image3.src='/ui/images/menuButtons/btn_ContactUs.gif'"><img src="/ui/images/menuButtons/btn_ContactUs.gif" name="Image3" /></a><ul class="sub"><li><a href="/ContactUs/">Contact Us</a></li></ul></li><li ><a href="/QualityFeatures/" onmouseover="document.Image4.src='/ui/images/menuButtons/btn_QualityFeatures_over.gif'"
+onmouseout="document.Image4.src='/ui/images/menuButtons/btn_QualityFeatures.gif'"><img src="/ui/images/menuButtons/btn_QualityFeatures.gif" name="Image4" /></a><ul class="sub"><li><a href="/QualityFeatures/">Quality Features</a></li><li><a href="/QualityFeatures/straightersidewalls/">Straighter Sidewalls</a></li><li><a href="/QualityFeatures/RuggedTuffPanelArch/">Rugged Tough Panel Arch</a></li><li><a href="/QualityFeatures/gasketsealantdetail/">Gasket Sealant Detail</a></li><li><a href="/QualityFeatures/EasyToAssemble/">Easy Assembly</a></li><li><a href="/QualityFeatures/KeywayFoundation/">Keyway Foundation</a></li><li><a href="/QualityFeatures/BaseplateFoundation/">Base Plate Foundation</a></li><li><a href="/QualityFeatures/Archschematics/">Arch Schematics</a></li><li><a href="/QualityFeatures/BruteOptions/">Brute Options</a></li><li><a href="/QualityFeatures/OverheadFramedOpenings/">Overhead Framed Openings</a></li><li><a href="/QualityFeatures/RuggedSlidingDoorSystem/">Rugged Sliding Door System</a></li><li><a href="/QualityFeatures/IASCERTIFICATION/">IAS CERTIFICATION</a></li></ul></li><li ><a href="/AboutUs/" onmouseover="document.Image5.src='/ui/images/menuButtons/btn_AboutUs_over.gif'"
+onmouseout="document.Image5.src='/ui/images/menuButtons/btn_AboutUs.gif'"><img src="/ui/images/menuButtons/btn_AboutUs.gif" name="Image5" /></a><ul class="sub"><li><a href="/AboutUs/">About Us</a></li><li><a href="/AboutUs/BruteFactory/">Brute Factory</a></li><li><a href="/AboutUs/ProductTesting/">Marvel Brute Quality</a></li><li><a href="/AboutUs/paanelarchinventory/">Special Inventory</a></li><li><a href="/AboutUs/Brute-Strong/">Brute-Strong</a></li><li><a href="/AboutUs/DeliveryToJobsite/">Delivery To Jobsite</a></li><li><a href="/AboutUs/CustomerComments/">Customer Satisfaction</a></li></ul></li><li ><a href="/DealsSales/" onmouseover="document.Image6.src='/ui/images/menuButtons/btn_DealsSales_over.gif'"
+onmouseout="document.Image6.src='/ui/images/menuButtons/btn_DealsSales.gif'"><img src="/ui/images/menuButtons/btn_DealsSales.gif" name="Image6" /></a><ul class="sub"><li><a href="/DealsSales/">Deals & Sales</a></li><li><a href="/DealsSales/specialinventory/">Limited Inventory</a></li><li><a href="/DealsSales/SaveEvenMore/">Save Thousands!</a></li></ul></li><li ><a href="/Dealers/" onmouseover="document.Image7.src='/ui/images/menuButtons/btn_Dealers_over.gif'"
+onmouseout="document.Image7.src='/ui/images/menuButtons/btn_Dealers.gif'"><img src="/ui/images/menuButtons/btn_Dealers.gif" name="Image7" /></a><ul class="sub"><li><a href="/Dealers/">Dealers</a></li></ul></li></ul>
+		</div>
+			</td>
+			<td class="hrf">&nbsp;</td>
+		</tr>
+	</table>
+	
+	
+	<div id="interiorContainer">
+		<div id="textpageContainer">
+		
+			
+			<div id="textPageCrumbs">
+				<ul><li><a href="/">Home</a></li> > <li>About Us</li></ul>
+			</div>
+			
+			
+			<div id="textPageInteriorTitle">
+				About Us
+			</div>
+			
+			
+			<div id="textPageBodyContent">
+			
+				
+				<div id="interiorLeftBar">
+					<div id="interiorLeftBarNav">
+						
+			<ul>
+				
+						<li class="sidenavlevel3">
+							<a href="/AboutUs/BruteFactory/" >BRUTE FACTORY<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/AboutUs/ProductTesting/" >MARVEL BRUTE QUALITY<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/AboutUs/paanelarchinventory/" >SPECIAL INVENTORY<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/AboutUs/Brute-Strong/" >BRUTE-STRONG<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/AboutUs/DeliveryToJobsite/" >DELIVERY TO JOBSITE<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/AboutUs/CustomerComments/" >CUSTOMER SATISFACTION<br></a>
+							
+							
+						</li>
+					   
+			</ul>
+		
+					</div>
+				</div>
+				
+				
+				<div class="txtTopBar">
+					
+						<div class="imageText">
+
+
+
+
+
+
+<p><img title="archmachine"
+src="/docs/assets/B5A594F6-1372-FD64-0A2BE2ECD0DF85A3/archmachine.jpg"
+alt="archmachine" width="675" height="439" /></p>
+
+
+
+</div>
+					
+				</div>
+				
+				
+				<div class="txtBottomBar1">
+					<div class="splitright">
+						
+						
+						
+					</div>
+					
+					<div class="splitleft">
+						
+						
+					</div>	
+				</div>
+				
+				
+				<div class="clear">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+
+
+
+				<div id="footer">
+				   <div class="footerR">&nbsp;</div>
+				   <div class="footerL">
+					  <div>
+						 <ul>
+							<li><a href="/Specifications/">Specififcations</a></li>
+							<li><a href="/CareerOpportunities/">Career Opportunities</a></li>
+							<li><a href="/PrivacyPolicy/">Privacy Policy</a></li>
+							<li><a href="/Definitions/">Definitions</a></li>
+						 </ul>
+					  </div>
+				   </div>
+			    </div>
+			</div><!-- container -->
+		</div><!-- outter container -->
+	</body>
+	    
+	
+
+</html>
+    
+</cfsavecontent>

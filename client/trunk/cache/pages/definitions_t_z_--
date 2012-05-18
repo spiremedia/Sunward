@@ -1,0 +1,317 @@
+<cfsavecontent variable="html"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    
+        <head>
+        
+            <meta http-equiv="X-UA-Compatible" content="IE=8" />
+            <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+            <meta http-equiv="Content-Style-Type" content="text/css" />
+            <meta name="description" content="default description" />
+            <meta name="keywords" content="Sunward Consolidated, metal building, steel buildings,
+prefabricated buildings, steel building kits, custom barn, prefab
+buildings, metal building kits, aircraft hangar, prefabricated
+steel buildings" />
+            
+            <title>T-Z</title>
+            
+            
+            <script type="text/javascript" src="/ui/js/nav.js"></script>
+            <script type="text/javascript" src="/ui/js/swfobject.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/jquery-1.2.6.pack.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.core.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.accordion.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.tabs.js"></script>
+            
+            
+            <link type="text/css" rel="stylesheet" href="/ui/css/interior.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/sunward.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/nav.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/form.css" />
+            <!--[if lte IE 8]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie8.css" />
+            <![endif]-->
+            <!--[if lte IE 7]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie7.css" />
+            <![endif]-->
+            <!--[if lte IE 6]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie6.css" />
+            <![endif]-->
+    
+        </head>
+    
+    <body class="homeBody">
+
+
+
+<div id="textpageWrapper">
+
+    <table class="ht" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+            <td class="hlf">&nbsp;</td>
+            <td class="hc" nowrap="nowrap">
+	<div class="searchForm">
+    
+	    <b class="loginout"><a href="/Users/Login/">Dealer Login</a></b>
+	<br />
+		<form action="/Search/" method="get" >
+			<input name="search" type="text"  size="19" class="text" />
+			<input type="submit" name="button" value="Search" class="searchButton" />
+		</form>
+	</div>
+                <div class="navDiv">
+			<ul id="nav"><li class="first"><a href="/Products/" onmouseover="document.Image1.src='/ui/img/btn_Products_over.gif'"
+onmouseout="document.Image1.src='/ui/img/btn_Products.gif'"><img src="/ui/img/btn_Products.gif" name="Image1" /></a><ul class="sub"><li><a href="/Products/">Products</a></li><li><a href="/Products/Agriculture/">Agriculture</a></li><li><a href="/Products/UtilityShops/">Utility Shops</a></li><li><a href="/Products/BarnsAndRidingArenas/">Barns and Riding Arenas</a></li><li><a href="/Products/AviationAircraftHangars/">Aviation Aircraft Hangars</a></li><li><a href="/Products/MiniWarehouses/">Mini Warehouses</a></li><li><a href="/Products/Retail/">Retail</a></li><li><a href="/Products/Industrial/">Industrial</a></li><li><a href="/Products/CustomDesigns/">Custom Designs</a></li><li><a href="/Products/accessories/">Accessories</a></li><li><a href="/Products/Customframingdesigns/">Concept Renderings</a></li></ul></li><li ><a href="/Dealerships/" onmouseover="document.Image2.src='/ui/img/btn_Dealerships_over.gif'"
+onmouseout="document.Image2.src='/ui/img/btn_Dealerships.gif'"><img src="/ui/img/btn_Dealerships.gif" name="Image2" /></a></li><li ><a href="/ContactUs/" onmouseover="document.Image3.src='/ui/img/btn_ContactUs_over.gif'"
+onmouseout="document.Image3.src='/ui/img/btn_ContactUs.gif'"><img src="/ui/img/btn_ContactUs.gif" name="Image3" /></a><ul class="sub"><li><a href="/ContactUs/">Contact Us</a></li><li><a href="/ContactUs/FrequentlyAskedQuestions/">Frequently Asked Questions</a></li></ul></li><li ><a href="/QualityFeatures/" onmouseover="document.Image4.src='/ui/img/btn_QualityFeatures_over.gif'"
+onmouseout="document.Image4.src='/ui/img/btn_QualityFeatures.gif'"><img src="/ui/img/btn_QualityFeatures.gif" name="Image4" /></a><ul class="sub"><li><a href="/QualityFeatures/">Quality Features</a></li><li><a href="/QualityFeatures/Certifications/">Certifications</a></li><li><a href="/QualityFeatures/ExclusiveSunwardLine/">Exclusive Sunward Line</a></li><li><a href="/QualityFeatures/substructure/">Door & Window Sub-structure</a></li><li><a href="/QualityFeatures/BeautifulTrimPackage/">Beautiful Trim Package</a></li><li><a href="/QualityFeatures/closures/">Closure System</a></li><li><a href="/QualityFeatures/fasteners/">Fasteners</a></li><li><a href="/QualityFeatures/siphongroove1/">Special Siphon Groove</a></li><li><a href="/QualityFeatures/SoffitSystem/">Soffit System</a></li><li><a href="/QualityFeatures/5starfeatures/">5 Star Features</a></li></ul></li><li ><a href="/AboutUs/" onmouseover="document.Image5.src='/ui/img/btn_AboutUs_over.gif'"
+onmouseout="document.Image5.src='/ui/img/btn_AboutUs.gif'"><img src="/ui/img/btn_AboutUs.gif" name="Image5" /></a><ul class="sub"><li><a href="/AboutUs/">About Us</a></li><li><a href="/AboutUs/Factories/">Factories</a></li><li><a href="/AboutUs/Trucking/">Trucking</a></li><li><a href="/AboutUs/bbbaward/">BBB Award</a></li></ul></li><li ><a href="/DealsSales/" onmouseover="document.Image6.src='/ui/img/btn_DealsSales_over.gif'"
+onmouseout="document.Image6.src='/ui/img/btn_DealsSales.gif'"><img src="/ui/img/btn_DealsSales.gif" name="Image6" /></a><ul class="sub"><li><a href="/DealsSales/">Deals & Sales</a></li><li><a href="/DealsSales/EasyToAssemble/">Easy to Assemble</a></li><li><a href="/DealsSales/ConstructYourself/">Construct Yourself</a></li><li><a href="/DealsSales/insulationpackages/">Insulation Packages</a></li><li><a href="/DealsSales/taxcredits/">Energy Star Tax Credits</a></li><li><a href="/DealsSales/PumpingUnits/">Sunward Pumping Units</a></li><li><a href="/DealsSales/TeamofProfessionals/">Team Of Professionals</a></li><li><a href="/DealsSales/Gambrel/">Gambrel</a></li></ul></li><li ><a href="/Dealers/" onmouseover="document.Image7.src='/ui/img/btn_Dealers_over.gif'"
+onmouseout="document.Image7.src='/ui/img/btn_Dealers.gif'"><img src="/ui/img/btn_Dealers.gif" name="Image7" /></a></li></ul>
+		</div>
+            </td>
+            <td class="hrf">&nbsp;</td>
+        </tr>
+    </table>
+	
+   <div id="textpageContainer">
+        <div id="textPageCrumbs">
+            
+            <ul><li><a href="/">Home</a></li> &gt; <li><a href="/Definitions/">Definitions</a></li> &gt; <li>T-Z</li></ul>
+        </div>
+        <div id="textPageInteriorTitle">
+            
+            T-Z
+        </div>
+        <div id="textPageBodyContent">
+            <div id="interiorLeftBar">
+				
+                <div id="interiorLeftBarNav">
+                    
+			<ul>
+				
+						<li class="sidenavlevel3">
+							<a href="/Definitions/A-C/" >A-C<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/D-H/" >D-H<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/I-L/" >I-L<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/M-O/" >M-O<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/P-R/" >P-R<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/S/" >S<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3 itemOn3 itemOn3First sidenavlevel3NoSubnav">
+							<a href="/Definitions/T-Z/" >T-Z<br></a>
+							
+							
+						</li>
+					   
+			</ul>
+		
+                </div>
+            </div>
+            <div class="txtTopBar"  >
+				
+                
+                    <div class="imageText">
+
+
+
+
+
+
+<h1>Defintions T - Z</h1>
+
+<p>Tapered Members: A built up plate member consisting of flanges
+welded to a variable depth web.<br />
+Tapered Tread Wheels: End truck wheels with treads that are
+tapered, the large diameter being toward the center of the
+span.<br />
+Tensile Strength: The longitudinal pulling stress a material can
+bear without tearing apart.<br />
+Tension Forces: Forces acting on a member tending to elongate
+it.<br />
+Thermal Block: A spacer of low thermal conductance material, that
+is installed between the purlin and the roof insulation, to prevent
+energy loss.<br />
+Thermal Conductance (C factor): The time rate of heat flow through
+unit area of a body induced by unit temperature difference between
+the body surfaces. Units are BTU (Hour x ft2xdegree F) (Imperial
+System) or watts/(m2 x degree C) (SI System). See "Thermal
+resistance".<br />
+Thermal Conductivity, (K factor): The time rate of heat flow
+through unit thickness of a flat slab of a monogenous material in
+the perpendicular direction to the slab surfaces induced by unit
+temperature gradient. Units for K are (BTU x in)/(hour x ft2 x
+degree F) or BTU (hour x feet x degree F) (Imperial System) or
+watts/(m2 x degree C) (SI System). See "Thermal Resistivity".<br />
+Thermal Resistance (R value): Under steady conditions, the mean
+temperature difference between parallel surfaces of a slab (large
+enough so there us no lateral heat flow) of unit thickness that
+induces unit heat flow through unit area. Note: Thermal Resistance
+and thermal conductance are reciprocals. Thermal resistance are
+R-values; to obtain the U-factor, overall thermal transmittance,
+the R-value for either materials or constructions must first be
+evaluated because, by definition, the U-factor is the reciprocal of
+the sum of the individual R-values.<br />
+Thermal Resistivity: Under steady conditions, the temperature
+difference between parallel surfaces of a slab (large enough so
+there is no lateral heat flow) of unit thickness that induces unit
+heat flow through unit area. Note: thermal resistivity and thermal
+conductivity are reciprocals. Thermal resistivity is the R-value of
+a material of unit thickness.<br />
+Thermal Transmittance (U-factor): The time rate of heat flow per
+unit are under steady conditions from the fluid on the warm side of
+a barrier to the fluid on the cold side, per unit temperature
+difference between the two fluids. It is evaluated by first
+evaluating the R-value and then computing its reciprocal.<br />
+Through-Fastened Roof System: A roof system in which the roof
+panels are attached directly to the roof substructure with
+fasteners which penetrate through the roof sheets and into the
+substructure.<br />
+Through Ties: Reinforcing Steel, usually in the concrete, extending
+from one column pier to the other column pier, tying the two
+columns of a rigid frame together to resist thrust.<br />
+Thrust: The horizontal component of a reaction usually at the
+column base.<br />
+Tie: A structural member that is loaded in tension.<br />
+Ton: 2000 pounds<br />
+Track: A metal way for wheeled components; specifically, one or
+more lines of ways, with fastenings, ties, etc&#8230; for a crane way,
+monorail or slide door.<br />
+Transverse: The direction parallel to the main frames.<br />
+Tributary Area: The area directly supported by the structural
+member between contiguous supports.<br />
+Trim: The light gauge metal used in the finish of a building,
+specially around openings at intersections of surfaces. Sometimes
+referred to as flashing.<br />
+Trolley (crane): The unit carrying the hoisting mechanism.<br />
+Trolley Frame (Crane): the basic structure of the trolley on which
+are mounted the hoisting and traversing mechanisms.<br />
+Truss: A structure made up of three or more members, with each
+member designed to carry a tension or compression force. The entire
+structure in turn acts as a beam.<br />
+Turnout: See "Kick-out"<br />
+Turn-of-the-Nut Method: A method for Pre-tensioning high strength
+bolts. The nut is turned from the "snug tight" position,
+corresponding to a few blows of an impact wrench or the full effort
+of a man using an ordinary spud wrench, the amount of rotation
+required being a function of the bolt diameter and length.<br />
+Twist off bolts: Bolts with a segment which shears off at a
+predetermined torque during bolt tightening. These bolts utilized a
+specially designed wrench for proper installation.</p>
+
+Uplift: Wind load on a building which causes a load in the upward
+direction.<br />
+Valley Gutter: A heavy gauge gutter used for multi-gabled buildings
+or between buildings.<br />
+Vapor Barrier: Material used to retard the flow of vapor or
+moisture to prevent condensation from forming on a surface.<br />
+Ventilator: a roof mounted accessory that allows the air to pass
+through.<br />
+&#160;"W" shape: A hot rolled member with parallel flanges.<br />
+Wainscot: Wall material, used in the lower portion of a wall that
+is different from the material in the rest of the wall.<br />
+Walk Door: See "Personnel Door"<br />
+Wall Covering: The exterior wall surface consisting of panels<br />
+Web: that portion of a structural member between the flanges.<br />
+Web Stiffener: See "Stiffener"<br />
+Wheel Base: distance from center to center of outermost crane
+wheels.<br />
+Wheel Load: The vertical force without impact produced on a crane
+wheel bearing on a runway rail or suspended from a runway beam.
+Maximum wheel load occurs with the crane at rated capacity and the
+trolley positioned to provide maximum vertical force at one set of
+wheels.<br />
+Width: The dimension of a building measured parallel to the main
+framing from outside to outside od sidewall girts.<br />
+Wind Bent: See "Portal Frame"<br />
+Wind Column: A vertical member designed to withstand horizontal
+wind loads, usually in the endwall.<br />
+Wind Load: The load caused by the wind from any horizontal
+direction.<br />
+X-Bracing: Bracing system with members arranged diagonally in both
+directions to form an "X". See "Bracing".<br />
+&#160;"Z" Section:&#160; A member cold formed from steel sheet in
+the approximate shape of a "Z".<br />
+Zinc-Aluminum Coated:&#160; Steel coated with an alloy of zinc and
+aluminum to provide corrosion resistance <br />
+
+
+
+</div>
+                
+            </div>
+            <div class="txtBottomBar1">
+                <div class="splitright">
+                    
+                </div>
+                <div class="splitleft">
+                    
+                </div>	
+            </div>
+            <div class="clear">&nbsp;</div>
+        </div>
+    </div>
+        <div id="footer">
+        <div class="footerR"><img src="/ui/img/aisc_bbb.gif" /></div>
+        <div class="footerL">
+        	<div><span>&copy; 2007 Sunward Consolidated Group</span></div>
+            <div>
+                <ul>
+                    <li><a href="/Specifications/">Specififcations</a></li>
+                    <li><a href="/CareerOpportunities/">Career Opportunities</a></li>
+                    <li><a href="/PrivacyPolicy/">Privacy Policy</a></li>
+                    <li><a href="/Definitions/">Definitions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-7011302-1");
+	pageTracker._trackPageview();
+	} catch(err) {}
+</script>
+  
+</body>
+
+</html>
+</div>
+</body>
+
+</html>
+
+</cfsavecontent>

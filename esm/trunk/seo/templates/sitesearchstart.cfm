@@ -1,0 +1,1 @@
+This section of the site is about reviewing searches that are occuring on the sites built in search.  Ie not external search engine searches.

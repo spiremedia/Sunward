@@ -1,0 +1,7 @@
+# Helicon Ape version 3.0.0.71
+
+RewriteEngine On
+RewriteBase
+RewriteRule ^\/robots\.txt /index.cfm?path=/robotstxt [L]
+RewriteRule ^(\/[a-zA-Z0-9\/\-_]+)(\?.*)?$ /index.cfm?path=$1 [PT,QSA,L
+

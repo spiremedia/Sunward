@@ -1,0 +1,304 @@
+<cfsavecontent variable="html"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    
+        <head>
+        
+            <meta http-equiv="X-UA-Compatible" content="IE=8" />
+            <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+            <meta http-equiv="Content-Style-Type" content="text/css" />
+            <meta name="description" content="default description" />
+            <meta name="keywords" content="Sunward Consolidated, metal building, steel buildings, prefabricated buildings, steel building kits, custom barn, prefab buildings, metal building kits, aircraft hangar, prefabricated steel buildings" />
+            
+            <title>Harley Davidson</title>
+            
+            
+            <script type="text/javascript" src="/ui/js/nav.js"></script>
+            <script type="text/javascript" src="/ui/js/swfobject.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/jquery-1.2.6.pack.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.core.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.accordion.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.tabs.js"></script>
+            
+            
+            <link type="text/css" rel="stylesheet" href="/ui/css/interior.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/sunward.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/nav.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/form.css" />
+            <!--[if lte IE 8]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie8.css" />
+            <![endif]-->
+            <!--[if lte IE 7]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie7.css" />
+            <![endif]-->
+            <!--[if lte IE 6]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie6.css" />
+            <![endif]-->
+    
+        </head>
+    
+    <body class="homeBody">
+
+
+
+<div id="textpageWrapper">
+
+    <table class="ht" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+            <td class="hlf">&nbsp;</td>
+            <td class="hc" nowrap="nowrap">
+	<div class="searchForm">
+    
+	    <b class="loginout"><a href="/Users/Login/">Dealer Login</a></b>
+	<br />
+		<form action="/Search/" method="get" >
+			<input name="search" type="text"  size="19" class="text" />
+			<input type="submit" name="button" value="Search" class="searchButton" />
+		</form>
+	</div>
+                <div class="navDiv">
+			<ul id="nav"><li class="first"><a href="/Products/" onmouseover="document.Image1.src='/ui/img/btn_Products_over.gif'"
+onmouseout="document.Image1.src='/ui/img/btn_Products.gif'"><img src="/ui/img/btn_Products.gif" name="Image1" /></a><ul class="sub"><li><a href="/Products/">Products</a></li><li><a href="/Products/Agriculture/">Agriculture</a></li><li><a href="/Products/UtilityShops/">Utility Shops</a></li><li><a href="/Products/BarnsAndRidingArenas/">Barns and Riding Arenas</a></li><li><a href="/Products/AviationAircraftHangars/">Aviation Aircraft Hangars</a></li><li><a href="/Products/MiniWarehouses/">Mini Warehouses</a></li><li><a href="/Products/Retail/">Retail</a></li><li><a href="/Products/Industrial/">Industrial</a></li><li><a href="/Products/CustomDesigns/">Custom Designs</a></li><li><a href="/Products/accessories/">Accessories</a></li><li><a href="/Products/Customframingdesigns/">Concept Renderings</a></li></ul></li><li ><a href="/Dealerships/" onmouseover="document.Image2.src='/ui/img/btn_Dealerships_over.gif'"
+onmouseout="document.Image2.src='/ui/img/btn_Dealerships.gif'"><img src="/ui/img/btn_Dealerships.gif" name="Image2" /></a></li><li ><a href="/ContactUs/" onmouseover="document.Image3.src='/ui/img/btn_ContactUs_over.gif'"
+onmouseout="document.Image3.src='/ui/img/btn_ContactUs.gif'"><img src="/ui/img/btn_ContactUs.gif" name="Image3" /></a><ul class="sub"><li><a href="/ContactUs/">Contact Us</a></li><li><a href="/ContactUs/FrequentlyAskedQuestions/">Frequently Asked Questions</a></li></ul></li><li ><a href="/QualityFeatures/" onmouseover="document.Image4.src='/ui/img/btn_QualityFeatures_over.gif'"
+onmouseout="document.Image4.src='/ui/img/btn_QualityFeatures.gif'"><img src="/ui/img/btn_QualityFeatures.gif" name="Image4" /></a><ul class="sub"><li><a href="/QualityFeatures/">Quality Features</a></li><li><a href="/QualityFeatures/Certifications/">Certifications</a></li><li><a href="/QualityFeatures/ExclusiveSunwardLine/">Exclusive Sunward Line</a></li><li><a href="/QualityFeatures/substructure/">Door & Window Sub-structure</a></li><li><a href="/QualityFeatures/BeautifulTrimPackage/">Beautiful Trim Package</a></li><li><a href="/QualityFeatures/closures/">Closure System</a></li><li><a href="/QualityFeatures/fasteners/">Fasteners</a></li><li><a href="/QualityFeatures/siphongroove1/">Special Siphon Groove</a></li><li><a href="/QualityFeatures/SoffitSystem/">Soffit System</a></li><li><a href="/QualityFeatures/5starfeatures/">5 Star Features</a></li></ul></li><li ><a href="/AboutUs/" onmouseover="document.Image5.src='/ui/img/btn_AboutUs_over.gif'"
+onmouseout="document.Image5.src='/ui/img/btn_AboutUs.gif'"><img src="/ui/img/btn_AboutUs.gif" name="Image5" /></a><ul class="sub"><li><a href="/AboutUs/">About Us</a></li><li><a href="/AboutUs/Factories/">Factories</a></li><li><a href="/AboutUs/Trucking/">Trucking</a></li><li><a href="/AboutUs/bbbaward/">BBB Award</a></li></ul></li><li ><a href="/DealsSales/" onmouseover="document.Image6.src='/ui/img/btn_DealsSales_over.gif'"
+onmouseout="document.Image6.src='/ui/img/btn_DealsSales.gif'"><img src="/ui/img/btn_DealsSales.gif" name="Image6" /></a><ul class="sub"><li><a href="/DealsSales/">Deals & Sales</a></li><li><a href="/DealsSales/EasyToAssemble/">Easy to Assemble</a></li><li><a href="/DealsSales/ConstructYourself/">Construct Yourself</a></li><li><a href="/DealsSales/insulationpackages/">Insulation Packages</a></li><li><a href="/DealsSales/taxcredits/">Energy Star Tax Credits</a></li><li><a href="/DealsSales/PumpingUnits/">Sunward Pumping Units</a></li><li><a href="/DealsSales/TeamofProfessionals/">Team Of Professionals</a></li><li><a href="/DealsSales/Gambrel/">Gambrel</a></li></ul></li><li ><a href="/Dealers/" onmouseover="document.Image7.src='/ui/img/btn_Dealers_over.gif'"
+onmouseout="document.Image7.src='/ui/img/btn_Dealers.gif'"><img src="/ui/img/btn_Dealers.gif" name="Image7" /></a></li></ul>
+		</div>
+            </td>
+            <td class="hrf">&nbsp;</td>
+        </tr>
+    </table>
+	
+   <div id="textpageContainer">
+        <div id="textPageCrumbs">
+            
+            <ul><li><a href="/">Home</a></li> &gt; <li><a href="/Products/">Products</a></li> &gt; <li><a href="/Products/CustomDesigns/">Custom Designs</a></li> &gt; <li>Harley Davidson</li></ul>
+        </div>
+        <div id="textPageInteriorTitle">
+            
+            Harley Davidson
+        </div>
+        <div id="textPageBodyContent">
+            <div id="interiorLeftBar">
+				
+                <div id="interiorLeftBarNav">
+                    
+			<ul>
+				
+						<li class="sidenavlevel3">
+							<a href="/Products/Agriculture/" >AGRICULTURE<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Products/UtilityShops/" >UTILITY SHOPS<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Products/BarnsAndRidingArenas/" >BARNS AND RIDING ARENAS<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Products/AviationAircraftHangars/" >AVIATION AIRCRAFT HANGARS<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Products/MiniWarehouses/" >MINI WAREHOUSES<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Products/Retail/" >RETAIL<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Products/Industrial/" >INDUSTRIAL<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3 itemOn3 itemOn3First">
+							<a href="/Products/CustomDesigns/" >CUSTOM DESIGNS<br></a>
+							
+							
+										<li class="sidenavlevel4 itemOn4"><a href="/Products/CustomDesigns/HarleyDavidson/" >Harley Davidson</a></li>
+										
+										
+										<li class="sidenavlevel4"><a href="/Products/CustomDesigns/AwardWinningDesigns/" >Award Winning Designs</a></li>
+										
+										
+										<li class="sidenavlevel4"><a href="/Products/CustomDesigns/IndoorTennisFacility/" >Indoor Tennis Facility</a></li>
+										
+										
+										<li class="sidenavlevel4"><a href="/Products/CustomDesigns/FireStations/" >Fire Stations</a></li>
+										
+										
+										<li class="sidenavlevel4"><a href="/Products/CustomDesigns/OfficeWarehouse/" >Office/Warehouse</a></li>
+										
+										
+										<li class="sidenavlevel4"><a href="/Products/CustomDesigns/Pavilion/" >Pavilions</a></li>
+										
+										
+										<li class="sidenavlevel4"><a href="/Products/CustomDesigns/ChurchFacilities/" >Church Facilities</a></li>
+										
+										
+										<li class="sidenavlevel4"><a href="/Products/CustomDesigns/mezzanines/" >Mezzanine</a></li>
+										
+										
+										<li class="sidenavlevel4"><a href="/Products/CustomDesigns/CustomFraming/" >Custom Framing</a></li>
+										
+										
+										<li class="sidenavlevel4"><a href="/Products/CustomDesigns/steelhome/" >Steel Homes</a></li>
+										
+										
+										<li class="sidenavlevel4"><a href="/Products/CustomDesigns/militaryHospitaal/" >Military Hospital</a></li>
+										
+										
+										<li class="sidenavlevel4"><a href="/Products/CustomDesigns/parkingstructures/" >Parking Structures</a></li>
+										
+										
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Products/accessories/" >ACCESSORIES<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Products/Customframingdesigns/" >CONCEPT RENDERINGS<br></a>
+							
+							
+						</li>
+					   
+			</ul>
+		
+                </div>
+            </div>
+            <div class="txtTopBar"  >
+				
+                
+                    <div class="imageText">
+
+
+
+
+
+
+<p><img
+src="/docs/assets/D12E6D2C-90EE-0629-31EB27FE62BC659D/675harley2.jpg"
+alt="" /></p>
+
+<h2>State of the art custom Harley Davidson dealership in&#160;
+Castle&#160; Rock, CO.&#160; features a distinctive front to match
+the motor heads of their engines.&#160;<br />
+</h2>
+
+
+
+</div>
+                
+            </div>
+            <div class="txtBottomBar1">
+                <div class="splitright">
+                    
+                        <div>
+                            
+
+
+
+
+
+
+<img
+src="/docs/assets/D12CBCA9-F662-377F-9240E0B69EE88126/harleyinside.jpg"/>
+<p>This mezzanine was designed into the building and is AISC MB
+certified engineered and manufactured. You are assured you will get
+what you paid for with documented materials specifications.</p>
+
+<br />
+
+
+
+
+                        </div>
+                        <div>
+                            
+                        </div>
+                    
+                </div>
+                <div class="splitleft">
+                    
+                        <div class="headLine">
+                             
+
+
+
+
+
+
+<img
+src="/docs/assets/D12E1B31-F00B-7CBE-AD5F751001DCD019/haarleywork.jpg"/>
+<p>The uninhibited clearspan framing system allows for a super
+clean area for repairs and service.</p>
+
+<br />
+
+
+
+
+                        </div>
+                    
+                </div>	
+            </div>
+            <div class="clear">&nbsp;</div>
+        </div>
+    </div>
+        <div id="footer">
+        <div class="footerR"><img src="/ui/img/aisc_bbb.gif" /></div>
+        <div class="footerL">
+        	<div><span>&copy; 2007 Sunward Consolidated Group</span></div>
+            <div>
+                <ul>
+                    <li><a href="/Specifications/">Specififcations</a></li>
+                    <li><a href="/CareerOpportunities/">Career Opportunities</a></li>
+                    <li><a href="/PrivacyPolicy/">Privacy Policy</a></li>
+                    <li><a href="/Definitions/">Definitions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-7011302-1");
+	pageTracker._trackPageview();
+	} catch(err) {}
+</script>
+  
+</body>
+
+</html>
+</div>
+</body>
+
+</html>
+
+</cfsavecontent>

@@ -1,0 +1,224 @@
+/****
+*		Hired DORK: Matthew Gaddis <matthew@spiremedia.com>
+*		Created: 2006-01-30
+*		File: Platform2006 Forms
+****/
+
+
+form { margin: 0; padding:0;}
+
+select,input,textarea,button
+{
+	/*font: normal 100 1.0em/1.0em Monaco, "Courier New", Courier, monospace;*/
+	font: normal 100 1.1em/1.2em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: 0;
+	color: #333;
+	letter-spacing: 1px;
+}
+
+input[type=submit],
+input[type=reset] { margin-top: 7px; }
+
+label {
+	/*cursor: help;*/ 
+}
+
+label.required 
+{ 
+	font-weight: bold;
+	padding-left: 12px;
+	background: url("images/label.required-bkgd.gif") no-repeat -4px -4px;
+}
+
+label.alternate
+{
+	float: left;
+	width: 8em;
+}
+
+
+
+/* table module rules */
+
+table.form tr.alternate { background-color: #f6f6f8; }
+
+table.form fieldset
+{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* form module layout */
+div.content form.module table
+{
+	border: 1px solid #969696;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+div.content form.module table table { border-width: 0; }
+
+
+form.module table caption
+{
+	text-align: left;
+	background: url("images/form.module-table-caption-bkgd.gif") no-repeat right top;
+	padding: 0;
+	margin: 0;
+	border: none;
+	font-size: 1.0em;
+	font-weight: bold;
+	width: 100%;
+}
+
+form.module table caption span
+{
+	display: block;
+	padding: 12px 0 0 16px;
+	background: url("images/form.module-table-caption-span-bkgd.gif") no-repeat left top;
+	/*position: relative;*/
+	left: 0px;
+	height: 30px;
+}
+
+form.module table caption span img
+{
+	vertical-align: bottom;
+}
+
+form.module { margin: 13px 0 0 0; }
+form.module table tr
+{
+	border-left-color: #969696;
+	border-right-color: #969696;
+	border-width: 0 1px;
+	border-left-style: solid;
+	border-right-style: solid;
+}
+
+form.module table tr.alternate td{ background: #f2f2f2 !important; }
+
+
+form.module table td,
+form.module table th { padding: 6px;}
+
+form.module table th { text-align: left; }
+
+form.module div.action
+{
+	background: url("images/form.module-action-bkgd.gif") no-repeat right top;
+	margin-top: -2px;
+}
+form.module > div.action
+{
+	margin-top: 0;
+}
+
+form.module div.action div.inner
+{
+	padding: 4px 15px 0 15px;
+	text-align: right;
+	background: url("images/form.module-action-inner-bkgd.gif") no-repeat left top;
+	/*position: relative;*/
+	left: 0;
+	height: 37px;
+}
+
+
+form.module dl.panels dd.selected
+{
+	border-color: #969696;
+	border-style: solid;
+	border-width: 1px 0 0 0;
+	margin-left: -8px;
+}
+
+div#body-right form.module dl.panels dd.selected
+{
+width: 447px;
+}
+
+/*
+
+	scriptaculous styles
+
+*/
+div.autocomplete {
+	position:absolute;
+	width:250px;
+        background: #ffffff;
+	border:2px solid blue;
+	margin:0px;
+	padding:0px;
+}
+div.autocomplete ul
+{
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+div.autocomplete ul li.selected { background-color: #ffffff; font-size:12px;}
+div.autocomplete ul li
+{
+	list-style-type: none;
+	display:block;
+	margin:0;
+	padding:2px;
+	height:32px;
+	position: block;
+	 font-size:12px;
+}
+
+/*
+	minature browser styles
+*/
+div.browser
+{
+	position:absolute;
+	width:212px;
+	background: #fff;
+	border:1px solid #888;
+	margin:0px;
+	padding:0px;
+	height: 200px;
+	overflow: auto;
+	z-index: 2;
+}
+
+html>body div.browser
+{
+	height: auto;
+	max-height: 200px;
+}
+
+/*
+
+	content preview windows
+	
+*/
+
+iframe.preview
+{
+	width: 715px;
+	height: 500px;
+}
+
+/*
+	asset list close (window) form
+*/
+form#assetlist-close
+{
+	position: absolute;
+	left: 300px;
+	margin: 0;
+}
+table.formtable td{
+	vertical-align:top;
+}
+table.formtable td.label{
+	padding-top:4px;
+}
+
+
+

@@ -1,0 +1,58 @@
+/*
+	this nav is son of suckerfish
+*/
+#nav, #nav ul { /* all lists */
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 1;
+}
+
+#nav a, #navSaf a {
+	display: block;
+	/*width: 10em;*/
+}
+
+#nav li ul li a {
+	display: block;
+	color:black;
+	text-decoration:none;
+	width: 14em;
+	font-size:11px;
+	font-weight:bold;
+	font-style:italic;
+}
+
+#nav li, #navSaf li { /* all list items */
+	float: left;
+	/*width: 10em;  width needed or else Opera goes nuts */
+}
+
+#nav li ul { /* second-level lists */
+	position: absolute;
+
+	width: 10em;
+
+	left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+}
+#navSaf li ul {
+	display:none;
+}
+#nav li ul li {
+	border-bottom:1px solid black;
+	padding:5px;
+	background:#ffcc00;
+	position:relative;
+	top:-3px;
+	left:5px;
+}
+
+
+#nav li:hover ul, 
+#nav li.sfhover ul { /* lists nested under hovered list items */
+	left: auto;
+}
+
+#nav li:hover, #topmenu li.hover {
+  position:relative;
+} 

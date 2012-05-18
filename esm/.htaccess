@@ -1,0 +1,6 @@
+# Helicon Ape version 3.0.0.71
+
+RewriteEngine On
+RewriteBase
+RewriteRule ^\/([a-zA-Z0-9]+)\/([a-zA-Z0-9]+)\/?(\?.*)?$  /index.cfm?module=$1&action=$2 [PT,QSA,L]
+

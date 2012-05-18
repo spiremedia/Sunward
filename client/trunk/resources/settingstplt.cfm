@@ -1,0 +1,11 @@
+<cfabort>dsn=fpa
+systememailfrom=tina@spiremedia.com
+mailsmtp=mail.spiremedia.com
+siteid=AD1724FF-E347-83EA-18FD424840AD5849
+cmslocation=http://fpa.esm.spiremedia.com/
+cmsPath=/mnt/officestor1/EDP/PiT/f/FPA/DEV/esm/trunk
+siteurl=http://journal.localfpa.spiremedia.com/
+collectionPath=/opt/coldfusionmx7/verity/collections/
+cmsip=127.0.0.1
+debug=1
+siteSearchName=Journal Site

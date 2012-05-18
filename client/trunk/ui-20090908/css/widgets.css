@@ -1,0 +1,236 @@
+/* accordion  */
+																
+.ui-accordion { margin: 0; padding: 0; list-style-type: none; }
+.ui-accordion li { margin: 0; margin-bottom: 2px; padding: 0; }
+.ui-accordion li .ui-accordion-header {
+	display: block;
+	/*padding-left: 5px;
+	margin-right: 3px;
+	height: 28px;
+	background-image: url(i/accordion-middle.png);
+	color: #000;
+	line-height: 28px;
+	position: relative;
+	left: 3px;*/
+	text-decoration: none;
+	font-weight:bold;
+	/*border-bottom:1px solid red;*/
+}
+.ui-accordion li .ui-accordion-right {
+	display: block;
+	/*background-image: url(i/accordion-right.png);*/
+}
+.ui-accordion li .ui-accordion-left {
+	display: block;
+	/*background-image: url(i/accordion-left.png);
+	background-repeat: no-repeat;
+	position: absolute;*/
+	height: 4px;
+	width: 3px;
+}
+.ui-accordion li div.ui-accordion-content {
+	padding-left:10px;
+}
+																/* tabs  */
+															
+/* Caution! Ensure accessibility in print and other media types... */
+/*div.fullTabs {
+	width:680px;
+	background:url(/ui/images/tabs/centerbg.gif) repeat-y left;
+}*/
+div.ui-tabs-wrap {
+	background:url(/ui/images/tabs/tablistbg.gif) top repeat-x;
+}
+body.home div.ui-tabs-wrap {
+	background:none;
+	
+}
+
+@media projection, screen { /* Use class for showing/hiding tab content, so that visibility can be better controlled in different media types... */
+    .ui-tabs-hide {
+        display: none;
+    }
+}
+
+/* Hide useless elements in print layouts... */
+@media print {
+    .ui-tabs-nav {
+        display: none;
+    }
+}
+
+/* Skin */
+.ui-tabs-nav, .ui-tabs-panel {
+    
+    
+}
+.ui-tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 3px;
+	display:inline;
+	/*background:url(/ui/images/tabs/tablistbg.gif) top left no-repeat;*/
+	font-size: 10px;
+	*height: 1%;
+}
+.ui-tabs-nav:after { /* clearing without presentational markup, IE gets extra treatment */
+    display: block;
+    clear: both;
+    content: " ";
+}
+.ui-tabs-nav ul{
+	
+	float:none;
+	margin-left:0;
+	padding-left:0;
+	
+}
+.ui-tabs-nav li {
+    float: right;
+    margin: 0 0 0 0px;
+    font-weight: bold;
+	list-style:none;
+}
+.ui-tabs-nav a, .ui-tabs-nav a span {
+    float: left; /* fixes dir=ltr problem and other quirks IE */
+    padding: 0 12px 0 20px;
+    background: url(i/tabs.png) no-repeat;
+}
+.ui-tabs-nav a {
+    margin: 0px 0 0; /* position: relative makes opacity fail for disabled tab in IE */
+    padding-left: 0;
+    background-position: 100% 0;
+    text-decoration: none;
+    white-space: nowrap; /* @ IE 6 */
+    outline: 0; /* @ Firefox, prevent dotted border after click */  
+    
+}
+
+.ui-tabs-nav a:link, .ui-tabs-nav a:visited {
+    /*color: #17476c;*/
+	color: #50738f;
+	font-weight:bold;
+    z-index: 2;
+    margin-top: 0;
+	
+}
+.ui-tabs-nav .ui-tabs-selected a {
+    color: #17476c;
+    position: relative;
+    /*background-position: 100% -23px;*/
+}
+.ui-tabs-nav a span {
+    padding-top: 0px;
+    padding-right: 0;
+    height: 28px;
+    /*background-position: 0 0;*/
+    line-height: 28px;
+	padding: 6px 12px 2px 30px;
+}
+.ui-tabs-nav .ui-tabs-nav-normal a span {
+	background:url(/ui/images/tabs/last.gif) left top no-repeat;
+}
+.ui-tabs-nav .ui-tabs-nav-normal a {
+	background:url(/ui/images/tabs/firstend.gif) right top no-repeat;
+}
+.ui-tabs-nav .ui-tabs-nav-b4selected a {
+	background:url(/ui/images/tabs/b4end.gif) right top no-repeat;
+}
+.ui-tabs-nav .ui-tabs-nav-b4selected a span{
+	background:url(/ui/images/tabs/last.gif) left top no-repeat;
+}
+.ui-tabs-nav .ui-tabs-nav-firstb4selected a {
+	background:url(/ui/images/tabs/b4end.gif) right top no-repeat;
+}
+.ui-tabs-nav .ui-tabs-nav-firstb4selected a span{
+	background:url(/ui/images/tabs/first.gif) left top no-repeat;
+}
+.ui-tabs-nav .ui-tabs-nav-selected a {
+    background:url(/ui/images/tabs/firstselectedend.gif) right top no-repeat;
+}
+.ui-tabs-nav .ui-tabs-nav-selected a span {
+    background:url(/ui/images/tabs/selected.gif) left top no-repeat;
+}
+
+.ui-tabs-nav .ui-tabs-nav-last a span {
+    background:url(/ui/images/tabs/first.gif) left top no-repeat;
+}
+.ui-tabs-nav .ui-tabs-nav-last a {
+    background:url(/ui/images/tabs/firstend.gif) right top no-repeat;
+}
+
+.ui-tabs-nav .ui-tabs-nav-first a {
+    background:url(/ui/images/tabs/lastend.gif) right top no-repeat;
+}
+.ui-tabs-nav .ui-tabs-nav-first a span{
+    background:url(/ui/images/tabs/last.gif) left top no-repeat;
+}
+.ui-tabs-nav .ui-tabs-nav-lastselected a span {
+    background:url(/ui/images/tabs/firstselected.gif) left top no-repeat;
+}
+.ui-tabs-nav .ui-tabs-nav-lastselected a  {
+    background:url(/ui/images/tabs/firstselectedend.gif) right top no-repeat;
+}
+.ui-tabs-nav .ui-tabs-nav-firstselected a span{
+    background:url(/ui/images/tabs/lastselected.gif) left top no-repeat;
+}
+.ui-tabs-nav .ui-tabs-nav-firstselected a  {
+    background:url(/ui/images/tabs/lastselectedend.gif) right top no-repeat;
+}
+.ui-tabs-nav .ui-tabs-selected a:link, 
+.ui-tabs-nav .ui-tabs-selected a:visited,
+.ui-tabs-nav .ui-tabs-disabled a:link, 
+.ui-tabs-nav .ui-tabs-disabled a:visited { /* @ Opera, use pseudo classes otherwise it confuses cursor... */
+    cursor: text;
+	
+}
+.ui-tabs-nav a:hover, 
+.ui-tabs-nav a:focus, 
+.ui-tabs-nav a:active,
+.ui-tabs-nav .ui-tabs-unselect a:hover, 
+.ui-tabs-nav .ui-tabs-unselect a:focus, 
+.ui-tabs-nav .ui-tabs-unselect a:active 
+{ /* @ Opera, we need to be explicit again here now... */
+    cursor: pointer;
+}
+.ui-tabs-disabled {
+    opacity: .4;
+    filter: alpha(opacity=40);
+}
+.ui-tabs-nav .ui-tabs-disabled a:link, .ui-tabs-nav .ui-tabs-disabled a:visited {
+    color: blue;
+}
+.ui-tabs-panel {
+    padding: 10px;
+    /*background: url(/ui/images/tabs/centerbg.gif) left repeat-y; *//* declare background color for container to avoid distorted fonts in IE while fading */
+	clear:both;
+}
+/*.ui-tabs-loading em {
+    padding: 0 0 0 20px;
+    background: url(loading.gif) no-repeat 0 50%;
+}*/
+
+.ui-tabs-footer {
+	padding:4px;
+	/*background:url(/ui/images/tabs/footerbg.gif) top center no-repeat;*/
+}
+body.home .ui-tabs-footer{
+	display:none;	
+}
+/* Additional IE specific bug fixes... */
+* html .ui-tabs-nav { /* auto clear @ IE 6 & IE 7 Quirks Mode */
+    display: inline-block;
+}
+*:first-child+html .ui-tabs-nav  { /* auto clear @ IE 7 Standards Mode - do not group selectors, otherwise IE 6 will ignore complete rule (because of the unknown + combinator)... */
+    display: inline-block;
+}
+
+
+
+
+
+
+.nLink {
+	color:#FF0000;
+	text-decoration: none;
+	}

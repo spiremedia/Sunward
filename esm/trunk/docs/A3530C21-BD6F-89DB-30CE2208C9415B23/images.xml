@@ -1,0 +1,6 @@
+<!-- parent node name, this can be anything just as long as its closed at the end -->
+<ExternalImages>
+	<imageNode jpegURL="/docs/A3530C21-BD6F-89DB-30CE2208C9415B23/Flash_Image_1.jpg" linkTo="http://www.spiremedia.com/"/>
+	<imageNode jpegURL="/docs/A3530C21-BD6F-89DB-30CE2208C9415B23/Flash_Image_2.jpg" linkTo="http://www.spiremedia.com/spiremedia2k5/?cid=4"/>
+	<imageNode jpegURL="/docs/A3530C21-BD6F-89DB-30CE2208C9415B23/Flash_Image_3.jpg" linkTo="http://www.spiremedia.com/spiremedia2k5/?cid=137,140"/>
+</ExternalImages>

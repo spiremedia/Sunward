@@ -1,0 +1,440 @@
+/****
+*		Hired Gun: Matthew Gaddis <matthew@spiremedia.com>
+*		Created: 2006-01-30
+*		File: Platform2006 Navigation
+****/
+
+/*
+
+	head and body rules
+	
+*/
+
+div#head div.nav ul,
+div#browse.nav ul
+{
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+
+
+div#welcome div.nav,
+div#welcome div.nav ul,
+div#head div#welcome div.nav li
+{ 
+	display: inline; 
+	float: none;
+}
+
+div#head div.nav li,
+div#browse.nav li
+{ float: left; }
+
+
+form#site-manager div.nav li
+{
+	margin-top: 7px;
+	padding: 0 11px 0.1em 15px;
+	background: url("images/form%23site-manager-li-bkgd.gif") no-repeat 0 0.2em;
+}
+
+div#sub.nav li
+{
+	margin-top: 9px;
+	padding: 0 11px 0 10px;
+	border-left: solid 1px #979797;
+}
+
+
+div#sub.nav li.alternate
+{
+	padding-left: 0;
+	border-left: none;
+}
+
+div#top.nav li,
+div#top1.nav li,
+div#browse.nav li
+{
+	background: url("images/div%23top.nav-li-bkgd.gif") no-repeat right top;
+	/* padding-right: 10px; */
+	margin-right: 6px;
+}
+
+div#top.nav li.selected,
+div#browse.nav li.selected { 
+	background: url("images/div%23top.nav-li.selected-bkgd.gif") no-repeat right top; 
+	}
+
+div#top.nav li a,
+div#top1.nav li a,
+div#browse.nav li a
+{
+	position: relative;
+	left: -4px;
+	float: left;
+	background: url("images/div%23top.nav-li-a-bkgd.gif") no-repeat left top;
+	padding: 7px 10px 11px 10px; /* padding: 7px 0 11px 10px; */
+	margin-right: -4px;
+	text-decoration: none;
+	color: #404040;
+}
+
+div#top.nav li.selected a,
+div#top1.nav li.selected a,
+div#sub.nav li.selected a
+{ 
+	color: #000;
+	font-weight: bold;
+}
+
+div#top.nav li.selected a,
+div#top1.nav li.selected a,
+div#browse.nav li.selected a  { background: url("images/div%23top.nav-li.selected-a-bkgd.gif") no-repeat left top; }
+
+div#sub.nav li a 
+{ 
+	color: #666; 
+	text-decoration: none;
+	padding: 8px 0 9px 0;
+}
+
+div.nav li span.informal { display: none; }
+
+div.content ul.column
+{ /* Added for Eventum bug 3 */
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+	panels
+*/
+
+dl.panels
+{
+	position: relative;
+	top: 0;
+	left: 4px;
+	height: 80px;
+	margin: 0;
+	
+}
+
+div#body-left dl.panels { top: 10px; }
+
+html>body dl.panels 
+{ 
+	min-height: 80px;
+	height: auto;
+}
+
+dl.panels dt
+{
+	float: left;
+	background: url("images/div%23top.nav-li-bkgd.gif") no-repeat right top;
+	margin: 0 6px 0 0;
+	padding: 0;
+	border: none;
+	font-weight: 100;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+dl.panels dt span
+{
+
+	float: left;
+	background: url("images/div%23top.nav-li-a-bkgd.gif") no-repeat left top;
+	padding: 7px 10px 10px 10px;
+	text-decoration: none;
+	color: #404040;
+	position: relative;
+	left: -4px;
+	top: 0;
+	cursor: hand;
+}
+
+html>body dl.panels dt span { cursor: pointer; }
+
+
+dl.panels dt.selected { background: url("images/div%23top.nav-li.selected-bkgd.gif") no-repeat right top; }
+dl.panels dt.selected span 
+{ 
+	background: url("images/div%23top.nav-li.selected-a-bkgd.gif") no-repeat left top; 
+	cursor: auto;
+}
+
+dl.panels dd
+{
+/*	visibility: hidden; */
+	position: absolute;
+	top: 24px;
+	left: -4px;
+	width: 100%;
+/*	height: 0px; 
+	overflow: hidden; */
+	margin: 0;
+	background: #fff;
+	border: #969696 solid 1px;
+}
+
+/*
+dl.panels dd.selected
+{
+	visibility: visible;
+	height: auto;
+	overflow: hidden; 
+}
+*/
+
+div#body-left dl.panels dd
+{
+	height: 300px;
+	overflow: auto;
+}
+
+html>body div#body-left dl.panels dd
+{
+	height: auto;
+	max-height: 300px;
+}
+
+div#body-left dl.panels dd dl.accordion dd
+{
+	overflow: visible;
+	height: auto;
+	max-height: 100%;
+}
+
+dl.panels dd.selected>table>tbody
+{
+	padding: 0;
+	background-color: #FFF;
+}
+
+/*
+	accordion
+*/
+
+dl.accordion
+{
+	
+	margin: 0;
+	padding: 0px 2px 2px 2px;
+	background: #fff;
+}
+
+div#body-left dl.accordion { padding-top: 17px; }
+
+div#body-right dl.accordion 
+{ 
+	border: none; 
+}
+
+dl.accordion dt
+{
+	border: #ebebeb solid 1px;
+	padding: 5px 22px;
+	background: url("images/dl.accordion-dt-bkgd.gif") repeat-x left top;
+	margin: 0 0 0 0; /*margin: 2px 0 0 0; changed for Eventum bug id 9 */
+	cursor: hand;
+	font-weight: bold;
+	float: none;
+	width: auto;
+}
+
+html>body dl.accordion dt
+{
+	cursor: pointer;
+}
+
+dl.accordion dt.disabled { color: #ccc; }
+	
+dl.accordion dt.selected { background: url("images/dl.accordion-dt.selected-bkgd.gif") repeat-x left top; }
+div#body-right dl.accordion dt.selected 
+{ 
+	background: url("images/div%23body-right-dl.accordion-dt.selected-bkgd.gif") repeat-x left top; 
+	border-bottom: none;
+}
+
+dl.accordion dd
+{
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 0;
+	width: auto;
+	padding-left: 0;
+	border-style: solid;
+	border-color: #ebebeb;
+	border-width: 0 1px 1px 1px;
+}
+
+div#body-right dl.accordion dd { padding: 14px 28px ; }
+html>body div#body-right dl.accordion dd { padding: 4px 28px 14px 28px; }
+div#body-left div.browser dl.accordion dd,
+div#body-right div.browser dl.accordion dd { padding: 0; }
+
+#pageTemplateAccordionWrapper{
+	margin-top: 45px;
+	}
+	
+html>body #pageTemplateAccordionWrapper{
+	margin: 0;
+	}
+
+dl.accordion dd div.nav ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+dl.accordion dd div.nav li 
+{
+	border-bottom: solid white 1px;
+}
+
+dl.accordion dd div.nav li a
+{ 
+	display: block;
+	/*width: 100%;*/
+	padding: 4px 7px 5px 22px; 
+	color: #414141;
+	text-decoration: underline;
+	font-size: 0.9em;
+	margin: 0;
+}
+
+html>body dl.accordion dd div.nav li a { width: auto; }
+
+dl.accordion dd div.nav li li a { padding-left: 39px; }
+dl.accordion dd div.nav li li li a { padding-left: 56px; }
+dl.accordion dd div.nav li li li li a { padding-left: 73px; }
+dl.accordion dd div.nav li li li li li a { padding-left: 90px; }
+
+dl.accordion dd div.nav li a.selected 
+{
+	background: #fbfcc2;
+	font-weight: bold;
+	color: #000;
+}
+
+dl.accordion dd div.nav li a.disabled
+{
+	color: #999;
+	background: #efefef;
+	cursor: text;
+}
+
+div#body-left dl.accordion dd form { margin: 0 1px; }
+div#body-left dl.accordion dd h5 
+{ 
+	margin: 0; 
+	padding-top: 1.2em;
+	font-size: 1em;
+}
+
+/*
+	pagers
+*/
+
+form.pager2 
+{
+	width: 282px;
+	float: left;
+}
+
+dl.pager  
+{ 
+	margin: 0; 
+	padding-bottom: 13px;
+}
+
+dl.pager dt,
+dl.pager dd
+{
+	float: left;
+	padding: 0 10px;
+	border-left: solid 1px #979797;
+}
+
+dl.pager dt
+{
+	font-weight: bold;
+	color: #356596;
+	text-decoration: underline;
+	cursor: hand;
+}
+
+html>body dl.pager dt { cursor: pointer; }
+dl.pager dt.alternate,
+dl.pager dd.alternate { border-left: none; }
+dl.pager dd 
+{ 
+	margin-left: 0;
+}
+dl.pager dt.selected { display: none; }
+
+dl.pager ul,
+form.pager2 ul
+{
+	padding: 0;
+	list-style: none;
+}
+
+dl.pager ul { margin: 0; }
+form.pager2 ul { margin: 1em 0; }
+form.pager2 ul { padding-bottom: 1em; }
+
+dl.pager li,
+form.pager2 li
+{
+	float: left;
+	padding: 0px 3px;
+}
+
+dl.pager li.alternate,
+form.pager2 li.alternate
+{
+	border-right: solid 1px #999;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+dl.pager li.alternate:before { content: "\3C\3C\20"; }
+
+dl.pager li.alternate2,
+form.pager2 li.alternate2
+{
+	border-left: solid 1px #999;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+dl.pager li.alternate2:after { content: "\20\3E\3E"; }
+
+dl.pager li.selected a,
+form.pager2 li.selected a
+{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+html body dl.pager li.disabled a,
+html body form.pager2 li.disabled a,
+html body dl.pager a.disabled
+{
+	color: #ccc;
+	text-decoration: none;
+}
+
+
+	

@@ -1,0 +1,214 @@
+body {
+	font-size:11px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:#5a6568;
+}
+
+div.header div.headerNav ul li a{
+	color:black;
+	font-size:9px;
+	font-weight:bold;
+	margin:5px;
+	text-decoration:none;
+}
+
+h1, h2, h3, h4 ,h5, h6{
+	font-weight:normal;
+	color:#333333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div.content h1 {
+	font-size:22px;
+	margin:3px 0 3px 0;
+	padding:0;
+	line-height:20px;
+}
+div.content h2 {
+	font-size:19px;
+	margin:3px 0 3px 0;
+	line-height:20px;
+	padding:0;
+}
+div.content h3 {
+	font-size:16px;
+	margin:3px 0 3px 0;
+	padding:0;
+}
+div.content h4  {
+	font-size:14px;
+	margin:3px 0 3px 0;
+	padding:0;
+}
+div.content h5 {
+	font-size:13px;
+	margin:3px 0 3px 0;
+	padding:0;
+}
+div.content h6 {
+	font-size:12px;
+	margin:3px 0 3px 0;
+	padding:0;
+}
+
+
+div.twoBoxes h2 {
+	font-size:14px;
+}
+
+a {
+	/*color:#666666;*/
+	color: #602310;
+}
+a:hover {
+	text-decoration:underline;
+}
+
+div#bodyContent div.c1 h1,
+div#bodyContent div.c3 h1{
+	font-size:16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div#bodyContent div.c3 div.sideItem1 h1{
+	font-size:18px;
+}
+
+div.content {
+	line-height:15px;
+}
+
+div.footerNav {
+	color:white;
+}
+
+div.footerNav a{
+	color:white;
+	text-decoration:underline;
+}
+
+/* REMOVED DRE 20080425
+div#bodyContent  h1, h4{
+	font-family: Arial, Helvetica, sans-serif;
+}*/
+
+div#bodyContent .middleItem1 h1{
+	font-size:22px;
+}
+
+body.home div.c2  h2,
+body.home div.c2  h2 a
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#0f7970;
+	text-decoration:none;
+	line-height:16px;
+}
+body.home div.c2  h3,
+body.home div.c2  h3 a
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333333;
+	text-decoration:none;
+	line-height:16px;
+}
+
+div#bodyContent div.c1Wide {
+	color:#5a6568;
+}
+
+div#bodyContent div.c1Wide a{
+	color:#11497e;
+}
+
+div#bodyContent div.c1Wide h1{
+	color:black;
+	font-size:20px;
+}
+
+div#bodyContent div.c1 div.sideItem5 h2{
+	font-size:14px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:12px;
+	color:#333;
+}
+div#bodyContent div.c1 div.sideItem5 h1{
+	font-size:17px;
+
+}
+div#bodyContent div.c1 div.sideItem6 h1{
+	font-size:10px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:14px;
+	color:#333;
+}
+div#bodyContent div.c1 div.sideItem6 h2{
+	font-size:17px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:16px;
+	color:#333;
+}
+div#bodyContent .middleItem2 h2 a:hover {
+	text-decoration:underline;
+}
+/* removed 20080425 DRE
+div#bodyContent  h3{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333333;
+}
+*/
+
+div#bodyContent .middleItem3 h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:white;
+}
+div#bodyContent .c1 .middleItem3 div.content {
+	color:#333333;
+	font-size:12px;
+	margin-right:30px;
+}
+div#bodyContent .middleItem4 h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+/* REMOVED DRE 20080425
+div#bodyContent h4{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+*/
+div.morelink a,
+a.more {
+	color:#0f7970;
+}
+
+div.hint {
+	font-size:10px;
+	color:black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.search h1 {
+	font-family: Arial, Helvetica, sans-serif !important;
+	color: #333 !important;
+}
+
+body.home .c2 .c2container .middleItem2 .content h2,
+body.home .c2 .c2container .middleItem3 .content h2  {
+	line-height: 1.1em;
+	margin:2px 0 1px 0;
+}
+body.home .c2 .c2container .middleItem2 .content h3,
+body.home .c2 .c2container .middleItem3 .content h3 {
+	line-height: 1.1em;
+	margin:0px 0 2px 0;
+}
+
+.nLink {
+	color:#FF0000;
+	text-decoration: none;
+	}

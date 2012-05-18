@@ -1,0 +1,361 @@
+<cfsavecontent variable="html"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    
+        <head>
+        
+            <meta http-equiv="X-UA-Compatible" content="IE=8" />
+            <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+            <meta http-equiv="Content-Style-Type" content="text/css" />
+            <meta name="description" content="default description" />
+            <meta name="keywords" content="prefab barns, metal building, steel buildings, prefabricated
+buildings, steel building kits, steel building, prefab buildings,
+metal building kits, pre fab building, prefabricated steel
+buildings, steel buildings, purlins, girts, trim, gutters,
+mainframe, sheeting, trim package, discounts, deals, erection,
+span, multispan, clearspan, factories for sale, building
+manufacturer for sale, panel arch, arch buildings, buildings,
+aircraft, aircraft hangar, fire stations, frame, automotive, riding
+arenas" />
+            
+            <title>Structural</title>
+            
+            
+            <script type="text/javascript" src="/ui/js/nav.js"></script>
+            <script type="text/javascript" src="/ui/js/swfobject.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/jquery-1.2.6.pack.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.core.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.accordion.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.tabs.js"></script>
+            
+            
+            <link type="text/css" rel="stylesheet" href="/ui/css/interior.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/sunward.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/nav.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/form.css" />
+            <!--[if lte IE 8]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie8.css" />
+            <![endif]-->
+            <!--[if lte IE 7]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie7.css" />
+            <![endif]-->
+            <!--[if lte IE 6]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie6.css" />
+            <![endif]-->
+    
+        </head>
+    
+    <body class="homeBody">
+
+
+
+<div id="textpageWrapper">
+
+    <table class="ht" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+            <td class="hlf">&nbsp;</td>
+            <td class="hc" nowrap="nowrap">
+	<div class="searchForm">
+    
+	    <b class="loginout"><a href="/Users/Login/">Dealer Login</a></b>
+	<br />
+		<form action="/Search/" method="get" >
+			<input name="search" type="text"  size="19" class="text" />
+			<input type="submit" name="button" value="Search" class="searchButton" />
+		</form>
+	</div>
+                <div class="navDiv">
+			<ul id="nav"><li class="first"><a href="/Products/" onmouseover="document.Image1.src='/ui/img/btn_Products_over.gif'"
+onmouseout="document.Image1.src='/ui/img/btn_Products.gif'"><img src="/ui/img/btn_Products.gif" name="Image1" /></a><ul class="sub"><li><a href="/Products/">Products</a></li><li><a href="/Products/Agriculture/">Agriculture</a></li><li><a href="/Products/UtilityShops/">Utility Shops</a></li><li><a href="/Products/BarnsAndRidingArenas/">Barns and Riding Arenas</a></li><li><a href="/Products/AviationAircraftHangars/">Aviation Aircraft Hangars</a></li><li><a href="/Products/MiniWarehouses/">Mini Warehouses</a></li><li><a href="/Products/Retail/">Retail</a></li><li><a href="/Products/Industrial/">Industrial</a></li><li><a href="/Products/CustomDesigns/">Custom Designs</a></li><li><a href="/Products/accessories/">Accessories</a></li><li><a href="/Products/Customframingdesigns/">Concept Renderings</a></li></ul></li><li ><a href="/Dealerships/" onmouseover="document.Image2.src='/ui/img/btn_Dealerships_over.gif'"
+onmouseout="document.Image2.src='/ui/img/btn_Dealerships.gif'"><img src="/ui/img/btn_Dealerships.gif" name="Image2" /></a></li><li ><a href="/ContactUs/" onmouseover="document.Image3.src='/ui/img/btn_ContactUs_over.gif'"
+onmouseout="document.Image3.src='/ui/img/btn_ContactUs.gif'"><img src="/ui/img/btn_ContactUs.gif" name="Image3" /></a><ul class="sub"><li><a href="/ContactUs/">Contact Us</a></li><li><a href="/ContactUs/FrequentlyAskedQuestions/">Frequently Asked Questions</a></li></ul></li><li ><a href="/QualityFeatures/" onmouseover="document.Image4.src='/ui/img/btn_QualityFeatures_over.gif'"
+onmouseout="document.Image4.src='/ui/img/btn_QualityFeatures.gif'"><img src="/ui/img/btn_QualityFeatures.gif" name="Image4" /></a><ul class="sub"><li><a href="/QualityFeatures/">Quality Features</a></li><li><a href="/QualityFeatures/Certifications/">Certifications</a></li><li><a href="/QualityFeatures/ExclusiveSunwardLine/">Exclusive Sunward Line</a></li><li><a href="/QualityFeatures/substructure/">Door & Window Sub-structure</a></li><li><a href="/QualityFeatures/BeautifulTrimPackage/">Beautiful Trim Package</a></li><li><a href="/QualityFeatures/closures/">Closure System</a></li><li><a href="/QualityFeatures/fasteners/">Fasteners</a></li><li><a href="/QualityFeatures/siphongroove1/">Special Siphon Groove</a></li><li><a href="/QualityFeatures/SoffitSystem/">Soffit System</a></li><li><a href="/QualityFeatures/5starfeatures/">5 Star Features</a></li></ul></li><li ><a href="/AboutUs/" onmouseover="document.Image5.src='/ui/img/btn_AboutUs_over.gif'"
+onmouseout="document.Image5.src='/ui/img/btn_AboutUs.gif'"><img src="/ui/img/btn_AboutUs.gif" name="Image5" /></a><ul class="sub"><li><a href="/AboutUs/">About Us</a></li><li><a href="/AboutUs/Factories/">Factories</a></li><li><a href="/AboutUs/Trucking/">Trucking</a></li><li><a href="/AboutUs/bbbaward/">BBB Award</a></li></ul></li><li ><a href="/DealsSales/" onmouseover="document.Image6.src='/ui/img/btn_DealsSales_over.gif'"
+onmouseout="document.Image6.src='/ui/img/btn_DealsSales.gif'"><img src="/ui/img/btn_DealsSales.gif" name="Image6" /></a><ul class="sub"><li><a href="/DealsSales/">Deals & Sales</a></li><li><a href="/DealsSales/EasyToAssemble/">Easy to Assemble</a></li><li><a href="/DealsSales/ConstructYourself/">Construct Yourself</a></li><li><a href="/DealsSales/insulationpackages/">Insulation Packages</a></li><li><a href="/DealsSales/taxcredits/">Energy Star Tax Credits</a></li><li><a href="/DealsSales/PumpingUnits/">Sunward Pumping Units</a></li><li><a href="/DealsSales/TeamofProfessionals/">Team Of Professionals</a></li><li><a href="/DealsSales/Gambrel/">Gambrel</a></li></ul></li><li ><a href="/Dealers/" onmouseover="document.Image7.src='/ui/img/btn_Dealers_over.gif'"
+onmouseout="document.Image7.src='/ui/img/btn_Dealers.gif'"><img src="/ui/img/btn_Dealers.gif" name="Image7" /></a></li></ul>
+		</div>
+            </td>
+            <td class="hrf">&nbsp;</td>
+        </tr>
+    </table>
+	
+   <div id="textpageContainer">
+        <div id="textPageCrumbs">
+            
+            <ul><li><a href="/">Home</a></li> &gt; <li><a href="/Specifications/">Specifications</a></li> &gt; <li>Structural</li></ul>
+        </div>
+        <div id="textPageInteriorTitle">
+            
+            Structural
+        </div>
+        <div id="textPageBodyContent">
+            <div id="interiorLeftBar">
+				
+                <div id="interiorLeftBarNav">
+                    
+			<ul>
+				
+						<li class="sidenavlevel3">
+							<a href="/Specifications/SpecificationsGeneral/" >GENERAL<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Specifications/Design/" >DESIGN<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Specifications/SpecificationsBasicMaterialSpecifications/" >BASIC MATERIAL SPECIFICATION<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3 itemOn3 itemOn3First sidenavlevel3NoSubnav">
+							<a href="/Specifications/SpecificationsStructural/" >STRUCTURAL<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Specifications/SpecificationsRoofAndWallCovering/" >ROOF AND WALL COVERING<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Specifications/SpecificationsMiscellaneousMaterialSpecifications/" >MISC MATERIAL SPECS<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Specifications/SpecificationsAccessories/" >ACCESSORIES<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Specifications/SpecificationsErection/" >ERECTION<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Specifications/SpecificationsAnchorageAndFoundations/" >ANCHORAGE AND FOUNDATIONS<br></a>
+							
+							
+						</li>
+					   
+			</ul>
+		
+                </div>
+            </div>
+            <div class="txtTopBar"  >
+				
+                
+                    <div class="imageText">
+
+
+
+
+
+
+<img
+src="/docs/assets/D12EFD1A-A60B-3667-1FF364D51C148AA3/img-8-specs.jpg"/><br />
+
+
+
+</div>
+                
+            </div>
+            <div class="txtBottomBar1">
+                <div class="splitright">
+                    
+                        <hr />
+                        <div>
+                            
+
+
+
+
+
+
+<img
+src="/docs/assets/D12FDF71-93A1-3ABE-B23288A108AE390A/220purlins.jpg"/>4.3.1.<br />
+
+
+
+
+                        </div>
+                    
+                </div>
+                <div class="splitleft">
+                    
+                        <div class="headLine">
+                             
+
+
+
+
+
+
+Section 4 - Structural
+
+
+
+
+                        </div>
+                    
+                       <div>
+                            
+
+
+
+
+
+
+&#160;4.1. GENERAL<br />
+<table cellpadding="2" border="0">
+<tbody>
+<tr>
+<td valign="top" align="left">4.1.1&#160;&#160;&#160; All shop
+welding shall conform to the requirements of the AWS D1.1, and
+D1.3.&#160; Welders shall be fully approved by the proper
+authorities in both Canada and the United States. Flange to web
+welds shall be continuous on one side of web using automatic
+submerged.</td>
+<td><br />
+</td>
+</tr>
+</tbody>
+</table>
+
+4.1.2&#160;All framing members shall be shop fabricated for bolted
+held assembly. Bolts shall meet the requirements of the following
+ASTM Standards, latest issue: <br />
+<ul>
+<li>A-325&#160; for quenched and tempered steel bolts</li>
+
+<li>A-307&#160; for steel machine bolts</li>
+</ul>
+
+4.1.3&#160;&#160;&#160; All framing members, where necessary, shall
+be identified with a mark corresponding to the erection
+drawings.<br />
+4.2.2.&#160; PRIMARY FRAMING<br />
+4.2.1&#160;&#160;&#160; All rigid frames shall be welded, built-up
+"I" sections.<br />
+4.2.2&#160;&#160;&#160; All endwall frames and columns shall be
+either cold-formed, mill rolled, or built up "I" sections,
+depending on design requirements.<br />
+4.2.3&#160;&#160;&#160; All main-frame webs, base-plates, splice
+plates and flanges shall be shop fabricated to include holes for
+installation of bolts and slots for bracing.<br />
+4.3.&#160;&#160;&#160; SECONDARY FRAMING<br />
+<table border="0">
+<tbody>
+<tr>
+<td rowspan="1" colspan="2">&#160;4.3.1&#160;&#160;&#160; Purlins
+and girts <img
+src="/docs/assets/D12FE5D5-E6CC-7681-150DD9766820AF3F/435-framing.jpg"/>shall
+be "Z" shaped cold-formed sections or "C" shaped cold-formed
+sections with flanges of no less than 2-1/2" and stiffener
+lips.Purlins shall be considered as continuous beams, lapping each
+other at each interior main frame. The girts shall be either
+continuous or simple span (flush mounted), depending on type of
+framing. Purlin and girt overlap requirements.</td>
+</tr>
+
+<tr>
+<td>&#160;&#160; 4.3.2&#160;&#160;&#160; Eave strut shall be
+cold-formed "C" section, rolled for appropriate roof pitch (on
+greater than 1:12).</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+
+<br />
+<br />
+<br />
+4.3.3.&#160;&#160;&#160; Framed openings shall be made from
+sections adequate for the specified design loads.<br />
+4.3.4.&#160;&#160;&#160; A continuous galvanized base angle will be
+supplied for attachment of the base of the sheeting to the
+concrete. The base angle will be attached to the concrete slab with
+ramsets or equivalent anchors (fasteners to concrete not supplied
+by The Company)<br />
+4.4.&#160;&#160;&#160; &#160;BRACING<br />
+4.4.1&#160;&#160;&#160; Diagonal cable bracing (galvanized) or rod
+bracing shall be used in the roof and walls to remove longitudinal
+loads from the structure.<br />
+4.4.2&#160;&#160;&#160; Portal frames: When special conditions
+exist so that cable bracing/or rod bracing cannot be used, a portal
+frame or other type of bracing will be used between frames to
+remove longitudinal loads.<br />
+<p>&#160;</p>
+
+<p>&#160;</p>
+
+<p></p>
+
+<img
+src="/docs/assets/D12FE1A0-C2CF-B38A-6586707C5E29608F/435-brace.jpg"/>
+4.4.3&#160;&#160;&#160; Flange bracing: The inside flange of all
+main frames shall be braced by angles connecting to the flange and
+web of the frame and to the web of the purlin or girt so that
+allowable compression is adequate for any combination of
+loadings.<br />
+4.4.4&#160;&#160;&#160; To assure consistent purlin spacing and
+stiffening, galvanized purlin bridging angles shall be
+provided.<br />
+
+
+
+
+                       </div>
+                    
+                </div>	
+            </div>
+            <div class="clear">&nbsp;</div>
+        </div>
+    </div>
+        <div id="footer">
+        <div class="footerR"><img src="/ui/img/aisc_bbb.gif" /></div>
+        <div class="footerL">
+        	<div><span>&copy; 2007 Sunward Consolidated Group</span></div>
+            <div>
+                <ul>
+                    <li><a href="/Specifications/">Specififcations</a></li>
+                    <li><a href="/CareerOpportunities/">Career Opportunities</a></li>
+                    <li><a href="/PrivacyPolicy/">Privacy Policy</a></li>
+                    <li><a href="/Definitions/">Definitions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-7011302-1");
+	pageTracker._trackPageview();
+	} catch(err) {}
+</script>
+  
+</body>
+
+</html>
+</div>
+</body>
+
+</html>
+
+</cfsavecontent>

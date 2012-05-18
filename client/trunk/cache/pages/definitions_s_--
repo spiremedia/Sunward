@@ -1,0 +1,331 @@
+<cfsavecontent variable="html"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    
+        <head>
+        
+            <meta http-equiv="X-UA-Compatible" content="IE=8" />
+            <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+            <meta http-equiv="Content-Style-Type" content="text/css" />
+            <meta name="description" content="default description" />
+            <meta name="keywords" content="Sunward Consolidated, metal building, steel buildings,
+prefabricated buildings, steel building kits, custom barn, prefab
+buildings, metal building kits, aircraft hangar, prefabricated
+steel buildings" />
+            
+            <title>S</title>
+            
+            
+            <script type="text/javascript" src="/ui/js/nav.js"></script>
+            <script type="text/javascript" src="/ui/js/swfobject.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/jquery-1.2.6.pack.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.core.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.accordion.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.tabs.js"></script>
+            
+            
+            <link type="text/css" rel="stylesheet" href="/ui/css/interior.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/sunward.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/nav.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/form.css" />
+            <!--[if lte IE 8]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie8.css" />
+            <![endif]-->
+            <!--[if lte IE 7]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie7.css" />
+            <![endif]-->
+            <!--[if lte IE 6]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie6.css" />
+            <![endif]-->
+    
+        </head>
+    
+    <body class="homeBody">
+
+
+
+<div id="textpageWrapper">
+
+    <table class="ht" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+            <td class="hlf">&nbsp;</td>
+            <td class="hc" nowrap="nowrap">
+	<div class="searchForm">
+    
+	    <b class="loginout"><a href="/Users/Login/">Dealer Login</a></b>
+	<br />
+		<form action="/Search/" method="get" >
+			<input name="search" type="text"  size="19" class="text" />
+			<input type="submit" name="button" value="Search" class="searchButton" />
+		</form>
+	</div>
+                <div class="navDiv">
+			<ul id="nav"><li class="first"><a href="/Products/" onmouseover="document.Image1.src='/ui/img/btn_Products_over.gif'"
+onmouseout="document.Image1.src='/ui/img/btn_Products.gif'"><img src="/ui/img/btn_Products.gif" name="Image1" /></a><ul class="sub"><li><a href="/Products/">Products</a></li><li><a href="/Products/Agriculture/">Agriculture</a></li><li><a href="/Products/UtilityShops/">Utility Shops</a></li><li><a href="/Products/BarnsAndRidingArenas/">Barns and Riding Arenas</a></li><li><a href="/Products/AviationAircraftHangars/">Aviation Aircraft Hangars</a></li><li><a href="/Products/MiniWarehouses/">Mini Warehouses</a></li><li><a href="/Products/Retail/">Retail</a></li><li><a href="/Products/Industrial/">Industrial</a></li><li><a href="/Products/CustomDesigns/">Custom Designs</a></li><li><a href="/Products/accessories/">Accessories</a></li><li><a href="/Products/Customframingdesigns/">Concept Renderings</a></li></ul></li><li ><a href="/Dealerships/" onmouseover="document.Image2.src='/ui/img/btn_Dealerships_over.gif'"
+onmouseout="document.Image2.src='/ui/img/btn_Dealerships.gif'"><img src="/ui/img/btn_Dealerships.gif" name="Image2" /></a></li><li ><a href="/ContactUs/" onmouseover="document.Image3.src='/ui/img/btn_ContactUs_over.gif'"
+onmouseout="document.Image3.src='/ui/img/btn_ContactUs.gif'"><img src="/ui/img/btn_ContactUs.gif" name="Image3" /></a><ul class="sub"><li><a href="/ContactUs/">Contact Us</a></li><li><a href="/ContactUs/FrequentlyAskedQuestions/">Frequently Asked Questions</a></li></ul></li><li ><a href="/QualityFeatures/" onmouseover="document.Image4.src='/ui/img/btn_QualityFeatures_over.gif'"
+onmouseout="document.Image4.src='/ui/img/btn_QualityFeatures.gif'"><img src="/ui/img/btn_QualityFeatures.gif" name="Image4" /></a><ul class="sub"><li><a href="/QualityFeatures/">Quality Features</a></li><li><a href="/QualityFeatures/Certifications/">Certifications</a></li><li><a href="/QualityFeatures/ExclusiveSunwardLine/">Exclusive Sunward Line</a></li><li><a href="/QualityFeatures/substructure/">Door & Window Sub-structure</a></li><li><a href="/QualityFeatures/BeautifulTrimPackage/">Beautiful Trim Package</a></li><li><a href="/QualityFeatures/closures/">Closure System</a></li><li><a href="/QualityFeatures/fasteners/">Fasteners</a></li><li><a href="/QualityFeatures/siphongroove1/">Special Siphon Groove</a></li><li><a href="/QualityFeatures/SoffitSystem/">Soffit System</a></li><li><a href="/QualityFeatures/5starfeatures/">5 Star Features</a></li></ul></li><li ><a href="/AboutUs/" onmouseover="document.Image5.src='/ui/img/btn_AboutUs_over.gif'"
+onmouseout="document.Image5.src='/ui/img/btn_AboutUs.gif'"><img src="/ui/img/btn_AboutUs.gif" name="Image5" /></a><ul class="sub"><li><a href="/AboutUs/">About Us</a></li><li><a href="/AboutUs/Factories/">Factories</a></li><li><a href="/AboutUs/Trucking/">Trucking</a></li><li><a href="/AboutUs/bbbaward/">BBB Award</a></li></ul></li><li ><a href="/DealsSales/" onmouseover="document.Image6.src='/ui/img/btn_DealsSales_over.gif'"
+onmouseout="document.Image6.src='/ui/img/btn_DealsSales.gif'"><img src="/ui/img/btn_DealsSales.gif" name="Image6" /></a><ul class="sub"><li><a href="/DealsSales/">Deals & Sales</a></li><li><a href="/DealsSales/EasyToAssemble/">Easy to Assemble</a></li><li><a href="/DealsSales/ConstructYourself/">Construct Yourself</a></li><li><a href="/DealsSales/insulationpackages/">Insulation Packages</a></li><li><a href="/DealsSales/taxcredits/">Energy Star Tax Credits</a></li><li><a href="/DealsSales/PumpingUnits/">Sunward Pumping Units</a></li><li><a href="/DealsSales/TeamofProfessionals/">Team Of Professionals</a></li><li><a href="/DealsSales/Gambrel/">Gambrel</a></li></ul></li><li ><a href="/Dealers/" onmouseover="document.Image7.src='/ui/img/btn_Dealers_over.gif'"
+onmouseout="document.Image7.src='/ui/img/btn_Dealers.gif'"><img src="/ui/img/btn_Dealers.gif" name="Image7" /></a></li></ul>
+		</div>
+            </td>
+            <td class="hrf">&nbsp;</td>
+        </tr>
+    </table>
+	
+   <div id="textpageContainer">
+        <div id="textPageCrumbs">
+            
+            <ul><li><a href="/">Home</a></li> &gt; <li><a href="/Definitions/">Definitions</a></li> &gt; <li>S</li></ul>
+        </div>
+        <div id="textPageInteriorTitle">
+            
+            S
+        </div>
+        <div id="textPageBodyContent">
+            <div id="interiorLeftBar">
+				
+                <div id="interiorLeftBarNav">
+                    
+			<ul>
+				
+						<li class="sidenavlevel3">
+							<a href="/Definitions/A-C/" >A-C<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/D-H/" >D-H<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/I-L/" >I-L<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/M-O/" >M-O<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/P-R/" >P-R<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3 itemOn3 itemOn3First sidenavlevel3NoSubnav">
+							<a href="/Definitions/S/" >S<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/T-Z/" >T-Z<br></a>
+							
+							
+						</li>
+					   
+			</ul>
+		
+                </div>
+            </div>
+            <div class="txtTopBar"  >
+				
+                
+                    <div class="imageText">
+
+
+
+
+
+
+<h1>Defintions S</h1>
+
+<p>"S" Shape: A hot rolled beam with narrow tapered flanges<br />
+Sag Member: A tension member such as rods, straps or angles used to
+limit the deflection of a girt or purlin in the direction of its
+weak axis.<br />
+Sandwich Panel: A panel used as covering consisting of an
+insulating core material with inner and outer metal skins.<br />
+Screw Down Roof System: a system in which the roof panels are
+attached directly to the roof substructure with fasteners, which
+penetrate through the roof sheets and into the substructure.<br />
+Scupper: An opening in a gutter or parapet system, which prevents
+ponding.<br />
+Sealant: Any material, which is used to seal cracks, joints or
+laps.<br />
+Secondary Framing: Members, which carry loads from the building
+surface to the main framing. For example; purlins and girts.<br />
+Seaming Machine: A mechanical device that is used to close and seal
+the side seams of standing seam roof panels.<br />
+Sectional Overhead Doors: Doors constructed in horizontally hinged
+sections. They are equipped with springs, tracks, counter
+balancers, and other hardware, which roll the sections into an
+overhead position, clear of the opening.<br />
+Seismic Load: The lateral load acting in any direction on a
+structural system due the action of an earthquake.<br />
+Self Drilling Screw: A fastener which combines the function of
+drilling and tapping.<br />
+Self Tapping Screw: A fastener which taps its own threads in a
+predrilled hole.<br />
+Shear: the force tending to make two contracting parts slide upon
+each other in opposite directions parallel to their plane of
+contact.<br />
+Shear Diaphragm: See "Diaphragm Action"<br />
+Shim: A piece of steel used to level base plates or align columns
+or beams.<br />
+Shop Primer Paint: The initial coat of primer paint applied in the
+shop. A temporary coating designed to protect the steel for limited
+amount of time until it is in the dry. "This coating may or may not
+serve as a proper prime coat for other finishing paints.<br />
+Shot Pin: See "Power Fastener"<br />
+Side Lap Fastener: A fastener used to connect panels together at
+their side lap.<br />
+Sidewall: An exterior wall which is perpendicular to the frames of
+a building system.<br />
+Sill: The bottom horizontal framing member of a wall opening such
+as a window or louver.<br />
+Simple Connection: see "Pin Connection"<br />
+Simple Span: A term used in structural design to describe a beam
+support condition at two points which offers no resistance to
+rotation at the supports.<br />
+Single Slope: A sloping roof in one plane. The slope is from one
+sidewall to the opposite sidewall.<br />
+Single Span: A building or structural member without intermediate
+support.<br />
+Siphon Break: A small groove to arrest the capillary action of two
+adjacent surfaces. (Anti-Capillary Groove).<br />
+Sister Column: See "Crane Support Column"<br />
+Skylight: A roof accessory to admit light, normally mounted on a
+curbed framed opening.<br />
+Slide Door: A single or double leaf door which opens horizontally
+by means of sliding on an overhead trolley.<br />
+Sliding Clip: A standing seam roof system hold down clip which
+allows the roof panel to move independently on the roof
+substructure.<br />
+Slope: See "Roof Slope"<br />
+Snow Drift: See "Drift (Snow)"<br />
+Snow Load: See "Roof Snow Load"<br />
+Snug Tight: the tightness of a bolt in a connection that exists
+when all plies in a joint are in firm contact.<br />
+Soffit: A material which covers the underside of an overhang<br />
+Soil Bearing Pressure: the load per unit area a structure will
+exert through its foundation on the soil.<br />
+Soldier Column: An intermediate column used to support secondary
+structurals; not part of a main frame or beam and column
+system.<br />
+Spacer Strut (Crane): A type of assembly used to keep the end
+trucks of adjacent cranes on the same runway beams a minimum
+specified distance apart.<br />
+Span: The distance between two supports.<br />
+Specification (Metal Building Systems): A statement of a set of
+Metal Building System requirements describing the loading
+conditions, design practices, materials and finishes.<br />
+Splice: A connection in a structural member.<br />
+Spreader Bar: Elongated bar with attached hooks and/or chains used
+from a crane to lift long sections of panels, or structural members
+such as rafters.<br />
+Spud Wrench: A tool used by erectors to line up holes and to make
+up bolted connections; a wrench with a tapered handle.<br />
+Square: The term used for an area of 100 sq. ft.<br />
+Stainless Steel: An alloy of steel, which contains a high
+percentage of chromium to increase corrosion resistance. Also may
+contain nickel or copper.<br />
+Standing Seam: Side joints of roof panels that are arranged in a
+vertical position above the roof line.<br />
+Standing Seam Roof System: A roof system in which the side laps
+between the roof panels are arranged in a vertical position above
+the roof line. The roof panel system is secured to the roof
+substructure by means of concealed hold down clips attached with
+screws to the substructure, except that through fasteners may be
+used at limited locations such as ends of panels and at roof
+penetrations.<br />
+Stiffener: A member used to strengthen a plate against lateral or
+local buckling<br />
+Stiffener Lip: A short extension of material at an angle to the
+flange of cold formed structural members, which adds strength to
+the member.<br />
+Stiles: the vertical side members of framed and paneled
+doors.<br />
+Stitch Screw: A fastener connecting panels together at the
+sidelap.<br />
+Straight Tread Wheels: Crane wheels with flat-machined treads and
+double flanges which limit the lateral movement of the crane.<br />
+Strain: The deformation per unit length measured in the direction
+of the stress caused by forces acting on a member. Not the same as
+deflection.<br />
+Stress: A measure of the load on a structural member in terms of
+force per unit area.<br />
+Strut: A member fitted into a framework, which resists axial
+compressive forces.<br />
+Stud: A vertical wall member to which exterior or interior covering
+or collateral material may be attached. May be either load bearing
+or non-load bearing.<br />
+Suspension System: The system (rigid or flexible) used to suspend
+the runway beams of under hung or monorail cranes from the rafter
+of the building frames.<br />
+Sweep: The amount of deviation of straightness of a structural
+section measured perpendicular to the web of the member.<br />
+</p>
+
+<br />
+
+
+
+</div>
+                
+            </div>
+            <div class="txtBottomBar1">
+                <div class="splitright">
+                    
+                </div>
+                <div class="splitleft">
+                    
+                </div>	
+            </div>
+            <div class="clear">&nbsp;</div>
+        </div>
+    </div>
+        <div id="footer">
+        <div class="footerR"><img src="/ui/img/aisc_bbb.gif" /></div>
+        <div class="footerL">
+        	<div><span>&copy; 2007 Sunward Consolidated Group</span></div>
+            <div>
+                <ul>
+                    <li><a href="/Specifications/">Specififcations</a></li>
+                    <li><a href="/CareerOpportunities/">Career Opportunities</a></li>
+                    <li><a href="/PrivacyPolicy/">Privacy Policy</a></li>
+                    <li><a href="/Definitions/">Definitions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-7011302-1");
+	pageTracker._trackPageview();
+	} catch(err) {}
+</script>
+  
+</body>
+
+</html>
+</div>
+</body>
+
+</html>
+
+</cfsavecontent>

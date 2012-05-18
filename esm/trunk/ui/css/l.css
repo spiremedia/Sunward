@@ -1,0 +1,175 @@
+/****
+*		Hired Gun: Matthew Gaddis <matthew@spiremedia.com>
+*		Created: 2006-01-30
+*		File: Platform2006 Layout
+****/
+
+body
+{
+	background: #fff url("images/body-bkgd.gif") repeat-x 0 0;
+	margin: 0;
+	padding-left: 21px;
+}
+body#popup {
+	background: #fff url("images/body-popup-bkgd.jpg") repeat-x 0 0;
+}
+
+/*
+	head rules
+*/
+div#head 
+{ 
+	height: 154px;
+	width: 1001px;
+}
+
+div#welcome,
+form#site-manager,
+form#client-manager
+{
+	float: right;
+}
+
+form#client-manager
+{
+	margin: 0;
+	padding: 22px 16px 0 0;
+}
+
+form#site-manager,
+form#site-manager dl,
+form#site-manager p { margin: 0; }
+
+form#site-manager 
+{ 
+	padding: 22px 16px 0 0; 
+}
+
+form#site-manager dt
+{
+	float: left;
+	clear: left;
+	padding: 0.2em 0.1em 0 0;
+}
+
+form#site-manager dd
+{
+	float: left;
+	margin-left: 0;
+}
+
+div#welcome,
+div#welcome div.inner { 
+	height: 53px; 
+}
+
+div.help {
+	position:absolute;
+	top:15px;
+	left:215px;
+}
+
+body#popup div.help {
+	position:absolute;
+	top:10px;
+	right:100px;
+}
+
+div#welcome
+{
+	background: url("images/div%23welcome-bkgd.gif") no-repeat right top;
+	margin-top: 16px;
+	padding-right: 14px;
+	/*width: 200px;*/
+}
+
+html>body div#welcome 
+{
+	width: auto;
+	min-width: 200px;
+	padding-right: 0;
+}
+
+div#welcome div.inner
+{
+	position: relative;
+	left: -4px;
+	padding: 9px 0 0 13px;
+	background: url("images/div%23welcome-inner-bkgd.gif") no-repeat left top;
+	float: left;
+	min-width:200px;
+}
+
+
+div#top
+{
+	position: absolute;
+	top: 69px;
+	left: 25px;
+	width: 1003px;
+}
+div#top1
+{
+	position: absolute;
+	top: 99px;
+	left: 25px;
+	width: 1003px;
+}
+
+div#sub
+{
+	position: absolute;
+	top: 124px;
+	left: 21px;
+	width: 1003px;
+}
+
+/*
+
+	body rules
+
+*/
+
+div#body
+{
+	background: url("images/div%23body-bkgd.jpg") repeat-y left top;
+	width: 1003px;
+}
+
+div#body-left,
+div#body-right
+{
+	float: left;
+	padding-bottom: 0px;
+	/*height: 380px; DRE 20080423 this line, above from 30 to 5*/
+}
+
+
+div#body-left
+{
+	width: 212px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+div#body-right { width: 791px; }
+
+html>body div#body-left
+{
+	min-height: 380px; 
+}
+
+div#body-left div.content  { padding: 0 13px 0 10px; }
+
+div#body-right div.content 
+{ 
+	position: relative;
+	top: 0px;
+	left: 10px;
+	border-top: solid #ffffff 1px;
+}
+body#popup div#body-right div.content {
+	top: 5px;
+	border-top: solid #dfdfdf 1px;
+}

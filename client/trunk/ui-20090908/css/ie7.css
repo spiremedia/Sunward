@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+#lc div {
+	width: 904px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.navDiv {
+	 white-space: nowrap;
+	 padding: 56px 0 0 0;
+	 width: 610px;
+	 } 
+	 
+#thumbnailBlock ul {
+	padding: 15px 0 0 0;
+	}
+
+.specialDeals {
+	margin: 5px 0 5px 0;
+	}
+
+.homeFlashPiece {
+	 margin: 5px 5px 5px 0;
+	}
+
+#nav  .sub {
+	padding: 3px 0 0 0;
+	}

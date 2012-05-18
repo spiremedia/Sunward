@@ -1,0 +1,1 @@
+Welcome the Image Galleries area.

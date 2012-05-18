@@ -1,0 +1,182 @@
+<cfcontent reset="Yes"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="<cfoutput>#getLocale()#</cfoutput>" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- InstanceBegin template="/Templates/home.dwt.cfm" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+	<title><cfoutput>#this.mPage.SiteTitle#</cfoutput> - <cfoutput>#this.mPage.title#</cfoutput></title>
+<!-- InstanceEndEditable -->
+	<!---<base href="<cfoutput>#this.mPage.baseUrl#</cfoutput>" />--->
+	<!---
+	///
+	/// Dublin Core Metadata Forward thinking schema for Meta Data, compliant with XHTML 1.1
+	///
+	--->
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+	<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+	<meta name="DC.title" content="<cfoutput>#XmlFormat(this.mPage.title)#</cfoutput>" />
+	<meta name="DC.keywords" content="<cfoutput>#XmlFormat(this.mPage.keywords)#</cfoutput>" />
+	<meta name="DC.description" content="<cfoutput>#XmlFormat(this.mPage.description)#</cfoutput>" />
+	<meta name="DC.date" content="<cfoutput>#XmlFormat(this.mPage.published)#</cfoutput>" />
+	<meta name="DC.publisher" content="<cfoutput>#XmlFormat(this.mPage.author)#</cfoutput>" />
+	<meta name="Author" content="<cfoutput>#this.mPage.Author#</cfoutput>" />
+	<meta name="author-email" content="<cfoutput>#this.mPage.AuthorEmail#</cfoutput>" />
+	<meta name="keywords" content="<cfoutput>#this.mPage.keywords#</cfoutput>" />
+	<meta name="description" content="<cfoutput>#this.mPage.description#</cfoutput>" />
+	<meta name="generator" content="<cfoutput>#this.mPage.generator#</cfoutput>" />
+
+	<!--
+	///
+	/// SpireESM Required assets
+	///
+	-->
+	<style type="text/css" media="all">@import "/ui/esm/co.css";</style>
+	<script type="text/javascript" src="/ui/esm/Pre.js"></script>
+	<script type="text/javascript" src="/ui/esm/co.js"></script>
+
+	<cfif isDefined('variables.toolbarobj')>
+		<style type="text/css" media="all">@import "/ui/esm/t.css";</style>
+		<script type="text/javascript" src="/ui/esm/effects.js"></script>
+		<script type="text/javascript" src="/ui/esm/Toolbar.js"></script>
+	</cfif>
+
+	<script type="text/javascript" src="/ui/js/nav.js"></script>
+	<script type="text/javascript" src="/ui/js/swfobject.js"></script>
+
+	<style type="text/css" media="all">
+		@import url("/ui/css/sunward.css");
+		@import url("/ui/css/nav.css");
+    </style>
+
+
+</head>
+
+<body class="homeBody">
+
+
+<cfif isDefined('variables.toolbarobj')>
+	<cfset variables.toolBarObj.renderControl()>
+</cfif>
+	<!---
+	///
+	/// The div#custom-template-container should be used as a <body> tag replacement in css
+	/// e.g. with the setting of css background images. This creates a more concise and
+	/// predictable container beneath the toolbar control.
+	///
+	--->
+	<!-- InstanceBeginEditable name="Custom Template Container" -->
+		<div id="container">
+
+			<div id="header">
+
+				<cfset c.mainnav.renderControl()>
+				<!---<cfinclude template="/view/includes/header.cfm">--->		<!---	Included header, same header on all templates	--->
+
+				<div id="bodyContent">
+					<div id="bodyContentTop">
+
+						<!--- top left area under nav bar on home page --->
+						<div id="bodyContentTopLeft">
+							<cfif c.content[1].hasContent() or c.content[1].preview>
+								<div><cfset c.content[1].renderControl()>&nbsp;</div>
+							</cfif>
+						</div>
+
+						<!--- top right area under nav bar on home page,  should contain swf --->
+						<div id="bodyContentTopRight">
+
+
+							<div id="flashcontent">
+
+							</div>
+
+							<script type="text/javascript">
+							  var so = new SWFObject("/docs/A3530C21-BD6F-89DB-30CE2208C9415B23/sunwardHomepage.swf", "mymovie", "609", "270", "8", "#336699");
+							  so.addParam('wmode','transparent');
+							  so.write("flashcontent");
+							</script
+						</div>
+
+					</div>
+
+					<div id="bodyContentBottom">
+						<div id="bodyContentBottomBlkPnl">
+
+							<div class="blackPanels">
+								<!--- Center of Home Page, far left Image/Area --->
+								<div class="blkPanelsImgSlot">
+									<cfif c.content[3].hasContent() or c.content[3].preview>
+										<div><cfset c.content[3].renderControl()>&nbsp;</div>
+									</cfif>
+								</div>
+							</div>
+
+							<div class="blackPanels">
+								<!--- Center of Home Page, middle pannel Image/Area --->
+								<div class="blkPanelsImgSlot">
+									<cfif c.content[4].hasContent() or c.content[4].preview>
+										<div><cfset c.content[4].renderControl()>&nbsp;</div>
+									</cfif>
+								</div>
+							</div>
+
+							<div class="blackPanels">
+								<!--- Center of Home Page, far right pannel Image/Area --->
+								<div class="blkPanelsImgSlot">
+									<cfif c.content[5].hasContent() or c.content[5].preview>
+										<div><cfset c.content[5].renderControl()>&nbsp;</div>
+									</cfif>
+								</div>
+							</div>
+
+						</div>
+
+						<!--- Bottom of Home Page, left panel --->
+						<div class="bluePanels">
+							<cfif c.content[6].hasContent() or c.content[6].preview>
+								<div><cfset c.content[6].renderControl()>&nbsp;</div>
+							</cfif>
+						</div>
+
+						<!--- Bottom of Home Page, Right Panel --->
+						<div class="bluePanels">
+							<cfif c.content[7].hasContent() or c.content[7].preview>
+								<div><cfset c.content[7].renderControl()>&nbsp;</div>
+							</cfif>
+						</div>
+
+						<br/>
+
+						<!--- very Bottom of Home page, panel that spans accors page width --->
+						<div class="btmImgSlot">
+							<cfif c.content[8].hasContent() or c.content[8].preview>
+								<div><cfset c.content[8].renderControl()>&nbsp;</div>
+							</cfif>
+						</div>
+					</div>
+				<!---</div>--->
+
+				<cfinclude template="/view/includes/footer.cfm">		<!---	Included footer, same footer on all templates	--->
+				</div>
+
+			</div>
+		</div>
+
+<!-- InstanceEndEditable -->
+
+	<cfif this.previewPage>
+		<script type="text/javascript">
+			if(parent != window)
+			{
+				new editBlock.ESM
+				(
+					'<cfoutput>#JsStringFormat(this.mPage.cmsUrl)#/content/?smid=#this.mPage.id#</cfoutput>',
+					{ containers: ['assetlist', 'text', 'form'] }
+				);
+			}
+		</script>
+	</cfif>
+</body>
+<!-- InstanceEnd -->
+</html>

@@ -1,0 +1,530 @@
+<cfsavecontent variable="html"><?xml version="1.0" encoding="UTF-8"?>
+				<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//</loc>
+					  <lastmod>2011-07-27</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//404/</loc>
+					  <lastmod>2009-04-02</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//AISC/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Search/</loc>
+					  <lastmod>2009-09-08</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//AboutUs/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/</loc>
+					  <lastmod>2011-07-19</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//ContactUs/</loc>
+					  <lastmod>2010-12-06</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//DealsSales/</loc>
+					  <lastmod>2011-11-15</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Definitions/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Dealerships/</loc>
+					  <lastmod>2010-11-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Definitions/S/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//PrivacyPolicy/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Specifications/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Definitions/P-R/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Definitions/T-Z/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//AboutUs/History/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Definitions/D-H/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Definitions/I-L/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Definitions/M-O/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/Retail/</loc>
+					  <lastmod>2009-03-30</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//QualityFeatures/</loc>
+					  <lastmod>2010-01-22</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Definitions/A-C/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//AboutUs/Trucking/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//AboutUs/bbbaward/</loc>
+					  <lastmod>2011-06-08</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//AboutUs/Factories/</loc>
+					  <lastmod>2009-03-23</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//DealsSales/Gambrel/</loc>
+					  <lastmod>2011-04-20</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//CareerOpportunities/</loc>
+					  <lastmod>2010-04-08</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/Industrial/</loc>
+					  <lastmod>2010-08-10</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//QualityFeatures/AISC/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/Agriculture/</loc>
+					  <lastmod>2011-07-19</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/UtilityShops/</loc>
+					  <lastmod>2011-06-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Specifications/Design/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/CustomDesigns/</loc>
+					  <lastmod>2011-03-30</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/Retail/winery/</loc>
+					  <lastmod>2010-12-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/MiniWarehouses/</loc>
+					  <lastmod>2011-04-25</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/Retail/Retail_1/</loc>
+					  <lastmod>2010-09-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/Retail/Retail_3/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//AboutUs/Factories/Purlins/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//DealsSales/EasyToAssemble/</loc>
+					  <lastmod>2009-02-04</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//ContactUs/ContactFormThanks/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/Retail/MultiPurpose/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//DealsSales/ConstructYourself/</loc>
+					  <lastmod>2011-03-30</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/UtilityShops/garages/</loc>
+					  <lastmod>2011-07-19</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//QualityFeatures/5starfeatures/</loc>
+					  <lastmod>2011-01-26</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/BarnsAndRidingArenas/</loc>
+					  <lastmod>2011-07-19</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//AboutUs/Trucking/PickYourColor/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/Industrial/GreenAward/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//QualityFeatures/Certifications/</loc>
+					  <lastmod>2009-12-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//CareerOpportunities/JobExpoApp/</loc>
+					  <lastmod>2010-04-08</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/CustomDesigns/Pavilion/</loc>
+					  <lastmod>2010-12-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/Agriculture/haystorage/</loc>
+					  <lastmod>2011-07-19</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/Industrial/Industrial2/</loc>
+					  <lastmod>2010-12-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/Agriculture/greenhouse/</loc>
+					  <lastmod>2011-07-19</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/AviationAircraftHangars/</loc>
+					  <lastmod>2010-09-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/Industrial/Industrial_1/</loc>
+					  <lastmod>2010-09-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/CustomDesigns/steelhome/</loc>
+					  <lastmod>2010-12-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/Agriculture/CustomStyles/</loc>
+					  <lastmod>2011-07-19</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/CustomDesigns/mezzanines/</loc>
+					  <lastmod>2010-08-10</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/UtilityShops/BoatStorage/</loc>
+					  <lastmod>2011-07-19</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/MiniWarehouses/Components/</loc>
+					  <lastmod>2011-01-17</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//ContactUs/FrequentlyAskedQuestions/</loc>
+					  <lastmod>2009-04-28</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/Agriculture/Agriculture_1/</loc>
+					  <lastmod>2011-06-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/Agriculture/Agriculture_2/</loc>
+					  <lastmod>2011-07-19</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/Agriculture/Agriculture_3/</loc>
+					  <lastmod>2011-07-19</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/CustomDesigns/FireStations/</loc>
+					  <lastmod>2010-12-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//AboutUs/Factories/HeatPaintedFrames/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/Industrial/oilfieldprojects/</loc>
+					  <lastmod>2011-12-08</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Specifications/SpecificationsGeneral/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//QualityFeatures/ExclusiveSunwardLine/</loc>
+					  <lastmod>2009-07-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//QualityFeatures/BeautifulTrimPackage/</loc>
+					  <lastmod>2011-12-29</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/BarnsAndRidingArenas/Barns_2/</loc>
+					  <lastmod>2009-12-30</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Specifications/SpecificationsErection/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/UtilityShops/Utility_Shops_2/</loc>
+					  <lastmod>2009-03-31</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/BarnsAndRidingArenas/Barns_1/</loc>
+					  <lastmod>2009-12-30</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/CustomDesigns/HarleyDavidson/</loc>
+					  <lastmod>2010-09-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/BarnsAndRidingArenas/Barns_3/</loc>
+					  <lastmod>2011-07-19</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/UtilityShops/Utility_Shops_1/</loc>
+					  <lastmod>2010-09-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/UtilityShops/Utility_Shops_3/</loc>
+					  <lastmod>2011-07-19</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/UtilityShops/UtilityBuildings/</loc>
+					  <lastmod>2010-09-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//ContactUs/Directions/NorthCharlestonSC/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/Industrial/TexasNationalGuard/</loc>
+					  <lastmod>2010-12-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Specifications/SpecificationsStructural/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/CustomDesigns/parkingstructures/</loc>
+					  <lastmod>2011-06-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/CustomDesigns/militaryHospitaal/</loc>
+					  <lastmod>2011-03-24</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Specifications/SpecificationsAccessories/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//AboutUs/Factories/CertifiedManufacturing/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/CustomDesigns/AwardWinningDesigns/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/AviationAircraftHangars/Aviation_2/</loc>
+					  <lastmod>2011-07-19</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/CustomDesigns/IndoorTennisFacility/</loc>
+					  <lastmod>2010-12-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/AviationAircraftHangars/Aviation_1/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/AviationAircraftHangars/Aviation_3/</loc>
+					  <lastmod>2011-07-19</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/CustomDesigns/steelhome/steelhouse/</loc>
+					  <lastmod>2010-12-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//QualityFeatures/5starfeatures/framingdetails/</loc>
+					  <lastmod>2011-07-19</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/AviationAircraftHangars/PhotoGallery/</loc>
+					  <lastmod>2010-09-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Specifications/SpecificationsRoofAndWallCovering/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//QualityFeatures/BeautifulTrimPackage/G90BaseAngle/</loc>
+					  <lastmod>2010-04-08</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/BarnsAndRidingArenas/EquestrainFacilities/</loc>
+					  <lastmod>2011-07-19</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Specifications/SpecificationsAnchorageAndFoundations/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//QualityFeatures/5starfeatures/5starsheeting/5starquality/</loc>
+					  <lastmod>2011-01-26</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Specifications/SpecificationsBasicMaterialSpecifications/</loc>
+					  <lastmod>2009-01-21</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Products/CustomDesigns/IndoorTennisFacility/HockeyFacility/</loc>
+					  <lastmod>2010-12-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//QualityFeatures/5starfeatures/5starsheeting/5startrimpackage/</loc>
+					  <lastmod>2011-01-27</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//Specifications/SpecificationsMiscellaneousMaterialSpecifications/</loc>
+					  <lastmod>2009-01-13</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//QualityFeatures/5starfeatures/5starBuildings/5StarFraming/5starframes/</loc>
+					  <lastmod>2011-01-26</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://sunward.amazonaws.com//UnitTesting/UnitTesting/UnitTesting/UnitTesting/UnitTesting/UnitTesting/UnitTesting/UnitTesting/UnitTesting/UnitTesting/UnitTesting/UnitTesting/UnitTesting/UnitTesting/UnitTesting/UnitTest</loc>
+					  <lastmod>2012-05-15</lastmod>
+				   </url>
+				
+				</urlset> 
+			</cfsavecontent>

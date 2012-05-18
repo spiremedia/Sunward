@@ -1,0 +1,1 @@
+Welcome the the Image Galleries start page!

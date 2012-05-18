@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+.txtBottomBar1 {
+	width: 675px;
+	margin: 0;
+	padding: 0;
+	float: right;
+	}
+
+.txtBottomBar1 img {
+	max-width: 675px;
+	}
+
+.txtTopBar {
+	width: 675px;
+	margin: 0;
+	padding: 0;
+	float: right;
+	font-style:italic;
+	font-weight:bold;
+	font-size:11px;
+	}
+
+.txtTopBar img {
+	max-width: 675px;
+	}
+
+.txtBottomBar1TextOnly {
+	width: 675px;
+	margin: 0;
+	padding: 0;
+	float: right;
+	}
+
+.splitright, .splitrightImagePage {
+	float:right;
+	width:220px;
+	margin:0;
+	padding:0;
+}
+
+.splitrightImagePage div img {
+	max-width:250px;
+	}
+
+.splitright div img {
+	max-width:220px;
+	}
+
+.splitright p, splitrightImagePage p {
+	margin:0;
+	padding:0;
+	}
+	
+.splitleft {
+	width:410px;
+	margin:0;
+	padding:0;
+}
+
+.splitleft div img {
+	max-width:410px;
+}
+
+#interiorLeftBarNav  {
+	width:200px; 
+	height: auto; 
+	color:#666666; 
+	font-size:12px;
+	font-weight:bold;
+	margin: 0 0 0 -62px;
+	}
+	
+#textPageBodyContent {
+	background:white url(/ui/img/menubgIE6.gif) repeat-y scroll left center;
+	}
+
+.navDiv {
+	 white-space: nowrap;
+	 padding: 0px;
+	 width: 610px;
+	 margin: -1px 0 0 0;
+	 }
+
+.searchForm {
+	 margin: 0 -25px 0 0;
+	 position: relative;
+	}
+
+
+.specialDeals {
+	margin: 5px 0 5px 0;
+	}
+
+.homeFlashPiece {
+	 margin: 5px 3px 5px 0;
+	}
+
+#nav  .sub {
+	padding: 3px 0 0 0;
+	}

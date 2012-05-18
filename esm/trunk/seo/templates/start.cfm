@@ -1,0 +1,1 @@
+This section of the site is about optimizing the site and individual site pages for search engine placement.

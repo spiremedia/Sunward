@@ -1,0 +1,421 @@
+<cfsavecontent variable="html"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    
+        <head>
+        
+            <meta http-equiv="X-UA-Compatible" content="IE=8" />
+            <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+            <meta http-equiv="Content-Style-Type" content="text/css" />
+            <meta name="description" content="default description" />
+            <meta name="keywords" content="Sunward Consolidated, metal building, steel buildings,
+prefabricated buildings, steel building kits, custom barn, prefab
+buildings, metal building kits, aircraft hangar, prefabricated
+steel buildings" />
+            
+            <title>D-H</title>
+            
+            
+            <script type="text/javascript" src="/ui/js/nav.js"></script>
+            <script type="text/javascript" src="/ui/js/swfobject.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/jquery-1.2.6.pack.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.core.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.accordion.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.tabs.js"></script>
+            
+            
+            <link type="text/css" rel="stylesheet" href="/ui/css/interior.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/sunward.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/nav.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/form.css" />
+            <!--[if lte IE 8]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie8.css" />
+            <![endif]-->
+            <!--[if lte IE 7]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie7.css" />
+            <![endif]-->
+            <!--[if lte IE 6]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie6.css" />
+            <![endif]-->
+    
+        </head>
+    
+    <body class="homeBody">
+
+
+
+<div id="textpageWrapper">
+
+    <table class="ht" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+            <td class="hlf">&nbsp;</td>
+            <td class="hc" nowrap="nowrap">
+	<div class="searchForm">
+    
+	    <b class="loginout"><a href="/Users/Login/">Dealer Login</a></b>
+	<br />
+		<form action="/Search/" method="get" >
+			<input name="search" type="text"  size="19" class="text" />
+			<input type="submit" name="button" value="Search" class="searchButton" />
+		</form>
+	</div>
+                <div class="navDiv">
+			<ul id="nav"><li class="first"><a href="/Products/" onmouseover="document.Image1.src='/ui/img/btn_Products_over.gif'"
+onmouseout="document.Image1.src='/ui/img/btn_Products.gif'"><img src="/ui/img/btn_Products.gif" name="Image1" /></a><ul class="sub"><li><a href="/Products/">Products</a></li><li><a href="/Products/Agriculture/">Agriculture</a></li><li><a href="/Products/UtilityShops/">Utility Shops</a></li><li><a href="/Products/BarnsAndRidingArenas/">Barns and Riding Arenas</a></li><li><a href="/Products/AviationAircraftHangars/">Aviation Aircraft Hangars</a></li><li><a href="/Products/MiniWarehouses/">Mini Warehouses</a></li><li><a href="/Products/Retail/">Retail</a></li><li><a href="/Products/Industrial/">Industrial</a></li><li><a href="/Products/CustomDesigns/">Custom Designs</a></li><li><a href="/Products/accessories/">Accessories</a></li><li><a href="/Products/Customframingdesigns/">Concept Renderings</a></li></ul></li><li ><a href="/Dealerships/" onmouseover="document.Image2.src='/ui/img/btn_Dealerships_over.gif'"
+onmouseout="document.Image2.src='/ui/img/btn_Dealerships.gif'"><img src="/ui/img/btn_Dealerships.gif" name="Image2" /></a></li><li ><a href="/ContactUs/" onmouseover="document.Image3.src='/ui/img/btn_ContactUs_over.gif'"
+onmouseout="document.Image3.src='/ui/img/btn_ContactUs.gif'"><img src="/ui/img/btn_ContactUs.gif" name="Image3" /></a><ul class="sub"><li><a href="/ContactUs/">Contact Us</a></li><li><a href="/ContactUs/FrequentlyAskedQuestions/">Frequently Asked Questions</a></li></ul></li><li ><a href="/QualityFeatures/" onmouseover="document.Image4.src='/ui/img/btn_QualityFeatures_over.gif'"
+onmouseout="document.Image4.src='/ui/img/btn_QualityFeatures.gif'"><img src="/ui/img/btn_QualityFeatures.gif" name="Image4" /></a><ul class="sub"><li><a href="/QualityFeatures/">Quality Features</a></li><li><a href="/QualityFeatures/Certifications/">Certifications</a></li><li><a href="/QualityFeatures/ExclusiveSunwardLine/">Exclusive Sunward Line</a></li><li><a href="/QualityFeatures/substructure/">Door & Window Sub-structure</a></li><li><a href="/QualityFeatures/BeautifulTrimPackage/">Beautiful Trim Package</a></li><li><a href="/QualityFeatures/closures/">Closure System</a></li><li><a href="/QualityFeatures/fasteners/">Fasteners</a></li><li><a href="/QualityFeatures/siphongroove1/">Special Siphon Groove</a></li><li><a href="/QualityFeatures/SoffitSystem/">Soffit System</a></li><li><a href="/QualityFeatures/5starfeatures/">5 Star Features</a></li></ul></li><li ><a href="/AboutUs/" onmouseover="document.Image5.src='/ui/img/btn_AboutUs_over.gif'"
+onmouseout="document.Image5.src='/ui/img/btn_AboutUs.gif'"><img src="/ui/img/btn_AboutUs.gif" name="Image5" /></a><ul class="sub"><li><a href="/AboutUs/">About Us</a></li><li><a href="/AboutUs/Factories/">Factories</a></li><li><a href="/AboutUs/Trucking/">Trucking</a></li><li><a href="/AboutUs/bbbaward/">BBB Award</a></li></ul></li><li ><a href="/DealsSales/" onmouseover="document.Image6.src='/ui/img/btn_DealsSales_over.gif'"
+onmouseout="document.Image6.src='/ui/img/btn_DealsSales.gif'"><img src="/ui/img/btn_DealsSales.gif" name="Image6" /></a><ul class="sub"><li><a href="/DealsSales/">Deals & Sales</a></li><li><a href="/DealsSales/EasyToAssemble/">Easy to Assemble</a></li><li><a href="/DealsSales/ConstructYourself/">Construct Yourself</a></li><li><a href="/DealsSales/insulationpackages/">Insulation Packages</a></li><li><a href="/DealsSales/taxcredits/">Energy Star Tax Credits</a></li><li><a href="/DealsSales/PumpingUnits/">Sunward Pumping Units</a></li><li><a href="/DealsSales/TeamofProfessionals/">Team Of Professionals</a></li><li><a href="/DealsSales/Gambrel/">Gambrel</a></li></ul></li><li ><a href="/Dealers/" onmouseover="document.Image7.src='/ui/img/btn_Dealers_over.gif'"
+onmouseout="document.Image7.src='/ui/img/btn_Dealers.gif'"><img src="/ui/img/btn_Dealers.gif" name="Image7" /></a></li></ul>
+		</div>
+            </td>
+            <td class="hrf">&nbsp;</td>
+        </tr>
+    </table>
+	
+   <div id="textpageContainer">
+        <div id="textPageCrumbs">
+            
+            <ul><li><a href="/">Home</a></li> &gt; <li><a href="/Definitions/">Definitions</a></li> &gt; <li>D-H</li></ul>
+        </div>
+        <div id="textPageInteriorTitle">
+            
+            D-H
+        </div>
+        <div id="textPageBodyContent">
+            <div id="interiorLeftBar">
+				
+                <div id="interiorLeftBarNav">
+                    
+			<ul>
+				
+						<li class="sidenavlevel3">
+							<a href="/Definitions/A-C/" >A-C<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3 itemOn3 itemOn3First sidenavlevel3NoSubnav">
+							<a href="/Definitions/D-H/" >D-H<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/I-L/" >I-L<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/M-O/" >M-O<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/P-R/" >P-R<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/S/" >S<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/T-Z/" >T-Z<br></a>
+							
+							
+						</li>
+					   
+			</ul>
+		
+                </div>
+            </div>
+            <div class="txtTopBar"  >
+				
+                
+                    <div class="imageText">
+
+
+
+
+
+
+<h1>Definitions D - H</h1>
+
+Damper: A baffle used to open or close the throat of ventilators.
+They can be operated manually or by motors.<br />
+Dead Loads: The dead load of a building is the weight of all
+permanent construction, such as floor, roof, framing, and covering
+members.<br />
+Deflection: The displacement of a structural member or system under
+load.<br />
+Design Loads: Those loads specified in building codes published by
+Federal, State, County or City agencies, or in owners'
+specifications to be used in the design of a building.<br />
+Design Professional: Any Architect or Engineer<br />
+Diagonal Bracing: See " Bracing"<br />
+Diaphragm Action: The resistance to racking generally offered by
+the covering systems, fasteners, and secondary framing.<br />
+Door Guide: An angle or channel used to stabilize or keep plumb a
+sliding or rolling door during its operation.<br />
+Downspout: A conduit used to carry water from the gutter of a
+building.<br />
+Drift (sidesway): Horizontal displacement at the top of a vertical
+element due to lateral loads. Drift should not be confused with
+"Deflection".<br />
+Drift (Snow): The snow accumulation at a height
+discontinuity.<br />
+Drift Pin: A tapered pin used during erection to align holes in
+steel members to be connected by bolting.<br />
+Eave: the line along the sidewall formed by the intersection of the
+planes of the roof and wall.<br />
+Eave Canopy: A projecting roof system on the sidewall that is
+supported and restrained at one end only.<br />
+Eave Gutter: See "Gutter"<br />
+Eave Height: The vertical dimension from finished floor to the top
+of the eave strut.<br />
+Eave Strut: A structural member at the eave to support roof panels
+and wall panels. It may also transmit wind forced from roof bracing
+to wall bracing.<br />
+Edge Strip: The surface area of a building at the edges of a roof
+and at the wall intersections where the wind loads on components
+and cladding are greater than at other areas of the building.<br />
+Effective Wind Area: The area used to determine the wind
+coefficient. The effective wind area may be greater than or equal
+to the tributary area.<br />
+Elastic Design: A design concept utilizing the proportional
+behavior of materials when all stresses are limited to specified
+allowable values in the elastic range.<br />
+Electric operated Crane: A crane in which the bridge, hoist or
+trolley is operated by electric power.<br />
+Electric Overhead Traveling Crane: An electrically operated machine
+for lifting, lowering and transporting loads, consisting of a
+movable bridge carrying a fixed or movable hoisting mechanism and
+traveling on an overhead runway structure.<br />
+End Approach: The minimum horizontal distance, parallel to the
+runway, between the outermost extremities of the crane and the
+centerline of the hook.<br />
+End Bay: The bays adjacent to the endwalls of a building. Usually
+the distance from the endwall to the first interior main frame
+measured normal to the endwall.<br />
+End Frame: A frame located at the endwall of a building which
+supports the loads from a portion of the end bay.<br />
+End Post: See "Endwall Column"<br />
+End Stop: A device attached to a crane runway or rail to provide a
+safety stop at the end of a runway.<br />
+End Truck: The unit consisting of truck frame, wheels, bearings,
+axles, etc., which supports the bridge girders.<br />
+Endwall: An exterior wall which is parallel to the interior main
+frame of the building.<br />
+Endwall Column: A vertical member located at the endwall of a
+building which supports the girts. In post and beam endwall frames,
+endwall columns also support rafter.<br />
+Endwall Overhang: See "Purlin Extension"<br />
+End Zone: The surface area of a building along the roof at the
+endwall and at the corners of walls.<br />
+Engineer/Architect of Record: The Engineer or Architect that is
+responsible for the overall design of the building project. The
+manufacturer's engineer is not the Engineer of Record.<br />
+Erection: The on-site assembling of fabricated Metal Building
+System components to form a completed structure.<br />
+Erection Bracing: Materials used by erectors to stabilize the
+building system during erection, also typically referred to as
+temporary bracing.<br />
+Erection Drawings: Roof and Wall erection (framing) drawings that
+identify individual components and accessories furnished by the
+manufacturer in sufficient detail to permit proper erection of the
+Metal Building System.<br />
+Erector : A party who assembles or erects a Metal Building
+System.<br />
+Expansion Joint: A break or space in construction to allow for
+thermal expansion and contraction of the materials used in the
+structure.<br />
+Exterior Framed: A wall framing system where the girts are mounted
+on the outside of the columns<br />
+Fabrication: The manufacturing process performed in a plant to
+convert raw material into finished Metal Building System
+components. The main operations are cold forming, cutting,
+punching, welding, cleaning and painting.<br />
+Fa&#231;ade: an architectural treatment, partially covering wall,
+usually concealing the eave and/or the rake of the building.<br />
+Fading: Refers to the paint finish on panels becoming less vibrant
+of color.<br />
+Fascia: A decorative trim or panel projecting from the face of the
+wall.<br />
+Fenestration: Windows or other panels of glass; their numbers and
+location.<br />
+Field: the "job site", "building site" or general marketing
+area.<br />
+Filler Strip: See "Closure Strip"<br />
+Film Laminated Coil: coil metal that has a corrosion resistant film
+laminated to it prior to the forming operation.<br />
+Fixed Clip: A standing seam roof system hold down clip which does
+not allow the roof panel to move independently of the roof
+substructure.<br />
+Fixed Base: A column base that is designed to resist rotation as
+well as horizontal or vertical movement.<br />
+Flange: The projecting edge of a structural member.<br />
+Flange Brace: A member used to provide lateral support to the
+flange of a structural member.<br />
+Flashing: The metal used to "trim" or cover the juncture of two
+planes of material.<br />
+Floating Clip: A standing seam roof system hold down clip which
+allows the roof panel to move independently of the roof
+substructure. Also known as "Sliding Clip" or "Slip Clip"<br />
+Floor Live Load: Those loads induced on the floor system by the use
+and occupancy of the building.<br />
+Flush Girts: A wall framing system where the outside flange of the
+girts and the columns are flush.<br />
+Footing: A pad or mat, usually of concrete, located under a column,
+wall or other structural member, that is used to distribute the
+loads from the member into the supporting soil.<br />
+Force: The action of one body to another body which changes or
+tends to change its state of rest or motion. A force may be
+expressed in pounds (Newtons), kips, or other similar units and may
+act in any one of the following ways:<br />
+&#160;&#160;&#160;&#160;&#160; A. Compression Force: A force acting
+on a body tending to compress the body, (pushing action)<br />
+&#160;&#160;&#160;&#160;&#160; B. Shear Force: A force acting on a
+body which tends to slide one portion of the body against the<br />
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; other
+portion of the body. (sliding action)<br />
+&#160;&#160;&#160;&#160;&#160; C. Tension Force: A force acting on
+a body tending to elongate the body. (sliding action)<br />
+&#160;&#160;&#160;&#160;&#160; D. Torsion Force: A force acting on
+a body which tends to twist the body.<br />
+Foundation: The substructure which supports a building or other
+structure.<br />
+Framed Opening: Frame work (headers and jambs) and flashing which
+surround an opening in the wall or roof of a building; usually for
+field installed accessories such as overhead doors or powered roof
+exhausters.<br />
+Framing: The primary and secondary structural members (columns,
+rafters, girts, purlins, brace rods, etc.) which go together to
+make up the skeleton of a structure to which the covering can be
+applied.<br />
+Framing Drawings: Plans and erection instructions which identify
+all individual parts in sufficient detail to permit the proper
+erection and installation of all parts of the metal building system
+furnished by the seller (also known as erection drawings)<br />
+Gable: The triangular portion of the endwall from the level of the
+eave to the ridge of the roof.<br />
+Gable overhang: See "Purlin Extension"<br />
+Gable Roof: A roof consisting of two sloping roof planes, that form
+a ridge and form a gable at each end.<br />
+Galvanized: Steel coated with zinc for corrosion resistance.<br />
+Gantry Crane: A crane similar to an overhead crane except that the
+bridge for carrying the trolley or trolleys is rigidly supported on
+one or more legs running on fixed rails or other runway.<br />
+Girder: A main horizontal or near horizontal structural member that
+supports vertical loads. It may consist of several pieces.<br />
+Girt: A horizontal structural member that is attached to sidewall
+or endwall columns and supports paneling.<br />
+Glaze: The process of installing glass in windows and doors.<br />
+Glazing: Glass panes or paneling used in windows and doors.<br />
+Grade: The term used when referring to the ground elevation around
+a building.<br />
+Grade Beam: A concrete beam around the perimeter of a
+building.<br />
+Ground Snow Load: The probable weight of snow on the ground for a
+specified recurrence interval exclusive of drifts or sliding
+snow.<br />
+Grout: A mixture of cement, sand and water used to fill cracks and
+cavities. Sometimes used under base plates or leveling plates to
+obtain uniform bearing surfaces.<br />
+Gusset Plate: A steel plate used to reinforce or connect structural
+elements.<br />
+Gutter: A light gauge metal member at an eave, valley or parapet
+designed to carry water from the roof to downspouts or
+drains.<br />
+&#160;"H" Section: A steel member with a cross section in the shape
+of an "H"<br />
+Hair Pin: "V" shaped reinforcing steel used to transfer anchor bolt
+shear to the concrete floor mass.<br />
+Hand Geared (Crane): A crane in which the bridge, hoist, or trolley
+is operated<br />
+Haunch: The deepened portion of a column or rafter designed to
+accommodate the higher bending moments at such points. (Usually
+occurs at the intersection of the column and the rafter)<br />
+Header: The horizontal framing member located at the top of a
+framed opening.<br />
+High Strength Bolts: any bolt made from steel having a tensile
+strength in excess of 100,000 pounds per square inch.<br />
+High Strength Steel: structural steel having a yield stress in
+excess of 36,000 pounds per square inch.<br />
+Hinged Base: see "Pinned Base"<br />
+Hip: The line formed at the intersection of two adjacent sloping
+planes of a roof.<br />
+Hip Roof: A roof which rises by inclined planes from all four sides
+of a building. The line where two adjacent sloping sides of a roof
+meet is called the hip.<br />
+Hood (Door): The metal flashing used over exterior slide door track
+along the full length of the door header to protect the tracks from
+weather and to conceal them for aesthetic purposes.<br />
+Hoist: A mechanical lifting device usually attached to a trolley,
+which travels along a bridge, monorail or rib crane. May be chain
+or electric operated.<br />
+Horizontal Guide Rollers: Wheels mounted near the ends of end
+trucks which roll on the side of the rail to restrict lateral
+movement of the crane.<br />
+Hot-Rolled Shapes: Steel sections (angles, channels, "S" shapes,
+"W" shapes etc.) which are formed by rolling mills while the steel
+is in a semi-molten state<br />
+
+
+
+</div>
+                
+            </div>
+            <div class="txtBottomBar1">
+                <div class="splitright">
+                    
+                </div>
+                <div class="splitleft">
+                    
+                </div>	
+            </div>
+            <div class="clear">&nbsp;</div>
+        </div>
+    </div>
+        <div id="footer">
+        <div class="footerR"><img src="/ui/img/aisc_bbb.gif" /></div>
+        <div class="footerL">
+        	<div><span>&copy; 2007 Sunward Consolidated Group</span></div>
+            <div>
+                <ul>
+                    <li><a href="/Specifications/">Specififcations</a></li>
+                    <li><a href="/CareerOpportunities/">Career Opportunities</a></li>
+                    <li><a href="/PrivacyPolicy/">Privacy Policy</a></li>
+                    <li><a href="/Definitions/">Definitions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-7011302-1");
+	pageTracker._trackPageview();
+	} catch(err) {}
+</script>
+  
+</body>
+
+</html>
+</div>
+</body>
+
+</html>
+
+</cfsavecontent>

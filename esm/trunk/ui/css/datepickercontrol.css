@@ -1,0 +1,145 @@
+/**
+ * Style sheet for CalendarPickerControl
+ * Mozilla's home - like theme
+ */
+
+div.calendarbutton{
+	position: absolute;
+	width: 15px;
+	height: 16px;
+	background: transparent url(/ui/css/images/calendar_icon.png) no-repeat center;
+}
+
+#CalendarPickerControl{
+	background-color: transparent;
+	width: 250px;
+	height: 200px;
+}
+
+#CalendarPickerControl table.calframe{
+	width: 100%;
+	border: 1px solid black;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+#CalendarPickerControl td.monthname{
+	width: 100%;
+	font: normal 13px Verdana;
+	color: #6A7389;
+	font-weight: bold;
+	background-color: #F0F0F0;
+}
+
+#CalendarPickerControl table.navigation{
+	width: 100%;
+	text-align: center;
+}
+
+#CalendarPickerControl td.navbutton{
+	font: normal 11px Verdana;
+	color: #a1a1a1;
+	font-weight: bold;
+	background-color: #d7d7d7;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #e5e5e5 #e0e0e0 #dcdcdc #d8d8d8;
+	cursor: pointer;
+}
+
+#CalendarPickerControl td.navbutton:hover{
+	text-decoration: underline;
+	border-color: #e5e5e5 #e0e0e0 #dcdcdc #d8d8d8;
+	background-color: #d0d0d0;
+}
+
+#CalendarPickerControl span.yearbutton{
+	cursor: pointer;
+}
+
+#CalendarPickerControl span.yearbutton:hover{
+	text-decoration: underline;
+}
+
+#CalendarPickerControl td.dayname{
+	font: normal 11px Verdana;
+	color: #6A7389;
+	font-weight: bold;
+	background-color: #F0F0F0;
+}
+
+#CalendarPickerControl td.today{
+	font: normal 11px Verdana;
+	background-color: #e9e9e9;
+	color: red;
+	text-decoration: none;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #e5e5e5 #e0e0e0 #dcdcdc #d8d8d8;
+}
+
+#CalendarPickerControl td.today:hover{
+	text-decoration: underline;
+	border-color: #283043 #A6AFBB #A6AFBB #283043;
+	background-color: #9097A2;
+}
+
+#CalendarPickerControl td.current{
+	font: normal 11px Verdana;
+	font-weight: bold;
+	background-color: #c5c5c5;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #283043 #A6AFBB #A6AFBB #283043;
+}
+
+#CalendarPickerControl td.current:hover{
+	text-decoration: underline;
+}
+
+#CalendarPickerControl td.day{
+	font: normal 11px Verdana;
+	background-color: #e9e9e9;
+	color: #a1a1a1;
+	text-decoration: none;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #e5e5e5 #e0e0e0 #dcdcdc #d8d8d8;
+}
+
+#CalendarPickerControl td.day:hover{
+	text-decoration: underline;
+	border-color: #283043 #A6AFBB #A6AFBB #283043;
+	background-color: #b3b3b3;
+}
+
+#CalendarPickerControl td.weekend{
+	font: normal 11px Verdana;
+	color: #b3b3b3;
+	text-decoration: none;
+	background-color: #dcdcdc;
+	font-style: italic;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #e5e5e5 #e0e0e0 #dcdcdc #d8d8d8;
+}
+
+#CalendarPickerControl td.weekend:hover{
+	text-decoration: underline;
+	border-color: #283043 #A6AFBB #A6AFBB #283043;
+	background-color: #a1a1a1;
+}
+
+#CalendarPickerControl td.dayothermonth{
+	font:normal 11px Verdana;
+	background-color: white;
+	color: white;
+	border: 1px solid white;
+}
+

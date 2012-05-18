@@ -1,0 +1,182 @@
+<div class="helpNav" style="border: 1px solid gray; margin: 5px; padding: 14px; float: right; width: 200px;">
+<p><strong>Table of Contents</strong> <br /><a href="#toptop">Introduction<br /></a><a href="#Createnewpages">Create New Pages</a><br /><a href="#editpage">Editing Pages</a><br /><a href="#deletepage">Delete a Page</a><a href="#formfielddefinitions"><br />Form Field Definitions</a><br /><a href="#contentobjects">Embedding and Editing Content Objects on a page<br /></a><a href="#sitestructure">Manage the Site Structure</a><br /><a href="#workflow">Introduction to Workflow</a><br /><a href="#errormessages">Common Error Messages</a></p>
+</div>
+<p><a title="toptop" name="toptop"></a></p>
+<h1>Introduction to Pages<br /></h1>
+<p>This section discusses how to manage the owner editable pages within your site.</p>
+<p>One <strong>key concept</strong> is that each page name builds the site navigation in aggregate.</p>
+<p>So, the Home page is by default the root of the site (http://YourSite.com/) and if one were to add a page under the home page with the name <em>About Us</em>, the url for accessing this page would then be http://YourSite.com/AboutUs/.  Another page added as a child of the <em>About Us</em> page, perhaps named <em>Directors, </em>would then be accessed as http://YourSite.com/AboutUs/Directors/.  So, consider the site as a series of nested pages connected by their names instead of files within directories.  This concept achieves completely clean urls.</p>
+<p>Additionally, each group of pages under a parent has an order property.  This is available as a means of managing the menu and submenus of the site.  The order that the pages appear in the left navigation of the Pages area is the same as will appear in the menus and submenus of the site.</p>
+<p>More information on specifically managing the site page structure is available <a href="#sitestructure">here</a>.</p>
+<h1><a title="Createnewpages" name="Createnewpages"></a>Creating New Pages</h1>
+<p>To create a new page, you will need rights from the Permissions Level and Content Groups modules.</p>
+<ol>
+<li>Click the Pages tab. </li>
+<li>Click the Add Page button below the tabs to open the pages form.</li>
+<li>Fill in the fields as per the <a href="#formfielddefinitions">Form Field Definitions</a> section.</li>
+<li>Click Save.</li>
+<li>The page will then appear in your Draft Pages list signifying that it has not been published. The page will not appear in the left navigation which only contains published pages. You can then access the page and continue editing.</li>
+<li>Edit the page content objects as per section <a href="#contentobjects">Embedding and Editing Content Objects on a Page.</a></li>
+<li>Publish the page or have someone with publish permissions do it for you.</li>
+</ol>
+<p>See the <a href="#errormessages">Common Error Messages</a> section of this document if you are getting an error that is not self explanatory.</p>
+<p><a href="#toptop">Back to top</a></p>
+<p>&nbsp;</p>
+<h1><a title="editpage" name="editpage"></a>Editing Pages</h1>
+<p>To edit a page, you will need rights from the Permissions Level and Content Groups modules.</p>
+<ol>
+<li>Click the Pages tab.</li>
+<li>Find the page you wish to edit in the left navigation. If you cannot find it, use the search feature also in the left navigation. The page may also be in the Draft Pages area reachable in the top navigation.</li>
+<li>Edit the page fields or the content objects as per section <a href="#contentobjects">Embedding and Editing Content Objects on a Page.</a></li>
+<li>Click Save or publish the page or have someone with publish permissions publish it for you.</li>
+</ol>
+<p>See the <a href="#errormessages">Common Error Messages</a> section of this document if you are getting an error that is not self explanatory.</p>
+<p><a href="#toptop">Back to top</a></p>
+<p>&nbsp;</p>
+<h1><a title="deletepage" name="deletepage"></a>Delete a Page<br /></h1>
+<p>To delete a page, you will need rights from the Permissions Level and Content Groups modules.</p>
+<ol>
+<li>Click the Pages tab.</li>
+<li>Find the page you wish to delete in the left navigation. If you cannot find it, use the search feature also in the left navigation. The page may also be in the Draft Pages area reachable in the top navigation. </li>
+<li>Click the Delete button and click 'ok' when asked to confirm.</li>
+</ol>
+<p><strong>Note : </strong>Pages that are currently linked from other esm-managed pages cannot be deleted.&nbsp; Attempts to do so will result in an error message describing the page that contains the link.&nbsp; If you are certain that you wish to remove the page, do so on the page in the warning message and then follow these steps again.</p>
+<p>See the <a href="#errormessages">Common Error Messages</a> section of this document if you are getting an error that is not self explanatory.</p>
+<p><a href="#toptop">Back to top</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1><a title="formfielddefinitions" name="formfielddefinitions"></a>Form Field Definitions</h1>
+<p>Here is information on the functionality of each field.</p>
+<p>In the <strong>Properties </strong>Accordion</p>
+<ul>
+<li>Give the page a <strong>name</strong>.  This name will be the default page title unless overridden in the page's <em>pagetitle </em>content area.</li>
+<li>Type in the <strong>page url</strong>. This url must be unique under the page parent and should only contain letters and numbers. </li>
+<li>Fill in the <strong>browser title</strong> field. Anything entered here will appear in the browser's title bar (usually in dark blue).</li>
+<li>Use the <strong>redirect </strong>field if you wish for this page to redirect to another. For instance, if you added the following page: http://YourSite.com/AboutUs/ and filled in the redirect as /ContactUs/, any user browsing the <em>About Us </em>page would be redirected to the <em>Contact Us</em> page.</li>
+<li>Next, choose a <strong>template</strong>.  It is critical to choose the right template to maintain site look and feel.  Templates are usually meaningfully named. </li>
+<li>Choose the new page's <strong>parent</strong>.  For instance, if you created a <em>Directors </em>page and wished for it to be under the <em>Contact Us</em> page, select <em>Contact Us</em>. Every page, except the <em>Home </em>page, needs a parent. </li>
+<li>Check the <strong>display in navigation</strong> checkbox, if the page name should appear in navigational menus.</li>
+<li>Select a page <strong>owner</strong>. As a default, the page owner will be inherited from the parent's page owner.</li>
+<li>Check the <strong>index by site search</strong> checkbox, if the page should be indexed for the site search.</li>
+<li>Check the <strong>designate as Sub-Site Landing Page</strong>, if this page will be the landing page of a sub-site, or micro-site. The navigation and breadcrumbs of this page's children will use this page as the base node.</li>
+</ul>
+<p>In the <strong>Page View</strong> accordion</p>
+<ul>
+<li>Edit the page content objects as per section <a href="#contentobjects">Embedding and Editing Content Objects on a Page.</a></li>
+</ul>
+<p>In the <strong>Page Expiration</strong> accordion</p>
+<ul>
+<li>The <strong>Page Appears</strong> date can be set to control when a page is first available for viewing.</li>
+<li>The <strong>Page Expires</strong> date can be set to control when a page is made unavailable for viewing.</li>
+</ul>
+<p>In the <strong>Meta Data</strong> accordion</p>
+<ul>
+<li>The <strong>Description </strong>field populates the html meta data tag for current page. This is mostly relevant to search engines. Some search engines will include the information here in their search aggregate, others will display it or a section of it as part of the search results. </li>
+<li>The <strong>Keywords </strong>field is similar to the Description field but is less relevant.  It is a good practice however to fill it with search keywords.</li>
+<li>The <strong>Search Results Description</strong> populates the system's search results. So, when someone uses the site search, any page that occurs in the results will have this content as a short paragraph below a link to the page.</li>
+</ul>
+<p>In the <strong>Link Info</strong> accordion</p>
+<ul>
+<li>The absolute url path of the published page is displayed.</li>
+<li>The cross linking format for this page is displayed for linking from other esm-managed  pages or sites. The format is: {{link[<strong>siteid</strong>][<strong>pageid</strong>]}}, where <strong>siteid </strong>and <strong>pageid </strong>are to be replaced with the respective id of the site and page.</li>
+</ul>
+<p>In the <strong>Page Restrictions</strong> accordion</p>
+<ul>
+<li>Not applicable in the default installation of the ESM. Can be customized to implement front-end user page restrictions.</li>
+</ul>
+<p>In the <strong>Keyword Analysis</strong> accordion</p>
+<ul>
+<li>Calculate the number of times keywords appear on the page. Key Phrases can be added under the SEO tab.</li>
+</ul>
+<p>In the <strong>Page History</strong> accordion</p>
+<ul>
+<li>Open this accordion to see recent history pertaining to this module. </li>
+</ul>
+<p>&nbsp;</p>
+<p><a href="#toptop">Back to top</a></p>
+<p>&nbsp;</p>
+<h1><a title="contentobjects" name="contentobjects"></a>Embedding and Editing Content Objects on a Page<br /></h1>
+<p>This section describes how to manage content and modules within a page.</p>
+<p><span style="font-weight: bold">Key Concept:</span> Each page uses a <span style="font-weight: bold">template </span>that has references to site <span style="font-weight: bold">Modules </span>embedded within <span style="font-weight: bold">Content Areas</span>.  Some of these content areas allow for the user to interact and select the <span style="font-weight: bold">Module </span>that contributes to the page content.</p>
+<p>A <span style="font-weight: bold">Module</span> is a component of the site that generates content for pages.  <br />A <span style="font-weight: bold">Content Area</span> is a specific spot in a template that is coded to accept modules.</p>
+<p>Here are some common examples of Modules that come with the default ESM.</p>
+<ul>
+<li><span style="font-weight: bold">HTMLContent</span> for managing freeform html content. </li>
+<li><span style="font-weight: bold">SimpleContent </span>for managing short pieces of text that should have no html.</li>
+<li><span style="font-weight: bold">Assets</span> for displaying documents that have been uploaded to the ESM via the assets module.</li>
+<li><span style="font-weight: bold">Form </span>for embedding user-submitable forms created in the forms area of the ESM.</li>
+</ul>
+<p>Depending on the level of customization, more modules may be available.</p>
+<p>The process for managing these areas is as follows:</p>
+<ol>
+<li>Start by editing a page.  The <em>Page View</em> accordion is as a default open and will show a view of the page being edited. </li>
+<li>Some pages may have areas of content labeled <em>hints </em>that will not appear on the published site. </li>
+<li>Mouse over the page window and note that certain areas will highlight with a blue background and be clickable.  Some of these areas will have a short piece of text identifying the name of the content area. Areas like this are open content areas that do not have a module embedded.  Alternatively, some larger areas of text will highlight.  These are then content areas that do have  a module embedded. The content that was highlighted is generated by the module that is embedded in that content area.</li>
+<li>Click on these blue highlighted areas to edit them.</li>
+</ol>
+<p>If you clicked on a content area that already has a module embedded, that module will then directly open to its configuration window.</p>
+<p>Otherwise, a window will open that will allow you to select from a list of modules to embed. Choose one and then click the Save button to embed that module in that content area.</p>
+<p>Each module will have some sort of configuration window.  For example, the HTMLContent module will have a wysiwyg tool for you to enter content. The Form module will present a list of forms configured in the ESM form tool for you to select.</p>
+<p><strong>Important Note:</strong> Any changes you make in the configuration window will not take effect until you click the Save button.</p>
+<p><strong>Second Important Note:</strong> Any changes to page level module configurations will not take effect on the site until that page is published.  However, changes in the modules will take effect immediately.  For example, if you update a form in the Forms tab that is embedded on multiple pages, that form will immediately change on any pages that have it embedded on the site.</p>
+<p><strong>Third Important Note:</strong> All modules will have a Delete button at the top of the module configuration window.  This button serves the purpose of removing this module from this content area.  Use it to completely clear a content object or to repurpose it by loading a different module.</p>
+<p><a href="#toptop">Back to top</a></p>
+<p>&nbsp;</p>
+<h1><a title="sitestructure" name="sitestructure"></a>Manage the Site Structure</h1>
+<p>To perform actions that change the page structure, you will need rights from the Permissions Level and Content Groups modules.</p>
+<p>Most of the site structure can be seen in the left navigation of the Pages area although some components may generate their own pages that will not appear here.</p>
+<p>The site is best conceptualized as a tree of pages.  Each page is a sort of branch that may have its own child branches.  In this analogy, the home page is the trunk of the tree.  For more information on this concept, see the <a href="#toptop">introduction</a> of this help document.</p>
+<p>There are two ways in which this tree structure can be changed.</p>
+<p><strong>Change the page parent relationships </strong></p>
+<p>The first option is to alter the parent child relationship of pages.  This is managed through the parent field in the properties accordion of the Pages section. If you wish to move a page from one section to another, you would take the following steps :</p>
+<ol>
+<li>Edit the page that you wish to move.</li>
+<li>Enter the Properties accordion pane and click the Parent dropdown field. </li>
+<li>Choose the new parent that you wish this page to be a child of.</li>
+<li>Click Save.</li>
+</ol>
+<p><strong>Note</strong>: Moving a page to a new parent will add this page as the last page under this parent.</p>
+<p><strong>Warning: </strong>Altering the structure takes effect immediately on the public site. You do not need to publish the page for it to take effect.</p>
+<p><strong>Reorder the pages</strong></p>
+<p>The second option for managing the site structure is reordering pages under the same parent.  This is available as a means of managing the order of the pages in menus and submenus and anywhere else the site structure is exposed to the viewer.</p>
+<p>To change the order of the pages under a single parent, take the following steps:</p>
+<ol>
+<li>Edit the page that you wish to move.</li>
+<li>At the top of the page, you will see Up and Down Buttons if you have the permissions to perform this action.</li>
+<li>Click the appropriate one and see the change occur in the left navigation of this area.</li>
+</ol>
+<p><strong>Warning: </strong>Altering the structure takes effect immediately on the public site. You do not need to publish the page for it to take effect.</p>
+<p><a href="#toptop">Back to top</a></p>
+<p>&nbsp;</p>
+<h1><a title="workflow" name="workflow"></a>Introduction to Workflow</h1>
+<p>Workflow is the idea that site content should be managed via a process that enforces roles and responsibility for content.  This is most useful when the responsibilities of content creation and content editing/publishing are well established.</p>
+<p>For this to work in the ESM, the system must be setup properly.  This is done by carefully designing Permission Levels and Content Groups and assigning users to them depending on their role in the task of site content creation.</p>
+<p>Users should generally be thought of as content creators or content editors.  Editors often have publishing rights but not necessarily.  At the very least, one content editor must have publishing rights (or nothing will ever get published).  Usually, Permission Levels are created along these lines of distinction.</p>
+<p>Content Groups are then assigned to users as a means of localizing the areas of the site on which they can act.</p>
+<p>Another component of it is the assignment of <strong>users as page owners. </strong>This is set while editing a page in the Properties accordion with the Owner field.</p>
+<p>It makes the most sense for a user assigned as a page owner to fall in the content editor and or publisher type role.  This in conjunction with the structure of the sitemap establishes a chain of authority.</p>
+<p><strong>Important Concept:</strong> When a page is assigned an owner, that owner has symbolic ownership rights over that page and any below it in the sitemap tree structure.  That owner effectively inherits ownership over that subsection of the site.</p>
+<p>The general flow of this is as follows:</p>
+<ol>
+<li>A content creator creates content on a page on the site.</li>
+<li>That content creator uses the Request Review button to signal to the page Owner that this page is ready to be reviewed.  (Actually the content creator is presented with all page owners including any above the current page.  The closest content Owner is preselected.)</li>
+<li>The content editor receives a message from the ESM that a page is ready to be reviewed.  The page is reviewed and the editor can then act in three different ways.                   
+<ul>
+<li>The content is not satisfactory.  The editor can use the Send Feedback button to send a message back to the content creator.</li>
+</ul>
+<ul>
+<li>The content is satisfactory but the editor does not have publish permissions.  The editor can use the Request Review button to signal to the next page Owner in the site hierarchy to review the page.</li>
+</ul>
+<ul>
+<li>The content is satisfactory and the editor has publish permissions.  The editor can publish the page.  Everyone in the workflow gets notified.</li>
+</ul>
+</li>
+</ol>
+<p>This process defines the lifecycle of how content is created, evaluated and published to the live site.</p>
+<p><a href="#toptop">Back to top</a></p>
+<p>&nbsp;</p>
+<h1><a title="errormessages" name="errormessages"></a>Common Error Messages</h1>
+<p><em>"The Page URL should only contain letters, digits, or hyphens. No spaces please."</em><br />Page urls are critical components of how the system works.  The page urls of the page and its parents create the absolute site url structure.  Because of this, only url safe characters are allowed in this field.</p>
+<p><em>"The Parent Page may not be this page."</em><br />All pages must have a parent such that they fit in the logical site hierarchy. The only exception to this rule is the home page.  Please select a parent in the Parent field of the Properties accordion. This error message also displays if a user, who does not have access to a specific page, selects it as a parent.</p>
+<p><a href="#toptop">Back to top</a></p>
+<p>&nbsp;</p>

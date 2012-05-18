@@ -1,0 +1,333 @@
+<cfsavecontent variable="html"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    
+        <head>
+        
+            <meta http-equiv="X-UA-Compatible" content="IE=8" />
+            <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+            <meta http-equiv="Content-Style-Type" content="text/css" />
+            <meta name="description" content="default description" />
+            <meta name="keywords" content="Sunward Consolidated, metal building, steel buildings,
+prefabricated buildings, steel building kits, custom barn, prefab
+buildings, metal building kits, aircraft hangar, prefabricated
+steel buildings" />
+            
+            <title>P-R</title>
+            
+            
+            <script type="text/javascript" src="/ui/js/nav.js"></script>
+            <script type="text/javascript" src="/ui/js/swfobject.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/jquery-1.2.6.pack.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.core.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.accordion.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.tabs.js"></script>
+            
+            
+            <link type="text/css" rel="stylesheet" href="/ui/css/interior.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/sunward.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/nav.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/form.css" />
+            <!--[if lte IE 8]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie8.css" />
+            <![endif]-->
+            <!--[if lte IE 7]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie7.css" />
+            <![endif]-->
+            <!--[if lte IE 6]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie6.css" />
+            <![endif]-->
+    
+        </head>
+    
+    <body class="homeBody">
+
+
+
+<div id="textpageWrapper">
+
+    <table class="ht" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+            <td class="hlf">&nbsp;</td>
+            <td class="hc" nowrap="nowrap">
+	<div class="searchForm">
+    
+	    <b class="loginout"><a href="/Users/Login/">Dealer Login</a></b>
+	<br />
+		<form action="/Search/" method="get" >
+			<input name="search" type="text"  size="19" class="text" />
+			<input type="submit" name="button" value="Search" class="searchButton" />
+		</form>
+	</div>
+                <div class="navDiv">
+			<ul id="nav"><li class="first"><a href="/Products/" onmouseover="document.Image1.src='/ui/img/btn_Products_over.gif'"
+onmouseout="document.Image1.src='/ui/img/btn_Products.gif'"><img src="/ui/img/btn_Products.gif" name="Image1" /></a><ul class="sub"><li><a href="/Products/">Products</a></li><li><a href="/Products/Agriculture/">Agriculture</a></li><li><a href="/Products/UtilityShops/">Utility Shops</a></li><li><a href="/Products/BarnsAndRidingArenas/">Barns and Riding Arenas</a></li><li><a href="/Products/AviationAircraftHangars/">Aviation Aircraft Hangars</a></li><li><a href="/Products/MiniWarehouses/">Mini Warehouses</a></li><li><a href="/Products/Retail/">Retail</a></li><li><a href="/Products/Industrial/">Industrial</a></li><li><a href="/Products/CustomDesigns/">Custom Designs</a></li><li><a href="/Products/accessories/">Accessories</a></li><li><a href="/Products/Customframingdesigns/">Concept Renderings</a></li></ul></li><li ><a href="/Dealerships/" onmouseover="document.Image2.src='/ui/img/btn_Dealerships_over.gif'"
+onmouseout="document.Image2.src='/ui/img/btn_Dealerships.gif'"><img src="/ui/img/btn_Dealerships.gif" name="Image2" /></a></li><li ><a href="/ContactUs/" onmouseover="document.Image3.src='/ui/img/btn_ContactUs_over.gif'"
+onmouseout="document.Image3.src='/ui/img/btn_ContactUs.gif'"><img src="/ui/img/btn_ContactUs.gif" name="Image3" /></a><ul class="sub"><li><a href="/ContactUs/">Contact Us</a></li><li><a href="/ContactUs/FrequentlyAskedQuestions/">Frequently Asked Questions</a></li></ul></li><li ><a href="/QualityFeatures/" onmouseover="document.Image4.src='/ui/img/btn_QualityFeatures_over.gif'"
+onmouseout="document.Image4.src='/ui/img/btn_QualityFeatures.gif'"><img src="/ui/img/btn_QualityFeatures.gif" name="Image4" /></a><ul class="sub"><li><a href="/QualityFeatures/">Quality Features</a></li><li><a href="/QualityFeatures/Certifications/">Certifications</a></li><li><a href="/QualityFeatures/ExclusiveSunwardLine/">Exclusive Sunward Line</a></li><li><a href="/QualityFeatures/substructure/">Door & Window Sub-structure</a></li><li><a href="/QualityFeatures/BeautifulTrimPackage/">Beautiful Trim Package</a></li><li><a href="/QualityFeatures/closures/">Closure System</a></li><li><a href="/QualityFeatures/fasteners/">Fasteners</a></li><li><a href="/QualityFeatures/siphongroove1/">Special Siphon Groove</a></li><li><a href="/QualityFeatures/SoffitSystem/">Soffit System</a></li><li><a href="/QualityFeatures/5starfeatures/">5 Star Features</a></li></ul></li><li ><a href="/AboutUs/" onmouseover="document.Image5.src='/ui/img/btn_AboutUs_over.gif'"
+onmouseout="document.Image5.src='/ui/img/btn_AboutUs.gif'"><img src="/ui/img/btn_AboutUs.gif" name="Image5" /></a><ul class="sub"><li><a href="/AboutUs/">About Us</a></li><li><a href="/AboutUs/Factories/">Factories</a></li><li><a href="/AboutUs/Trucking/">Trucking</a></li><li><a href="/AboutUs/bbbaward/">BBB Award</a></li></ul></li><li ><a href="/DealsSales/" onmouseover="document.Image6.src='/ui/img/btn_DealsSales_over.gif'"
+onmouseout="document.Image6.src='/ui/img/btn_DealsSales.gif'"><img src="/ui/img/btn_DealsSales.gif" name="Image6" /></a><ul class="sub"><li><a href="/DealsSales/">Deals & Sales</a></li><li><a href="/DealsSales/EasyToAssemble/">Easy to Assemble</a></li><li><a href="/DealsSales/ConstructYourself/">Construct Yourself</a></li><li><a href="/DealsSales/insulationpackages/">Insulation Packages</a></li><li><a href="/DealsSales/taxcredits/">Energy Star Tax Credits</a></li><li><a href="/DealsSales/PumpingUnits/">Sunward Pumping Units</a></li><li><a href="/DealsSales/TeamofProfessionals/">Team Of Professionals</a></li><li><a href="/DealsSales/Gambrel/">Gambrel</a></li></ul></li><li ><a href="/Dealers/" onmouseover="document.Image7.src='/ui/img/btn_Dealers_over.gif'"
+onmouseout="document.Image7.src='/ui/img/btn_Dealers.gif'"><img src="/ui/img/btn_Dealers.gif" name="Image7" /></a></li></ul>
+		</div>
+            </td>
+            <td class="hrf">&nbsp;</td>
+        </tr>
+    </table>
+	
+   <div id="textpageContainer">
+        <div id="textPageCrumbs">
+            
+            <ul><li><a href="/">Home</a></li> &gt; <li><a href="/Definitions/">Definitions</a></li> &gt; <li>P-R</li></ul>
+        </div>
+        <div id="textPageInteriorTitle">
+            
+            P-R
+        </div>
+        <div id="textPageBodyContent">
+            <div id="interiorLeftBar">
+				
+                <div id="interiorLeftBarNav">
+                    
+			<ul>
+				
+						<li class="sidenavlevel3">
+							<a href="/Definitions/A-C/" >A-C<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/D-H/" >D-H<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/I-L/" >I-L<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/M-O/" >M-O<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3 itemOn3 itemOn3First sidenavlevel3NoSubnav">
+							<a href="/Definitions/P-R/" >P-R<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/S/" >S<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/T-Z/" >T-Z<br></a>
+							
+							
+						</li>
+					   
+			</ul>
+		
+                </div>
+            </div>
+            <div class="txtTopBar"  >
+				
+                
+                    <div class="imageText">
+
+
+
+
+
+
+<h1>Definitions P - R</h1>
+
+Panels:See "Cladding"<br />
+Panel Notch: A notch or block out formed along the outside edge of
+the floor slab to provide support for the wall panels and serve as
+a closure along their bottom edge.<br />
+Pan Panel: A standing seam panel which has vertical sides and has
+no space between the panels at the side laps.<br />
+Parapet: That portion of the vertical wall of a building which
+extends above the roof line.<br />
+Parts and Portions: See "Components and Cladding"<br />
+Peak: The uppermost point of a gable.<br />
+Peak Sign: A sign attached to the peak of the building at the
+endwall showing the building manufacturer.<br />
+Pendant Operated Crane: Crane operated from a pendant control unit
+suspended from the crane.<br />
+Personnel Doors: A door used by personnel for access to and exit
+from a building.<br />
+Pick Point: The belted part of panel bundles where the bundle is to
+be lifted.<br />
+Piece Mark: A number given to each separate part of the building
+for erection identification. Also called mark number and part
+number.<br />
+Pier: A concrete structure designed to transfer vertical load from
+the base of a column to the footing.<br />
+Pig Spout: A sheet metal section designed to direct the flow of
+water out through the face of the gutter rather than through a
+downspout.<br />
+Pilaster: A reinforced or enlarged portion of a masonry wall to
+provide support for roof loads or lateral loads on the wall.<br />
+Pinned Base: A column base that is designed to resist horizontal
+and vertical movement, but not rotation.<br />
+Pin Connection: A connection designed to transfer axial and shear
+forces between connecting members, but not moments.<br />
+Pitch: The peak height of a gabled building divided by its overall
+span.<br />
+Plastic Design: a design concept based on multiplying the actual
+loads by a suitable load factor, using the yield stress as the
+maximum stress in any member, and taking into consideration moment
+redistribution.<br />
+Plastic Panels: See "Translucent Light Panels"<br />
+Ponding: 1) The gathering of water at low or irregular areas on a
+roof.<br />
+2) Progressive accumulation of water from deflection due to rain
+loads.<br />
+Portal Frame: A rigid frame so designed that it offers rigidity and
+stability in its plane. It is generally used to resist longitudinal
+loads where other bracing methods are not permitted.<br />
+Post and Beam: A structural system consisting of a series of rafter
+beams supported by columns. Often used as the end frame of a
+building.<br />
+Post tensioning: A method of pre stressing reinforced concrete in
+which tendons are tensioned after the concrete has reached a
+specific strength.<br />
+Power Actuated Fastener: A device for fastening items by the
+utilization of a patented device, which uses an explosive charge or
+compressed air to embed the pin in concrete or steel.<br />
+Pre tensioning: A method of pre stressing reinforced concrete in
+which tendons are tensioned after the concrete has reached a
+specific strength.<br />
+Pre-Painted Coil: Coil of metal, which has received a paint
+coating.<br />
+Press Brake: A machine used in cold-forming metal sheets or strips
+into desired sections.<br />
+Pre stressed Concrete: Concrete in which internal stresses of such
+magnitude and distribution are introduced that the tensile stresses
+resulting from the service loads are counteracted to a desire
+degree; in reinforced concrete the pre stress is commonly
+introduced by tensioning the tendons.<br />
+Primary Framing: See "Main Frame"<br />
+Prismatic Beam: A beam with a uniform cross section.<br />
+Public Assembly: A building or space where 300 or more persons may
+congregate in one area.<br />
+Purlin: a horizontal structural member which supports roof covering
+and carries loads to the primary framing members.<br />
+Purlin Extension: The projection of the roof beyond the plane of
+the endwall.<br />
+Rafter: The main beam supporting the roof system.<br />
+Rail (Crane): See "Crane Rail"<br />
+Rails (Door): the horizontal stiffening members of framed and
+paneled doors.<br />
+Rake: The intersection of the plane of the roof and the plane of
+the endwall.<br />
+Rake Angle: Angle fastened to purlins at rake for attachment of
+endwall panels.<br />
+Rake Trim: A flashing designed to close the opening between the
+roof and endwall panels.<br />
+Rated Capacity (Crane): The maximum load (usually in tons) which a
+crane is designed to support safely.<br />
+Reaction: The resisting forces at the column bases holding the
+structure in equilibrium under a given loading condition.<br />
+Reinforcing Steel: The steel placed in concrete as required to
+carry the tension, compression and shear stresses.<br />
+Remote-Operated Crane: A crane controlled by an operator not in a
+pulpit or in the cab attached to the crane, by any method other
+than pendant or rope control.<br />
+Retrofit: The placing of new metal roof or wall system over
+deteriorated roofs or walls.<br />
+Rib: the longitudinal raised profile of a panel that provides much
+of the panels bending strength.<br />
+Ribbed Panel: A panel which has ribs with sloping sides and forms a
+trapezoidal shaped void at the side lap.<br />
+Ridge: The horizontal line formed by opposing sloping sides of a
+roof running parallel with the building length.<br />
+Ridge Cap: A transition of the roofing materials along the ridge of
+a roof; sometimes called ridge roll or ridge flashing.<br />
+Rigid Connection: See "Moment Connection"<br />
+Rigid Frame: A structural frame consisting of members joined
+together with moment connections so as to render the frame stable
+with respect to the design loads, without the need for bracing in
+its plane.<br />
+Rolling Doors: doors that are supported at the bottom on wheels
+which run on a track.<br />
+Roll-Up doors: A door that opens by traveling vertically.<br />
+Roof Covering: The exposed exterior roof surface consisting of
+metal panels.<br />
+Roof Live Load: Loads that are produced (1) during maintenance by
+workers, equipment, and materials, and (2) during the life of a
+structure by movable objects and do not include wind, snow, seismic
+or dead loads.<br />
+Roof Overhang: A roof extension beyond the endwall or sidewall of a
+building.<br />
+Roof Slope: The tangent of the angle that a roof surface makes with
+horizontal, usually expresses in units of vertical rise to 12 units
+of horizontal run.<br />
+Roof Snow Load: that load induced by the weight of snow on the roof
+of structure.<br />
+Runway Beam: See "Crane Runway Beam"<br />
+Runway Bracket: A bracket attached to the column of a building
+frame, which supports the runway beam for top-running cranes.<br />
+Runway Conductors: The main conductors mounted on or parallel to
+the runway, which supplies electric current to the crane.
+
+
+
+</div>
+                
+            </div>
+            <div class="txtBottomBar1">
+                <div class="splitright">
+                    
+                </div>
+                <div class="splitleft">
+                    
+                </div>	
+            </div>
+            <div class="clear">&nbsp;</div>
+        </div>
+    </div>
+        <div id="footer">
+        <div class="footerR"><img src="/ui/img/aisc_bbb.gif" /></div>
+        <div class="footerL">
+        	<div><span>&copy; 2007 Sunward Consolidated Group</span></div>
+            <div>
+                <ul>
+                    <li><a href="/Specifications/">Specififcations</a></li>
+                    <li><a href="/CareerOpportunities/">Career Opportunities</a></li>
+                    <li><a href="/PrivacyPolicy/">Privacy Policy</a></li>
+                    <li><a href="/Definitions/">Definitions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-7011302-1");
+	pageTracker._trackPageview();
+	} catch(err) {}
+</script>
+  
+</body>
+
+</html>
+</div>
+</body>
+
+</html>
+
+</cfsavecontent>

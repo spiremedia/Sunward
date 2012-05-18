@@ -1,0 +1,15 @@
+	.contentObject-edit { 
+		background: url("/ui/esm/images/editblock-bkgd.gif") 0 0 !important;
+		min-height:30px; 
+		cursor:hand;
+		cursor:pointer;
+		margin: 0 0 10px 0 !important; 
+		padding: 0 0 15px 0 !important; 
+	}
+
+	div.hint {
+		border:1px dashed gray;
+		background:#00FFFF;
+		margin:5px;
+		padding:3px;
+	}

@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+#newsItem {
+	
+	}
+
+#newsItem a {
+	text-decoration: none;
+	}
+	
+#newsItem li {
+	margin: 0 0 10px 20px;
+	list-style: url(img/newsItem.gif);
+	}

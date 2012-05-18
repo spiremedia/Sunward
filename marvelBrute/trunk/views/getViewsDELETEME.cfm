@@ -1,0 +1,1 @@
+<cfoutput>#application.views.getViewData(true)#</cfoutput><cfabort>

@@ -1,0 +1,418 @@
+<cfsavecontent variable="html"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    
+        <head>
+        
+            <meta http-equiv="X-UA-Compatible" content="IE=8" />
+            <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+            <meta http-equiv="Content-Style-Type" content="text/css" />
+            <meta name="description" content="default description" />
+            <meta name="keywords" content="Sunward Consolidated, metal building, steel buildings,
+prefabricated buildings, steel building kits, custom barn, prefab
+buildings, metal building kits, aircraft hangar, prefabricated
+steel buildings" />
+            
+            <title>A-C</title>
+            
+            
+            <script type="text/javascript" src="/ui/js/nav.js"></script>
+            <script type="text/javascript" src="/ui/js/swfobject.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/jquery-1.2.6.pack.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.core.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.accordion.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.tabs.js"></script>
+            
+            
+            <link type="text/css" rel="stylesheet" href="/ui/css/interior.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/sunward.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/nav.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/form.css" />
+            <!--[if lte IE 8]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie8.css" />
+            <![endif]-->
+            <!--[if lte IE 7]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie7.css" />
+            <![endif]-->
+            <!--[if lte IE 6]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie6.css" />
+            <![endif]-->
+    
+        </head>
+    
+    <body class="homeBody">
+
+
+
+<div id="textpageWrapper">
+
+    <table class="ht" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+            <td class="hlf">&nbsp;</td>
+            <td class="hc" nowrap="nowrap">
+	<div class="searchForm">
+    
+	    <b class="loginout"><a href="/Users/Login/">Dealer Login</a></b>
+	<br />
+		<form action="/Search/" method="get" >
+			<input name="search" type="text"  size="19" class="text" />
+			<input type="submit" name="button" value="Search" class="searchButton" />
+		</form>
+	</div>
+                <div class="navDiv">
+			<ul id="nav"><li class="first"><a href="/Products/" onmouseover="document.Image1.src='/ui/img/btn_Products_over.gif'"
+onmouseout="document.Image1.src='/ui/img/btn_Products.gif'"><img src="/ui/img/btn_Products.gif" name="Image1" /></a><ul class="sub"><li><a href="/Products/">Products</a></li><li><a href="/Products/Agriculture/">Agriculture</a></li><li><a href="/Products/UtilityShops/">Utility Shops</a></li><li><a href="/Products/BarnsAndRidingArenas/">Barns and Riding Arenas</a></li><li><a href="/Products/AviationAircraftHangars/">Aviation Aircraft Hangars</a></li><li><a href="/Products/MiniWarehouses/">Mini Warehouses</a></li><li><a href="/Products/Retail/">Retail</a></li><li><a href="/Products/Industrial/">Industrial</a></li><li><a href="/Products/CustomDesigns/">Custom Designs</a></li><li><a href="/Products/accessories/">Accessories</a></li><li><a href="/Products/Customframingdesigns/">Concept Renderings</a></li></ul></li><li ><a href="/Dealerships/" onmouseover="document.Image2.src='/ui/img/btn_Dealerships_over.gif'"
+onmouseout="document.Image2.src='/ui/img/btn_Dealerships.gif'"><img src="/ui/img/btn_Dealerships.gif" name="Image2" /></a></li><li ><a href="/ContactUs/" onmouseover="document.Image3.src='/ui/img/btn_ContactUs_over.gif'"
+onmouseout="document.Image3.src='/ui/img/btn_ContactUs.gif'"><img src="/ui/img/btn_ContactUs.gif" name="Image3" /></a><ul class="sub"><li><a href="/ContactUs/">Contact Us</a></li><li><a href="/ContactUs/FrequentlyAskedQuestions/">Frequently Asked Questions</a></li></ul></li><li ><a href="/QualityFeatures/" onmouseover="document.Image4.src='/ui/img/btn_QualityFeatures_over.gif'"
+onmouseout="document.Image4.src='/ui/img/btn_QualityFeatures.gif'"><img src="/ui/img/btn_QualityFeatures.gif" name="Image4" /></a><ul class="sub"><li><a href="/QualityFeatures/">Quality Features</a></li><li><a href="/QualityFeatures/Certifications/">Certifications</a></li><li><a href="/QualityFeatures/ExclusiveSunwardLine/">Exclusive Sunward Line</a></li><li><a href="/QualityFeatures/substructure/">Door & Window Sub-structure</a></li><li><a href="/QualityFeatures/BeautifulTrimPackage/">Beautiful Trim Package</a></li><li><a href="/QualityFeatures/closures/">Closure System</a></li><li><a href="/QualityFeatures/fasteners/">Fasteners</a></li><li><a href="/QualityFeatures/siphongroove1/">Special Siphon Groove</a></li><li><a href="/QualityFeatures/SoffitSystem/">Soffit System</a></li><li><a href="/QualityFeatures/5starfeatures/">5 Star Features</a></li></ul></li><li ><a href="/AboutUs/" onmouseover="document.Image5.src='/ui/img/btn_AboutUs_over.gif'"
+onmouseout="document.Image5.src='/ui/img/btn_AboutUs.gif'"><img src="/ui/img/btn_AboutUs.gif" name="Image5" /></a><ul class="sub"><li><a href="/AboutUs/">About Us</a></li><li><a href="/AboutUs/Factories/">Factories</a></li><li><a href="/AboutUs/Trucking/">Trucking</a></li><li><a href="/AboutUs/bbbaward/">BBB Award</a></li></ul></li><li ><a href="/DealsSales/" onmouseover="document.Image6.src='/ui/img/btn_DealsSales_over.gif'"
+onmouseout="document.Image6.src='/ui/img/btn_DealsSales.gif'"><img src="/ui/img/btn_DealsSales.gif" name="Image6" /></a><ul class="sub"><li><a href="/DealsSales/">Deals & Sales</a></li><li><a href="/DealsSales/EasyToAssemble/">Easy to Assemble</a></li><li><a href="/DealsSales/ConstructYourself/">Construct Yourself</a></li><li><a href="/DealsSales/insulationpackages/">Insulation Packages</a></li><li><a href="/DealsSales/taxcredits/">Energy Star Tax Credits</a></li><li><a href="/DealsSales/PumpingUnits/">Sunward Pumping Units</a></li><li><a href="/DealsSales/TeamofProfessionals/">Team Of Professionals</a></li><li><a href="/DealsSales/Gambrel/">Gambrel</a></li></ul></li><li ><a href="/Dealers/" onmouseover="document.Image7.src='/ui/img/btn_Dealers_over.gif'"
+onmouseout="document.Image7.src='/ui/img/btn_Dealers.gif'"><img src="/ui/img/btn_Dealers.gif" name="Image7" /></a></li></ul>
+		</div>
+            </td>
+            <td class="hrf">&nbsp;</td>
+        </tr>
+    </table>
+	
+   <div id="textpageContainer">
+        <div id="textPageCrumbs">
+            
+            <ul><li><a href="/">Home</a></li> &gt; <li><a href="/Definitions/">Definitions</a></li> &gt; <li>A-C</li></ul>
+        </div>
+        <div id="textPageInteriorTitle">
+            
+            A-C
+        </div>
+        <div id="textPageBodyContent">
+            <div id="interiorLeftBar">
+				
+                <div id="interiorLeftBarNav">
+                    
+			<ul>
+				
+						<li class="sidenavlevel3 itemOn3 itemOn3First sidenavlevel3NoSubnav">
+							<a href="/Definitions/A-C/" >A-C<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/D-H/" >D-H<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/I-L/" >I-L<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/M-O/" >M-O<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/P-R/" >P-R<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/S/" >S<br></a>
+							
+							
+						</li>
+					
+						<li class="sidenavlevel3">
+							<a href="/Definitions/T-Z/" >T-Z<br></a>
+							
+							
+						</li>
+					   
+			</ul>
+		
+                </div>
+            </div>
+            <div class="txtTopBar"  >
+				
+                
+                    <div class="imageText">
+
+
+
+
+
+
+<h1>Definitions A - C</h1>
+
+<p />Accessory: A building product which supplements a basic solid
+panel building such as a door, window, light transmitting panel,
+roof vent, etc.<br />
+Agricultural Building: A structure designed and constructed to
+house farm implements, hay, grain, poultry, livestock or other
+agricultural products. Such structure shall not include habitable
+or occupiable spaces, spaces in which agricultural products are
+processed, treated or packaged; nor shall an agricultural building
+be a place of occupancy by the general public.<br />
+Aluminum Coated Steel: Steel coated with aluminum for corrosion
+resistance.<br />
+Anchor Bolts: Bolts used to anchor members to a foundation or other
+support.<br />
+Anchor Bolt Plan: A plan view drawing showing the diameter,
+location and projection of all anchor bolts for the components of
+the metal building system and may show column reactions (magnitude
+and direction). The maximum base plate dimensions may also be
+shown.<br />
+Approval Drawings: Approval drawings may include framing drawings,
+elevations and sections through the building as furnished by the
+manufacturer for approval of the buyer. Approval by the buyer
+affirms that the manufacturer has correctly interpreted the overall
+contract requirements for the metal building system and it's
+accessories, and the exact location of accessories in the
+building.<br />
+AISI:The American Iron and Steel Institute<br />
+AISC: The American Institute of Steel Construction<br />
+AISE: American Iron and Steel Engineers<br />
+Architectural Drawing: A drawing which shows the plan view and/or
+elevations of the finished building for the purpose of showing the
+general appearance of the building, indicating all accessory
+locations.<br />
+ASCE: American Society of Civil Engineers<br />
+ASD: Allowable Stress Design<br />
+Assembly: A group of mutually dependent and compatible components
+or subassemblies of components.<br />
+Astragal: A closure between the two leaves of a double swing or
+double slide door.<br />
+Automatic Crane: A crane which when activated operates through a
+preset series of cycles.<br />
+Automatic Welding: A welding operation utilizing a machine to make
+a continuous, unbroken weld.<br />
+Auxiliary Crane Girder: A girder arranged parallel to the main
+girder for supporting the platform motor base, operator's cab,
+control panels, etc., to reduce the torsional forces that such load
+would otherwise impose on the main crane girder.<br />
+Auxiliary Loads: All specified dynamic live loads other than the
+basic design loads which the building must safely withstand, such
+as cranes, material handling systems, machinery, elevators,
+vehicles, and impact loads.<br />
+Awning Window: A window in which the vent or vents pivot outward
+about the top edge giving the awning effects.<br />
+AWS: American Welding Society<br />
+Axial Force: A force tending to elongate or shorten a member<br />
+Bar Joist: A name commonly used for "Open Web Steel Joists"<br />
+Base Angle: An angle secured to a wall or foundation used to attach
+the bottom of the wall paneling.<br />
+Base Plate: A plate attached to the base of a column which rests on
+the foundation or other support, usually secured by anchor
+bolts<br />
+Base Tube: See "Cast in place Base"<br />
+Bay: The space between frame center lines or primary supporting
+members in the longitudinal direction of the building.<br />
+BBC: Basic Building Code<br />
+Beam and Column: A primary structural system consisting of a series
+of rafter beams supported by columns, often used as the end frame
+of a metal building system.<br />
+Bearing End Frame: see :Beam and Column"<br />
+Bearing Plate: A steel plate that is set on the top of a masonry
+support on which a beam or purlin can rest.<br />
+Bent: Primary member of a structural system<br />
+Bill of materials: A list of items or components used for
+fabrication<br />
+Bird Screen: Wire mesh used to prevent birds from entering the
+building through ventilators and louvers<br />
+Blind Rivet: A small headed pin with expandable shank for joining
+light gauge metal. Typically used to attach flashing, gutter,
+etc&#8230;<br />
+Block or Board Thermal Insulation: Rigid or semi rigid thermal
+insulation performed into rectangular units.<br />
+BOCA: Building Officials and Code Administrators International
+Inc.<br />
+Bonded Roof: A roof which carries a written warranty with respect
+to weathertightness for a stipulated number of years.<br />
+Box Girder: Girders, trucks or other members of rectangular
+cross-section enclosed on four sides.<br />
+Brace Rods: Rods or cables used in roof and walls to transfer loads
+such as wind loads, and seismic and crane thrusts to the
+foundation. (also often used to plumb buildings but not designed to
+replace erection tables)<br />
+Bracing: Rods angles or cables used in the plane of the roof and
+walls to transfer loads, such as wind, seismic and crane thrusts to
+the foundation.<br />
+Bracket: A structural support projecting from a wall or column on
+which to fasten another structural member. Examples are canopy
+brackets, lean to brackets, and runway brackets.<br />
+Bridge Crane: A load lifting system consisting of a hoist which
+moves laterally on a bean girder, or bridge which in turn moves
+longitudinally on a runway made of beams and rails. Loads can be
+moved to any point within a rectangle formed by the bridge span and
+runway length.<br />
+Bridging: Bracing or systems of bracing used between structural
+members.<br />
+British Thermal Unit (BTU): The amount of heat required to raise
+the temperature of one pound of water by 1 degree Fahrenheit.<br />
+Builder: A party who, as routine part of his business, buys Metal
+Buildings Systems from a manufacturer for the purpose of
+resale.<br />
+Building: A structure forming an open, partially enclosed, or
+enclosed space structured by a planned process of combining
+materials, components, and subsystems to meet specific conditions
+of use.<br />
+Building Aisle: A space defined by the length of the building and
+the space between building columns.<br />
+Building Code: Regulations established by a recognized agency
+describing design loads, procedures and construction details for
+structures usually applying to a designated political jurisdiction
+(city, county, state, etc.)<br />
+Built-Up Roofing: A roof covering made up of alternating layers of
+tar and asphalt materials<br />
+Built-Up Section: A structural member, usually an "I" shape
+section, made from individual flat plates welded together<br />
+Bumper: An energy-absorbing device for reducing impact when a
+moving crane or trolley reaches the end of it's permitted travel,
+or when two moving cranes or trolleys come into contact.<br />
+Butt Plate: The end plate of a structural member usually used to
+rest against a like plate of another member in forming a
+connection. Sometimes called a splice plate or bolted end
+plate.<br />
+Bypass Girt: A wall framing system where the girts are mounted on
+the outside of the columns.<br />
+"C" section: A member in the shape of a block "C" formed from steel
+sheet, that may be used either singularly or back to back.<br />
+Cab-Operated Crane: A crane controlled by an operator in a cab
+supported on the bridge or trolley.<br />
+Camber: curvature of flexural member in the plane of its web before
+loading.<br />
+Canopy: A projecting roof system that is supported and restrained
+at one end only.<br />
+Cantilever Beam: a beam supported only at one end having a free end
+and fixed end.<br />
+Capillary Action: that action which causes movement of liquids when
+in contact with two adjacent surfaces such as panel sidelaps.<br />
+Cap Plate: A plate located at the top of a column or end of a beam
+for capping the exposed end of the member.<br />
+Capacity: the maximum load (usually stated in tons), which a crane
+is designed to support.<br />
+Cast in Place Base: A continuous member imbedded in the edge of the
+foundation to which the wall panels are attached.<br />
+Caulk: to seal and make weather-tight the joints, seams, or voids
+by filling with a waterproofing compound or material.<br />
+Chalking: When the paint finish on panels has a white powder film
+due to over exposure.<br />
+Channel, Hot Rolled: A "C" shaped member formed while in a
+semi-molten state at the steel mill to shape having standard
+dimensions and properties.<br />
+Cladding: The exterior metal roof and wall paneling of a Metal
+Building System. See also "Covering"<br />
+Clip: A plate or angle used to fasten two or more members
+together.<br />
+Closure Strip: A strip, formed to the contour of ribbed panels and
+used to close openings created by ribbed panels joining other
+components, either made of resilient material or metal.<br />
+CMU: Concrete Masonry Unit. Generally, used to construct masonry
+walls.<br />
+Cold Forming: The process of using press brakes or rolling mills to
+shape steel into desired cross sections at room temperature.<br />
+Collateral Loads: The weight of additional permanent materials
+required by the contract, other than the Building System, such as
+sprinklers, mechanical and electrical systems, partitions and
+ceilings.<br />
+Column: A primary member used in a vertical position on a building
+to transfer loads from main roof, beams, trusses, or rafters to the
+foundation.<br />
+Component: A part used in a Metal Building System. See also
+"Components and Cladding".<br />
+Components and Cladding: Members that include girts, purlins,
+studs, wall and roof panels, fasteners, end wall columns and end
+wall rafters or bearing en d frames, roof overhang beams, canopy
+beams, and masonry walls when acting as other than shear
+walls.<br />
+Concealed Clip: A hold down clip used with a wall or roof panel
+system to connect the panel to the supporting structure without
+exposing the fasteners to the exterior surface.<br />
+Connection: The means of attachment of one structural member to
+another.<br />
+Continuity: The terminology given to a structural system denoting
+the transfer of loads and stresses from member to member as if
+there were no connections.<br />
+Continuous Beam: A beam having three or more supports.<br />
+Covering: The exterior metal roof and wall paneling of a Metal
+Building System.<br />
+Crane: A machine designed to move material by means of a
+hoist.<br />
+Crane Aisle: The portion of a building aisle in which a crane
+operates, defined by the crane span and the uninterrupted length of
+crane runaway.<br />
+Crane Rail: A track supporting and guiding the wheels of a bridge
+crane or trolley system. On under hung cranes, the crane rail also
+acts as the runway beam.<br />
+Crane Runway Beam: The member that supports a crane rail and is
+supported by columns or rafters depending on the type of crane
+system. On under hung bridge cranes, the runway beam also acts as
+the crane rail.<br />
+Crane Span: The horizontal distance center to center of runway
+beams.<br />
+Crane Stop: A device to limit travel of a trolley or crane bridge.
+This device normally is attached to a fixed structure and normally
+does not have energy-absorbing ability.<br />
+Crane Support Column: A separate column, which supports the runway
+beam of a top running crane.<br />
+Curb: A raised edge on a concrete floor slab or roof
+accessory.<br />
+Curtain Wall: Perimeter wall panels which carry only their own
+weight and wind load.
+
+
+
+</div>
+                
+            </div>
+            <div class="txtBottomBar1">
+                <div class="splitright">
+                    
+                </div>
+                <div class="splitleft">
+                    
+                </div>	
+            </div>
+            <div class="clear">&nbsp;</div>
+        </div>
+    </div>
+        <div id="footer">
+        <div class="footerR"><img src="/ui/img/aisc_bbb.gif" /></div>
+        <div class="footerL">
+        	<div><span>&copy; 2007 Sunward Consolidated Group</span></div>
+            <div>
+                <ul>
+                    <li><a href="/Specifications/">Specififcations</a></li>
+                    <li><a href="/CareerOpportunities/">Career Opportunities</a></li>
+                    <li><a href="/PrivacyPolicy/">Privacy Policy</a></li>
+                    <li><a href="/Definitions/">Definitions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-7011302-1");
+	pageTracker._trackPageview();
+	} catch(err) {}
+</script>
+  
+</body>
+
+</html>
+</div>
+</body>
+
+</html>
+
+</cfsavecontent>

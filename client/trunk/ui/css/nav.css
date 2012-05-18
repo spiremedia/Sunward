@@ -1,0 +1,90 @@
+/*
+	this nav is son of suckerfish
+*/
+#nav { height: 40px; }
+#nav, #nav ul { /* all lists */
+	position: relative;
+	z-index: 9999 !important;
+	padding: 39px 0 0 0;
+	margin: 0;
+	list-style: none;
+	line-height: 1;
+}
+
+#nav a, #navSaf a {
+	display: block;
+	z-index: 9999 !important;
+}
+
+#nav  .sub {
+	margin: 0 0 0 0;
+	padding: 6px 0 0 0;
+	z-index: 9999 !important;
+	}
+
+#nav li ul li a {
+	display: block;
+	color:black;
+	text-decoration:none;
+	width: 14em;
+	font-size:11px;
+	font-weight:bold;
+	font-style:italic;
+	z-index: 9999 !important;
+}
+
+#nav li, #navSaf li { /* all list items */
+	float: left;
+	width: auto;
+	z-index: 9999 !important;
+	/*width: 10em;  width needed or else Opera goes nuts */
+}
+
+#nav li ul { /* second-level lists */
+	position: absolute;
+	width: 10em;
+	display:none;
+	z-index: 9999 !important;
+	/*left: -999em; */ /*using left instead of display to hide menus because display: none isn't read by screen readers */
+}
+
+#navSaf li ul {
+	display:none;
+	z-index: 9999 !important;
+}
+
+#nav li ul li {
+	border-bottom:1px solid black;
+	padding:5px;
+	background:#ffcc00;
+	position:relative;
+	top:-3px;
+	left:5px;
+	width:14em;
+	z-index: 1;
+	z-index: 9999 !important;
+}
+
+#nav li.sfhover ul { /* lists nested under hovered list items */
+	display:inline;
+	left:auto;
+	z-index: 9999 !important;
+	
+	
+}
+#nav li:hover ul { /* lists nested under hovered list items */
+	display:inline;
+	z-index: 9999 !important;
+	left:auto;
+}
+
+#nav li:hover, #topmenu li.hover {
+  position:relative;
+  left:0px;
+	z-index: 9999 !important;
+} 
+
+#nav li:hover ul li, #topmenu li.hover ul li {
+  left:5px;
+	z-index: 9999 !important;
+} 

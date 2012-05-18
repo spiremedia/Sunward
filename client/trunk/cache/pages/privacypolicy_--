@@ -1,0 +1,263 @@
+<cfsavecontent variable="html"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    
+        <head>
+        
+            <meta http-equiv="X-UA-Compatible" content="IE=8" />
+            <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+            <meta http-equiv="Content-Style-Type" content="text/css" />
+            <meta name="description" content="default description" />
+            <meta name="keywords" content="Sunward Consolidated, metal building, steel buildings,
+prefabricated buildings, steel building kits, custom barn, prefab
+buildings, metal building kits, aircraft hangar, prefabricated
+steel buildings" />
+            
+            <title>Privacy Policy</title>
+            
+            
+            <script type="text/javascript" src="/ui/js/nav.js"></script>
+            <script type="text/javascript" src="/ui/js/swfobject.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/jquery-1.2.6.pack.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.core.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.accordion.js"></script>
+            <script type="text/javascript" language="javascript" src="/ui/js/ui.tabs.js"></script>
+            
+            
+            <link type="text/css" rel="stylesheet" href="/ui/css/interior.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/sunward.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/nav.css" />
+            <link type="text/css" rel="stylesheet" href="/ui/css/form.css" />
+            <!--[if lte IE 8]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie8.css" />
+            <![endif]-->
+            <!--[if lte IE 7]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie7.css" />
+            <![endif]-->
+            <!--[if lte IE 6]>
+            <link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie6.css" />
+            <![endif]-->
+    
+        </head>
+    
+    <body class="homeBody">
+
+
+
+<script type="text/javascript" src="/ui/js/jquery-1.2.6.pack.js"></script>
+
+
+
+<div id="textpageWrapper">
+
+
+	<table class="ht" cellspacing="0" cellpadding="0">
+		<tr>
+			<td class="hlf">&nbsp;</td>
+			<td class="hc" nowrap="nowrap">
+	<div class="searchForm">
+    
+	    <b class="loginout"><a href="/Users/Login/">Dealer Login</a></b>
+	<br />
+		<form action="/Search/" method="get" >
+			<input name="search" type="text"  size="19" class="text" />
+			<input type="submit" name="button" value="Search" class="searchButton" />
+		</form>
+	</div>
+				<div class="navDiv">
+			<ul id="nav"><li class="first"><a href="/Products/" onmouseover="document.Image1.src='/ui/img/btn_Products_over.gif'"
+onmouseout="document.Image1.src='/ui/img/btn_Products.gif'"><img src="/ui/img/btn_Products.gif" name="Image1" /></a><ul class="sub"><li><a href="/Products/">Products</a></li><li><a href="/Products/Agriculture/">Agriculture</a></li><li><a href="/Products/UtilityShops/">Utility Shops</a></li><li><a href="/Products/BarnsAndRidingArenas/">Barns and Riding Arenas</a></li><li><a href="/Products/AviationAircraftHangars/">Aviation Aircraft Hangars</a></li><li><a href="/Products/MiniWarehouses/">Mini Warehouses</a></li><li><a href="/Products/Retail/">Retail</a></li><li><a href="/Products/Industrial/">Industrial</a></li><li><a href="/Products/CustomDesigns/">Custom Designs</a></li><li><a href="/Products/accessories/">Accessories</a></li><li><a href="/Products/Customframingdesigns/">Concept Renderings</a></li></ul></li><li ><a href="/Dealerships/" onmouseover="document.Image2.src='/ui/img/btn_Dealerships_over.gif'"
+onmouseout="document.Image2.src='/ui/img/btn_Dealerships.gif'"><img src="/ui/img/btn_Dealerships.gif" name="Image2" /></a></li><li ><a href="/ContactUs/" onmouseover="document.Image3.src='/ui/img/btn_ContactUs_over.gif'"
+onmouseout="document.Image3.src='/ui/img/btn_ContactUs.gif'"><img src="/ui/img/btn_ContactUs.gif" name="Image3" /></a><ul class="sub"><li><a href="/ContactUs/">Contact Us</a></li><li><a href="/ContactUs/FrequentlyAskedQuestions/">Frequently Asked Questions</a></li></ul></li><li ><a href="/QualityFeatures/" onmouseover="document.Image4.src='/ui/img/btn_QualityFeatures_over.gif'"
+onmouseout="document.Image4.src='/ui/img/btn_QualityFeatures.gif'"><img src="/ui/img/btn_QualityFeatures.gif" name="Image4" /></a><ul class="sub"><li><a href="/QualityFeatures/">Quality Features</a></li><li><a href="/QualityFeatures/Certifications/">Certifications</a></li><li><a href="/QualityFeatures/ExclusiveSunwardLine/">Exclusive Sunward Line</a></li><li><a href="/QualityFeatures/substructure/">Door & Window Sub-structure</a></li><li><a href="/QualityFeatures/BeautifulTrimPackage/">Beautiful Trim Package</a></li><li><a href="/QualityFeatures/closures/">Closure System</a></li><li><a href="/QualityFeatures/fasteners/">Fasteners</a></li><li><a href="/QualityFeatures/siphongroove1/">Special Siphon Groove</a></li><li><a href="/QualityFeatures/SoffitSystem/">Soffit System</a></li><li><a href="/QualityFeatures/5starfeatures/">5 Star Features</a></li></ul></li><li ><a href="/AboutUs/" onmouseover="document.Image5.src='/ui/img/btn_AboutUs_over.gif'"
+onmouseout="document.Image5.src='/ui/img/btn_AboutUs.gif'"><img src="/ui/img/btn_AboutUs.gif" name="Image5" /></a><ul class="sub"><li><a href="/AboutUs/">About Us</a></li><li><a href="/AboutUs/Factories/">Factories</a></li><li><a href="/AboutUs/Trucking/">Trucking</a></li><li><a href="/AboutUs/bbbaward/">BBB Award</a></li></ul></li><li ><a href="/DealsSales/" onmouseover="document.Image6.src='/ui/img/btn_DealsSales_over.gif'"
+onmouseout="document.Image6.src='/ui/img/btn_DealsSales.gif'"><img src="/ui/img/btn_DealsSales.gif" name="Image6" /></a><ul class="sub"><li><a href="/DealsSales/">Deals & Sales</a></li><li><a href="/DealsSales/EasyToAssemble/">Easy to Assemble</a></li><li><a href="/DealsSales/ConstructYourself/">Construct Yourself</a></li><li><a href="/DealsSales/insulationpackages/">Insulation Packages</a></li><li><a href="/DealsSales/taxcredits/">Energy Star Tax Credits</a></li><li><a href="/DealsSales/PumpingUnits/">Sunward Pumping Units</a></li><li><a href="/DealsSales/TeamofProfessionals/">Team Of Professionals</a></li><li><a href="/DealsSales/Gambrel/">Gambrel</a></li></ul></li><li ><a href="/Dealers/" onmouseover="document.Image7.src='/ui/img/btn_Dealers_over.gif'"
+onmouseout="document.Image7.src='/ui/img/btn_Dealers.gif'"><img src="/ui/img/btn_Dealers.gif" name="Image7" /></a></li></ul>
+		</div>
+			</td>
+			<td class="hrf">&nbsp;</td>
+		</tr>
+	</table>
+	
+	<div id="textpageContainer">
+        <div id="textPageCrumbs">
+            
+            <ul><li><a href="/">Home</a></li> &gt; <li>Privacy Policy</li></ul>
+        </div>
+        <div id="textPageInteriorTitle">
+            
+            Privacy Policy
+        </div>
+        <div id="textPageBodyContent">
+            <div id="interiorLeftBar">
+                <div id="interiorLeftBarNav">
+                    
+			<ul>
+				   
+			</ul>
+		
+                </div>
+            </div>
+            <div class="txtBottomBar1" style="margin-top:15px;">
+                <div class="splitrightImagePage" style="width:250px;">
+                    
+                </div>
+
+                <div class="splitleft">
+                    
+                </div>
+            </div>
+            <div class="txtTopBar" style="margin-top:5px;">
+                
+                
+                    <div class="headLine">
+                        
+
+
+
+
+
+
+<p>This privacy notice discloses the privacy practices for
+www.scg-grp.com. This privacy notice applies solely to information
+collected by this web site. It will notify you of the
+following:</p>
+
+<p>1. What personally identifiable information is collected from
+you through the web site, how it is used and with whom it may be
+shared.</p>
+
+<p>2. What choices are available to you regarding the use of your
+data.</p>
+
+<p>3. The security procedures in place to protect the misuse of
+your information.</p>
+
+<p>4. How you can correct any inaccuracies in the information.</p>
+
+<p>Information Collection, Use, and Sharing:</p>
+
+<p>We are the sole owners of the information collected on this
+site. We only have access to/collect information that you
+voluntarily give us via our contact us page, email or other direct
+contact from you. We will not sell or rent this information to
+anyone.</p>
+
+<p>We will use your information to respond to you, regarding the
+reason you contacted us. We will not share your information with
+any third party outside of our organization, other than as
+necessary to fulfill your request, e.g. to ship an order.</p>
+
+<p>Unless you ask us not to, we may contact you via email in the
+future to tell you about specials, new products or services, or
+changes to this privacy policy.</p>
+
+<p><br />
+Your Access to and Control Over Information:</p>
+
+<p>You may opt out of any future contacts from us at any time. You
+can do the following at any time by contacting us via the email
+address or phone number given on our website:</p>
+
+<p>1. See what data we have about you, if any.</p>
+
+<p>2. Change/correct any data we have about you.</p>
+
+<p>3. Have us delete any data we have about you.</p>
+
+<p>4. Express any concern you have about our use of your data.</p>
+
+<p>If you feel that we are not abiding by this privacy policy, you
+should contact us immediately via telephone at (303) 759-3200.</p>
+
+<p>(additional language required if you are an online merchant and/
+or you collect sensitive information, i.e. date of birth, social
+security numbers, and credit card information, through your
+website)</p>
+
+<p><br />
+Security:</p>
+
+<p>We take precautions to protect your information. When you submit
+sensitive information via the website, your information is
+protected both online and offline.</p>
+
+<p>Wherever we collect sensitive information (such as credit card
+data), that information is encrypted and transmitted to us in a
+secure way. You can verify this by looking for a closed lock icon
+at the bottom of your web browser, or looking for "https" at the
+beginning of the address of the web page.</p>
+
+<p>While we use encryption to protect sensitive information
+transmitted online, we also protect your information offline. Only
+employees who need the information to perform a specific job (for
+example, billing or customer service) are granted access to
+personally identifiable information. The computers/servers in which
+we store personally identifiable information are kept in a secure
+environment.</p>
+
+<p>(additional language required if you have links from your
+sight)</p>
+
+<p><br />
+Links:</p>
+
+<p>This web site contains links to other sites. Please be aware
+that we are not responsible for the content or privacy practices of
+such other sites. We encourage our users to be aware when they
+leave our site and to read the privacy statements of any other site
+that collects personally identifiable information.</p>
+
+
+
+
+                    </div>
+                
+            </div>
+            <div class="txtBottomBar1TextOnly">
+                <div class="leftCol50">
+                    
+                </div>
+
+                <div class="rightCol50">
+                    
+                </div>
+            </div>
+			<div class="clear">&nbsp;</div>
+		</div>
+            <div id="footer">
+        <div class="footerR"><img src="/ui/img/aisc_bbb.gif" /></div>
+        <div class="footerL">
+        	<div><span>&copy; 2007 Sunward Consolidated Group</span></div>
+            <div>
+                <ul>
+                    <li><a href="/Specifications/">Specififcations</a></li>
+                    <li><a href="/CareerOpportunities/">Career Opportunities</a></li>
+                    <li><a href="/PrivacyPolicy/">Privacy Policy</a></li>
+                    <li><a href="/Definitions/">Definitions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-7011302-1");
+	pageTracker._trackPageview();
+	} catch(err) {}
+</script>
+  
+</body>
+
+</html>
+    </div>
+</body>
+
+
+</html>
+</cfsavecontent>

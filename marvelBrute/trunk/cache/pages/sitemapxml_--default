@@ -1,0 +1,100 @@
+<cfsavecontent variable="html"><?xml version="1.0" encoding="UTF-8"?>
+				<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//</loc>
+					  <lastmod>2009-04-29</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//404/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//AboutUs/</loc>
+					  <lastmod>2009-04-17</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//Dealers/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//DealsSales/</loc>
+					  <lastmod>2011-05-31</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//Dealerships/</loc>
+					  <lastmod>2009-04-28</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//Definitions/</loc>
+					  <lastmod>2009-04-24</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//PrivacyPolicy/</loc>
+					  <lastmod>2009-04-24</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//Specifications/</loc>
+					  <lastmod>2009-04-27</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//Dealers/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//AboutUs/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//QualityFeatures/</loc>
+					  <lastmod>2009-04-30</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//Products/Haystorage/</loc>
+					  <lastmod>2009-04-24</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//ContactUs/</loc>
+					  <lastmod>2009-04-23</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//CareerOpportunities/</loc>
+					  <lastmod>2010-01-15</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//DealsSales/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//Dealerships/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//QualityFeatures/</loc>
+					  <lastmod>2009-04-01</lastmod>
+				   </url>
+				
+				   <url>
+					  <loc>http://marvelBrute.amazonaws.com//Products/MassiveGrainStorage/InsideGrainBuilding/</loc>
+					  <lastmod>2009-04-24</lastmod>
+				   </url>
+				
+				</urlset> 
+			</cfsavecontent>

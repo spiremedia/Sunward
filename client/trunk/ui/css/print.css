@@ -1,0 +1,21 @@
+/* global */
+#container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1000px;
+	background: none;
+}
+.headerNav,
+.headerSearch,
+#navNetwork,
+.navWrap,
+.c1,
+.ad,
+.c3,
+#footer,
+.journalSearch
+ {
+	display: none !important;
+}
+.c2container { width: 700px; }

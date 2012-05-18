@@ -1,0 +1,200 @@
+/* CSS Document */
+form {
+	margin:0;
+	padding:0;
+}
+input, 
+select,
+password,
+textarea {
+	border:1px solid gray;
+	font-size:11px;
+	_font-size:12px;
+	padding:1px 4px 1px 4px;
+}
+textarea {
+	width: 180px;
+}
+input {
+	border-width: expression(this.type=="text"||this.type=="password" ? '1px' : '0px');
+	padding-left: expression(this.type=="image" ? '0px' : '4px');
+}
+
+input[type=image],
+input[type=checkbox],
+input[type=radio]{
+	border-width:0;
+}
+input[type=image]{
+	padding-left:0;
+}
+select {
+	padding:0;
+}
+input {
+ 	/*height:15px;*/
+}
+div.headerSearch input#txtSearch {
+	width:113px;
+	height:12px;
+}
+#txtSearchResults {
+	width: 113px;
+	border-color: #616d71;
+	color: #616d71;
+}
+input.submitImage {
+	border:0;
+}
+input.clickCalendar {
+	background:#ffffff url(/ui/images/calendarIcon.gif) no-repeat right;
+	cursor:pointer;
+}
+input.inputImage {
+	border:0;
+	position:relative;
+	top:5px;
+	height:auto;
+}
+input {
+	/*border:0;*/
+}
+
+
+form label{
+	display: block;
+	width: 100px;
+	float: left;
+	margin-bottom: 10px;
+	margin-left:10px;
+	font-weight: normal;
+	text-align: right;
+	margin-right: 0.5em;
+}
+form label.small{
+	width:70px;
+}
+form label.verysmall{
+	width:45px;
+}
+
+
+ul.asset {
+	padding-left:35px;
+	list-style-type:none;
+	padding-top:7px;
+	padding-bottom:7px;
+}
+ul.asset li {
+	height:auto;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.asset{
+	background-repeat:no-repeat;
+	background-position:center left;
+	display:block;
+	height:auto;
+	/*padding-left:35px;*/
+	padding-left: 0 !important;
+	padding-top:7px;
+	padding-bottom:7px;
+	position:relative;
+	left:3px;
+	top:1px;
+}
+.asset a {
+	padding-left: 35px !important;
+}
+
+.a_doc {background-image:url(/ui/images/doctypes/doc.gif);}
+.a_pdf {background-image:url(/ui/images/doctypes/pdf.gif);}
+.a_gif {background-image:url(/ui/images/doctypes/gif.gif);}
+.a_jpg {background-image:url(/ui/images/doctypes/jpg.gif);}
+.a_xls {background-image:url(/ui/images/doctypes/xls.gif);}
+.a_ppt {background-image:url(/ui/images/doctypes/ppt.gif);}
+.a_unknown {background-image:url(/ui/images/doctypes/unknown.gif);}
+
+ul.errors li {
+	color:red;
+	font-weight:bold;
+	list-style: none;
+}
+label.error {
+	color:red;
+	font-weight:bold;
+}
+
+		
+/****
+*
+*	User Defined (esm) Forms
+*
+****/
+
+dl.userform { width: 280px; } 
+dl.userform dt 
+{ 
+	width: 100px; 
+	float: left; 
+	clear: both; 
+	text-align: left; 
+	padding: 5px 3px; 
+} 
+dl.userform dd 
+{
+	width: 164px; 
+	float: left; 
+	margin: 0; 
+	padding: 0; 
+	padding: 5px 0; 
+} 
+dl dt.clear 
+{ 
+	height: 0; 
+	clear: both; 
+	float: none; 
+	padding: 0; 
+} 
+
+label.required
+{
+	font-weight: bold;
+	color: red;
+	/*padding-left: 12px;
+	background: url("images/label.required-bkgd.gif") no-repeat -4px -4px;*/
+}
+
+div.loginForm label {
+	width:70px;
+	text-align:left;
+}
+
+/* Contact Form */
+form#contactForm label{
+	font-size:13px;
+}
+form#contactForm label{
+	width: 200px;
+}
+form#contactForm input[type=text], 
+form#contactForm select,
+form#contactForm password,
+form#contactForm textarea {
+	width:175px;
+}
+form#contactForm input.inputSize30 {
+	width:30px;
+}
+form#contactForm h3 {
+	text-align:center;
+	border-top-color:gray;
+	border-top-style:ridge;
+	border-width:1px;
+	font-size:15px;
+	padding-top:5px;
+}
+* html form#contactForm textarea{/*ielt6*/
+	width:130px;
+}
+

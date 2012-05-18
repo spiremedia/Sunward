@@ -1,0 +1,150 @@
+<cfsavecontent variable="html"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+
+			
+			
+			
+			<title>Privacy Policy</title>
+			
+			
+			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+			<meta name="description" content="default description" />
+			<meta name="keywords" content="default keywords" />
+			
+			
+			<link rel="stylesheet" href="/ui/css/layout.css" type="text/css" />
+			<link rel="stylesheet" href="/ui/css/typo.css" type="text/css" />
+			<link rel="stylesheet" href="/ui/css/nav.css" type="text/css" />
+			<link rel="stylesheet" href="/ui/css/form.css" type="text/css" />
+			<link rel="stylesheet" href="/ui/css/print.css" type="text/css" media="print" />
+			<link rel="stylesheet" href="/ui/css/widgets.css" type="text/css"/>
+			
+			<!--[if lte IE 7]>
+			<link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie7.css" />
+			<![endif]-->
+			<!--[if lte IE 6]>
+			<link type="text/css" rel="stylesheet" media="screen" href="/ui/css/ie6.css" />
+			<![endif]-->
+			
+			
+			<script type="text/javascript" src="/ui/js/jquery-1.2.6.pack.js"></script>
+			<script type="text/javascript" src="/ui/js/ui.core.js"></script>
+			<script type="text/javascript" src="/ui/js/ui.accordion.js"></script>
+			<script type="text/javascript" src="/ui/js/ui.tabs.js"></script>
+			<script type="text/javascript" src="/ui/js/navigation.js"></script>
+		
+		
+		
+	</head> 
+
+	<body class="home">
+		<div id="outercontainer">
+			<div id="container">
+
+
+
+	<table class="ht" cellspacing="0" cellpadding="0">
+		<tr>
+			<td class="hlf">&nbsp;</td>
+			<td class="hc" nowrap="nowrap">
+	<div class="searchForm">
+		<form action="/Search/" method="get" >
+			<input name="search" type="text"  size="19" class="text" />
+			<input type="submit" name="button" value="Search" class="searchButton" />
+		</form>
+	</div>
+				<div class="navDiv">
+			<ul id="nav"><li class="first"><a href="/Products/" onmouseover="document.Image1.src='/ui/images/menuButtons/btn_Products_over.gif'"
+onmouseout="document.Image1.src='/ui/images/menuButtons/btn_Products.gif'"><img src="/ui/images/menuButtons/btn_Products.gif" name="Image1" /></a><ul class="sub"><li><a href="/Products/">Products</a></li><li><a href="/Products/agricultural/">Agricultural</a></li><li><a href="/Products/garage/">Garage & Storage Buildings</a></li><li><a href="/Products/utility/">Utility & Shop Buildings</a></li><li><a href="/Products/EquipmentStorage/">Equipment Storage</a></li></ul></li><li ><a href="/Dealerships/" onmouseover="document.Image2.src='/ui/images/menuButtons/btn_Dealerships_over.gif'"
+onmouseout="document.Image2.src='/ui/images/menuButtons/btn_Dealerships.gif'"><img src="/ui/images/menuButtons/btn_Dealerships.gif" name="Image2" /></a><ul class="sub"><li><a href="/Dealerships/">Dealerships</a></li></ul></li><li ><a href="/ContactUs/" onmouseover="document.Image3.src='/ui/images/menuButtons/btn_ContactUs_over.gif'"
+onmouseout="document.Image3.src='/ui/images/menuButtons/btn_ContactUs.gif'"><img src="/ui/images/menuButtons/btn_ContactUs.gif" name="Image3" /></a><ul class="sub"><li><a href="/ContactUs/">Contact Us</a></li></ul></li><li ><a href="/QualityFeatures/" onmouseover="document.Image4.src='/ui/images/menuButtons/btn_QualityFeatures_over.gif'"
+onmouseout="document.Image4.src='/ui/images/menuButtons/btn_QualityFeatures.gif'"><img src="/ui/images/menuButtons/btn_QualityFeatures.gif" name="Image4" /></a><ul class="sub"><li><a href="/QualityFeatures/">Quality Features</a></li><li><a href="/QualityFeatures/IAS/">IAS 172 & 472</a></li><li><a href="/QualityFeatures/Canada_certification/">CAN/CSA 660-04</a></li><li><a href="/QualityFeatures/energystar/">Energy Star Partner</a></li><li><a href="/QualityFeatures/BeautifulTrimPackage/">Beautiful Trim Package</a></li><li><a href="/QualityFeatures/ClosureSystem/">Closure System</a></li><li><a href="/QualityFeatures/fasteners/">Fasteners</a></li><li><a href="/QualityFeatures/siphongroove/">Special Siphon Groove</a></li><li><a href="/QualityFeatures/framing/">Framing</a></li><li><a href="/QualityFeatures/SoffitSystem/">Soffit System</a></li></ul></li><li ><a href="/AboutUs/" onmouseover="document.Image5.src='/ui/images/menuButtons/btn_AboutUs_over.gif'"
+onmouseout="document.Image5.src='/ui/images/menuButtons/btn_AboutUs.gif'"><img src="/ui/images/menuButtons/btn_AboutUs.gif" name="Image5" /></a><ul class="sub"><li><a href="/AboutUs/">About Us</a></li></ul></li><li ><a href="/DealsSales/" onmouseover="document.Image6.src='/ui/images/menuButtons/btn_DealsSales_over.gif'"
+onmouseout="document.Image6.src='/ui/images/menuButtons/btn_DealsSales.gif'"><img src="/ui/images/menuButtons/btn_DealsSales.gif" name="Image6" /></a><ul class="sub"><li><a href="/DealsSales/">Deals & Sales</a></li><li><a href="/DealsSales/21x21/">21'x21' Utility King Special</a></li><li><a href="/DealsSales/24x24/">24'x24' Utility King Special</a></li><li><a href="/DealsSales/24X30/">24'x30' Utility King Special</a></li><li><a href="/DealsSales/24x36/">24'x36' Utility King Special</a></li><li><a href="/DealsSales/30x30/">30'x30' Utility King Special</a></li><li><a href="/DealsSales/30x40/">30'x40' Utility King Special</a></li><li><a href="/DealsSales/36x51/">36'x51' Utility King Special</a></li><li><a href="/DealsSales/42x58/">42'x58' Utility King Special</a></li><li><a href="/DealsSales/45x45/">45'x45' Utility King Special</a></li><li><a href="/DealsSales/54x78/">54'x78' Utility King Special</a></li><li><a href="/DealsSales/60x60/">60'x60' Utility King Special</a></li></ul></li><li ><a href="/Dealers/" onmouseover="document.Image7.src='/ui/images/menuButtons/btn_Dealers_over.gif'"
+onmouseout="document.Image7.src='/ui/images/menuButtons/btn_Dealers.gif'"><img src="/ui/images/menuButtons/btn_Dealers.gif" name="Image7" /></a><ul class="sub"><li><a href="/Dealers/">Dealers</a></li></ul></li></ul>
+		</div>
+			</td>
+			<td class="hrf">&nbsp;</td>
+		</tr>
+	</table>
+	
+	
+	<div id="interiorContainer">
+		<div id="textpageContainer">
+		
+			
+			<div id="textPageCrumbs">
+				<ul><li><a href="/">Home</a></li> > <li>Privacy Policy</li></ul>
+			</div>
+			
+			
+			<div id="textPageInteriorTitle">
+				Privacy Policy
+			</div>
+			
+			
+			<div id="textPageBodyContent">
+			
+				
+				<div id="interiorLeftBar">
+					<div id="interiorLeftBarNav">
+						
+			<ul>
+				   
+			</ul>
+		
+					</div>
+				</div>
+				
+				
+				<div class="txtTopBar">
+					
+				</div>
+				
+				
+				<div class="txtBottomBar1">
+					<div class="splitright">
+						
+						
+						
+					</div>
+					
+					<div class="splitleft">
+						
+						
+					</div>	
+				</div>
+				
+				
+				<div class="clear">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+
+
+
+				<div id="footer">
+				   <div class="footerR">&nbsp;</div>
+				   <div class="footerL">
+					  <div>
+						 <ul>
+							<li><a href="/Specifications/">Specififcations</a></li>
+							<li><a href="/CareerOpportunities/">Career Opportunities</a></li>
+							<li><a href="/PrivacyPolicy/">Privacy Policy</a></li>
+							<li><a href="/Definitions/">Definitions</a></li>
+						 </ul>
+					  </div>
+				   </div>
+			    </div>
+			</div><!-- container -->
+		</div><!-- outter container -->
+	</body>
+	    
+	
+
+</html>
+    
+</cfsavecontent>

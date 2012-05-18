@@ -1,0 +1,26 @@
+form p{
+	
+	clear: left;
+	margin: 0;
+	padding: 1px 0 3px 0;
+	padding-left: 85px; /*width of left column containing the label elements*/
+	/*border-top: 1px dashed gray;*/
+	height: 1%;
+}
+
+form label{
+	font-weight: bold;
+	float: left;
+	margin-left: -85px; /*width of left column*/
+	width: 100px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+}
+
+.cssform input[type="text"]{ /*width of text boxes. IE6 does not understand this attribute*/
+	width: 180px;
+}
+
+form textarea{
+	width: 200px;
+	height: 150px;
+}
+

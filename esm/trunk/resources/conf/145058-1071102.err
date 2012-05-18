@@ -1,0 +1,14 @@
+GetCFMXPage failed at 14:50:58 on 11/2/107
+starttime=
+reportcount=
+url=http://loo/CFIDE/administrator/
+httpstatus=
+httpcode=500
+httperrorHTML=<HTML>
+<HEAD><TITLE>An Error Occurred</TITLE></HEAD>
+<BODY>
+<H1>An Error Occurred</H1>
+500 Can't connect to loo:80 (Bad hostname 'loo')
+</BODY>
+</HTML>
+

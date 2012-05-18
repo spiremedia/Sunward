@@ -1,0 +1,1 @@
+<cfoutput>#getDataItem('list')#</cfoutput>

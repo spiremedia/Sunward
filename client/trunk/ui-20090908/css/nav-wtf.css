@@ -1,0 +1,298 @@
+.nav {
+	height: 31px;
+	border-top: solid 1px #000;
+	border-bottom: solid 1px #d1d4d3;
+	background-color: #fff;
+}
+
+#nav {
+	z-index: 1000;
+	border-left: solid 1px #000;
+	border-right: solid 1px #000;
+	height: 24px;
+}
+
+.innerNav {
+	border-bottom: solid 1px #000;
+}
+table.navTable {
+	border-collapse:collapse;
+	margin-left: auto; 
+	margin-right: auto;
+}
+* > #nav {
+	position: relative;
+}
+
+#nav, #nav ul {
+	padding: 0;
+	margin: 0 0 0 0px;
+	list-style: none;
+	line-height: 1;
+}
+
+#nav a {
+	display: block;
+	padding: 5px 10px 8px 10px;
+	margin:0;
+}
+
+#nav li {
+	float: left;
+	background: url(../images/navItem1bg.gif) center left no-repeat;
+	*height: 24px;
+}
+#nav li li { height: auto; }
+#nav li.first, #nav ul li {
+	background: none;
+}
+
+#nav li ul {
+	position: absolute;
+	left: -999em;
+	border: solid 1px #666;
+	background: #fff;
+}
+
+#nav div {
+	padding-top: 5px;
+	*padding-top: 10px;
+	position: absolute;
+	height: 0;
+	width: 200px;
+	*margin-top: -5px;
+	*background: url("/ui/images/ie_nav_fix.gif") top left;
+}
+
+/*hack for ie7 to not have menus stick*/
+html>/**/body #nav li:hover ul{
+	left: auto;
+}
+
+#nav li.sfhover ul {
+	left: auto;
+}
+
+
+#nav a,
+#nav li.itemOn li a {
+	color:#666666;
+	text-decoration: none;
+}
+#nav a:hover,
+#nav li.itemOn a{
+	text-decoration: underline;
+	color: #0f7970;
+}
+#nav li a:hover {
+	/**/
+}
+body ul#nav li div ul.sub a {
+	margin: 1px 0 1px 1px;
+	border-right: solid 1px #d6d6d6;
+	padding: 5px 5px 5px 8px;
+	float: none;
+	text-align: left;
+	color:black;
+	text-decoration:none;
+}
+#nav li ul li {
+	border-top: solid 1px #666;
+	float: none;
+}
+
+#nav li ul li.first {
+	border-top: none;
+}
+
+#nav li ul.sub a:hover {
+	color: #fff;
+	background-color: #0f7970;
+	text-decoration: none;
+}
+
+#nav ul.sub li a {
+	padding-bottom:7px;
+	border:1px solid white;
+	white-space:nowrap;
+}
+
+#navNetwork {
+	border-top: solid 1px #000;
+	background-color: #0f7970;
+	padding: 0 75px;
+	/*height: 26px;*/
+}
+
+* > #navNetwork {
+	/*height: auto;
+	min-height: 26px;*/
+}
+#navNetwork li {
+	list-style-type: none;
+	float: left;
+	border-right: solid 1px #fff;
+	padding: 6px 15px 7px 15px;
+}
+
+#navNetwork a {
+	color:white;
+	text-decoration:none;
+	/*padding: 10px 15px;*/
+}
+
+#navNetwork a:hover {
+	text-decoration:underline;
+}
+
+#navNetwork li.first {
+	border-left: solid 1px #fff;
+}
+
+#navNetwork li.selected a {
+	color:black;
+}
+
+#navNetwork li.selected {
+	background: #fff;
+}
+
+
+						/*left nav*/
+
+div.c1 div.secondNav ul.subnav{
+	list-style:none;
+	margin:-1px 0px 8px 0px;
+	padding:0;
+}
+
+*div.c1 div.secondNav ul.subnav{
+	width:182px;
+}
+div.c1 div.secondNav ul.subnav li a{
+	display:block;
+
+	text-decoration:none;
+}
+
+div.c1 .secondNav ul.subnav .navlevel2 a:hover{
+	padding:2px 0px 2px 15px;
+	color:#FFF;
+	margin:2px 0px 2px 0px;
+	background:#0f7970;
+	line-height:14px;
+	width:100%;
+}
+
+div.c1 .secondNav ul.subnav .navlevel3top a{
+	padding:2px 0px 2px 15px;
+	color:#666666;
+	margin:2px 0px 2px 0px;
+	line-height:16px;
+}
+body div.c1 .secondNav ul.subnav li.navlevel3top {
+	width:180px;
+}	
+div.c1 .secondNav ul.subnav .navlevel3 a{
+	padding:2px 0px 2px 15px;
+	color:#666666;
+	margin:2px 0px 2px 0px;
+	border-top:1px solid #ddd;
+	line-height:16px;
+}
+*div.c1 .secondNav ul.subnav .navlevel3 a{
+	width:100%
+}
+div.c1 .secondNav ul.subnav .navlevel3 a:hover, 
+div.c1 .secondNav ul.subnav .navlevel3top a:hover{
+	
+	color:white;
+	margin:2px 0px;
+	background:#673A2D;
+	width:180px;
+}
+
+body div.c1 div.secondNav ul.subnav li.itemOn3 a{
+	background:#0f7970;
+	color:white;
+	width:180px;
+	/*border:1px solid green;*/
+		
+}
+* div.c1 div.secondNav ul.subnav li.itemOn3 a{
+	width:100%;
+}
+
+div.c1  ul.subnav .navlevel4 a{
+	padding:2px 0px 2px 27px;
+	color:#666666;
+	margin:2px 0px 2px 0px;
+	width:85%;
+	line-height:14px;
+	
+}
+*div.c1  ul.subnav .navlevel4 a{
+	margin:2px 0px 2px 0px;
+	width:94%;	
+}
+
+div.c1  ul.subnav .navlevel4 a:hover{
+	padding:2px 0px 2px 27px;
+	color:#666666;
+	margin:2px 0px 2px 0px;
+	background:#dddddd;
+	text-decoration:underline;
+	width:85%;
+	line-height:14px;
+}
+*div.c1  ul.subnav .navlevel4 a:hover{
+	width:93%;
+}
+div.c1 div.secondNav ul.subnav li.itemOn4 a{
+	background-color:#dddddd;
+	color:#666;
+	margin:2px 0px 2px 0px;
+	padding:2px 0px 2px 27px;
+	background-image:url(/ui/images/arrow_journal.gif);
+	background-repeat:no-repeat;
+	background-position:17px 5px;
+	width:85%;
+	line-height:14px;
+}
+*div.c1 div.secondNav ul.subnav li.itemOn4 a{
+	width:93%;
+}
+
+										/*breadcrumbs*/
+#breadCrumbs  {
+	font-size:9px;
+	color:#666;
+	_zoom: 1; /* Force hasLayout in IE6 */
+	/*padding-top:6px;*/
+	/*padding: 4px 0px 5px 10px;*/
+	padding: 6px 0 0 10px;
+	/*line-height: 1.75em;*/
+}
+#breadCrumbs ul {
+	display: inline; 
+	list-style-type:none;
+	/*margin:10px 0px 5px 10px;*/
+	/*position:relative;
+	top:6px;*/
+	padding:0;
+}
+#breadCrumbs li {
+	display: inline;
+	margin:0;
+	padding:0;
+}
+#breadCrumbs a {
+	font-size:10px;
+	color:#0f7970;
+	text-decoration:underline;
+	font-size:9px;
+}
+#breadCrumbs a:hover{
+	color:#0f7970;
+	text-decoration:underline;
+}
