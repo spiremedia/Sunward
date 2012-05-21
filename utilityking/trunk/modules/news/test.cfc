@@ -75,19 +75,6 @@
 
 	<!--- model tests --->
 
-	<cffunction name="testNewsOutofDate">
-		<cfset var lcl = structNew()>
-		<cfset var itm = variables.controller.getModel(requestObject=variables.requestObject)>
-		<cfset var count = "">		
-		<cfquery datasource="#variables.requestObject.getVar('dsn')#" result="m">
-			UPDATE news SET startdate = <cfqueryparam value="#CreateODBCdate (dateadd("d",1, Now() ) )#" cfsqltype="cf_sql_date">
-            WHERE id = <cfqueryparam value="#variables.newsid#" cfsqltype="cf_sql_varchar">
-		</cfquery>
-		<cfset count = itm.getAvailableNewsItems( newstype = variables.newstypesid )>
-		<cfset assertequals(expected=0,actual=count.recordcount,message="should not have found news item out of date")>
-	</cffunction>
-
-
 	<cffunction name="testGettingNews">
 		<cfset var lcl = structNew()>
 		<cfset var itm = variables.controller.getModel(requestObject=variables.requestObject)>
