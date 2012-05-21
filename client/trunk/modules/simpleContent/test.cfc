@@ -37,13 +37,13 @@
     <cffunction name="testassetwvalid">
         <cfset var lcl = structnew()>
         <cfquery name="lcl.info" datasource="#requestObject.GetVar("dsn")#">
-        	SELECT id, filename FROM assets_view
+        	SELECT id, filename FROM assets_view WHERE filename is not null
         </cfquery>
         <cfset lcl.str = "hello{{asset[#lcl.info.id#]}}654654">
-        <cfset lcl.shouldbe = "hello/docs/assets/#lcl.info.filename#654654">
+        <cfset lcl.shouldbe = "hello/docs/assets/#lcl.info.id#/#lcl.info.filename#654654">
     	<cfset loadController(lcl.str)>
 		<cfset lcl.out = variables.controller.showHTML()>
-        <cfset assertequals(expected=lcl.out,actual=lcl.shouldbe)>
+		<cfset asserttrue(condition = findnocase(lcl.shouldbe,lcl.out), message="link not formatted correctly. This maybe due to the ESM not having any assets uploaded to test. Upload an asset and retest.")>
     </cffunction>
     
     <cffunction name="testlinkwinvalid">

@@ -88,6 +88,8 @@
 		<cfset lcl.httpObj.setPath("/system/refreshSearch/")>		
 		<cfset lcl.response = lcl.httpObj.load()>
 		<cfset html = lcl.response.getHTML()>
+		
+		
         <cfset assertEquals(expected=0,actual=refindnocase("Access Denied",html),message="Access denied for search indexing. Add Server IP to the securityIPs db table.")>
 		<cfset asserttrue(condition = refindnocase("Pages indexed",html),message="did not index pages")>
 		<cfset asserttrue(condition = refindnocase("Files indexed",html),message="did not index files")>

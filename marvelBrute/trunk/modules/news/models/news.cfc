@@ -10,7 +10,7 @@
     	<cfargument name="newstype" required="yes">
 		<cfset var q = "">
 		<cfquery name="q" datasource="#requestObject.getVar('dsn')#">
-			SELECT distinct n.id, n.title, n.itemdate, n.description, n.changeddate, n.assetid
+			SELECT distinct n.id, n.title, n.itemdate, n.description, n.changeddate
 			FROM news_view n
 			WHERE ((n.startdate IS NULL OR n.startdate < getDate())
 				OR (n.enddate IS NULL OR n.enddate > getDate()))

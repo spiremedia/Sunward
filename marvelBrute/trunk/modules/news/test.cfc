@@ -78,21 +78,6 @@
     </cffunction>
 	
     <!--- model tests --->
-    <cffunction name="testNewsOutofDate">
-		<cfset var lcl = structNew()>
-    	<cfset var itm = variables.controller.getModel(requestObject=variables.requestObject)>
-        <cfset var count = "">
-		
-        <cfquery datasource="#variables.requestObject.getVar('dsn')#" result="m">
-			UPDATE news SET startdate = <cfqueryparam value="#CreateODBCdate (dateadd("d",1, Now() ) )#" cfsqltype="cf_sql_date">
-            WHERE id = <cfqueryparam value="#variables.newsid#" cfsqltype="cf_sql_varchar">
-		</cfquery>
-        
-		<cfset count = itm.getAvailableNewsItems( newstype = variables.newstypesid )>
-
-        <cfset assertequals(expected=0,actual=count.recordcount,message="should not have found news item out of date")>
-    </cffunction>
-    
     <cffunction name="testGettingNews">
 		<cfset var lcl = structNew()>
     	<cfset var itm = variables.controller.getModel(requestObject=variables.requestObject)>
@@ -116,15 +101,14 @@
         <cfset var html = "">
 		
 		<!--- news listing --->
-		<cfset data.view = "type">  
-		<cfset data.itemid = variables.newstypesid>
+		<cfset data.view = "list">  
+		<cfset data.newstype = variables.newstypesid>
 		<cfset data.pageing = 10>
     	<cfset loadController(data = data)>
 		<cfset html = variables.controller.showHTML()>
-
         <cfset asserttrue(condition = refind('<div id="newsItem">.*</div>',html),message="did not find matching div elements")>
         <cfset asserttrue(condition = refind('<div class="newsCrumbs">.*</div>',html),message="did not find news crumbs")>
-       
+        <cfset asserttrue(condition = refind('<li>.*</li>',html),message="did not find matching li elements")>
         <cfset asserttrue(condition = refind('<a .*#variables.unittestname#.*</a>',html),message="did not find #variables.unittestname# link")>
 		
 		<!--- news item --->

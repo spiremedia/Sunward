@@ -35,7 +35,7 @@
 <link>#link#</link>
 <pubDate>#dateformat(itemdate, "ddd, dd mmm yyyy")# #timeformat(itemdate, "HH:mm:ss")#</pubDate>
 <description><![CDATA[ #variables.rssfeedlist.description# ]]></description>
-<cfif assetid NEQ "">
+<cfif isDefined("assetid") and assetid NEQ "">
 	<guid isPermaLink="true">#urlpathnodash#{{asset[#assetid#]}}</guid>
 	<enclosure url="#urlpathnodash#{{asset[#assetid#]}}" length="654654" type="audio/mpeg" />
 <cfelse>

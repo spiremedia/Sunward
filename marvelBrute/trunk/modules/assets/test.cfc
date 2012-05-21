@@ -101,7 +101,7 @@
     	<cfset loadController(data = data)>
 		<cfset html = variables.controller.showHTML()>
         <cfset asserttrue(condition = find('<div class="supportingData  doc_',html), message="did not &lt;div class=""supportingData  doc_")>
-        <cfset asserttrue(condition = refind('<a href\="\/docs\/assets\/[a-zA-Z0-9\-]{35}/.*Unit Test Asset</a>',html),message="did not find matching link")>
+        <cfset asserttrue(condition = refind('<a href\="\/docs\/assets\/.*Unit Test Asset</a>',html),message="did not find matching link")>
 
 		<!--- asset groups --->
 		<cfset data.assetgroupid = variables.assetgroupid> 
@@ -109,7 +109,7 @@
 		<cfset html = variables.controller.showHTML()>
         
         <cfset asserttrue(condition = find('<div class="supportingData  doc_',html), message="did not &lt;div class=""supportingData  doc_")>
-        <cfset asserttrue(condition = refind('<a href\="\/docs\/assets\/[a-zA-Z0-9\-]{35}/.*Unit Test Asset</a>',html),message="did not find matching link")>
+        <cfset asserttrue(condition = refind('<a href="\/docs\/assets\/.*Unit Test Asset</a>',html),message="did not find matching link")>
     </cffunction>
     
     <cffunction name="testGetPagesforSiteSearch">

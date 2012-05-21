@@ -14,17 +14,18 @@
     	<cfset variables.assetsObj = createObject("component","modules.assets.test").init()>
     	<cfset variables.assetsObj.setUp()>
 		<!--- setup events for indexing --->
-    	<cfset variables.eventsObj = createObject("component","modules.events.test").init()>
-    	<cfset variables.eventsObj.setUp()>
+    	<!--- <cfset variables.eventsObj = createObject("component","modules.events.test").init()>
+    	<cfset variables.eventsObj.setUp()> --->
 		<!--- setup news for indexing --->
     	<cfset variables.newsObj = createObject("component","modules.news.test").init()>
     	<cfset variables.newsObj.setUp()>
 		
 		<!--- setup page for indexing --->
-		<cfquery name="lcl.qry" datasource="#variables.requestObject.getVar('dsn')#">
-			SELECT id FROM sitepages WHERE pageurl = 'Home'
+		<cfquery name="lcl.qry" datasource="#variables.requestObject.getVar('dsn')#"><!--- added site ID because this database actually has 3 home pages. --->
+			SELECT id FROM sitepages WHERE pageurl = 'Home' and siteid = '#variables.requestObject.getVar("siteid")#'
 		</cfquery>
 		<cfset lcl.parentid = lcl.qry.id>
+		
 		<cfquery datasource="#variables.requestObject.getVar('dsn')#">
 			INSERT INTO sitepages (id,pagename,pageurl,title,status,sort,siteid,parentid,template,innavigation,subsite,searchindexable)
 			VALUES (
@@ -41,8 +42,7 @@
 				<cfqueryparam value="0" cfsqltype="cf_sql_bit">,
 				<cfqueryparam value="1" cfsqltype="cf_sql_bit">
 			)
-		</cfquery>
-          
+		</cfquery>          
 	</cffunction>
     
     <cffunction name="teardown" returntype="void" access="public">
@@ -55,7 +55,7 @@
 			DELETE FROM siteSearches WHERE criteria = <cfqueryparam value="#variables.criteria#" cfsqltype="cf_sql_varchar">
 		</cfquery>
     	<cfset variables.assetsObj.teardown()>
-    	<cfset variables.eventsObj.teardown()>
+    	<!--- <cfset variables.eventsObj.teardown()> --->
     	<cfset variables.newsObj.teardown()>
 		
 		<!---  reindex search - remove test results --->
@@ -87,16 +87,15 @@
 		<cfset lcl.httpObj.setHost("http://#cgi.HTTP_HOST#")>
 		<cfset lcl.httpObj.setPath("/system/refreshSearch/")>		
 		<cfset lcl.response = lcl.httpObj.load()>
+		
 		<cfset html = lcl.response.getHTML()>
-		<!--- 
-<cfdump var="#html#"><cfabort>
- --->
+		<!--- <cfdump var="#html#"><cfabort> --->
 
         <cfset assertEquals(expected=0,actual=refindnocase("Access Denied",html),message="Access denied for search indexing. Add Server IP to the securityIPs db table.")>
 		<cfset asserttrue(condition = refindnocase("Pages indexed",html),message="did not index pages")>
 		<cfset asserttrue(condition = refindnocase("Files indexed",html),message="did not index files")>
 		<cfset asserttrue(condition = refindnocase(variables.assetsObj.unittestsearchterm,html),message="did not find #variables.assetsObj.unittestsearchterm# in search index")>
-		<cfset asserttrue(condition = refindnocase(variables.eventsObj.unittestsearchterm,html),message="did not find #variables.eventsObj.unittestsearchterm# in search index")>
+		<!--- <cfset asserttrue(condition = refindnocase(variables.eventsObj.unittestsearchterm,html),message="did not find #variables.eventsObj.unittestsearchterm# in search index")> --->
 		<cfset asserttrue(condition = refindnocase(variables.newsObj.unittestsearchterm,html),message="did not find #variables.newsObj.unittestsearchterm# in search index")>
 		<cfset asserttrue(condition = refindnocase(this.unittestsearchterm,html),message="did not find #this.unittestsearchterm# in search index")>
 		

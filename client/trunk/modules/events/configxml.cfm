@@ -1,5 +1,5 @@
 <cfsavecontent variable="modulexml">
-<moduleInfo searchable="1">
+<moduleInfo searchable="0">
 	<itempath>newsAndEvents/Register/</itempath>
 	<action match="^NewsAndEvents/Event/[A-Z0-9\-]{35}/?">
 		<loadcfc>eventView</loadcfc>
