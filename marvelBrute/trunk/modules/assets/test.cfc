@@ -10,6 +10,9 @@
 		<cfset variables.requestObject = request.requestObject>
     	<cfset loadController()>
 		
+		<cfdirectory action="create" directory="#requestObject.getVar("cmsmachineroot")#docs\assets\#variables.assetid#">
+		<cffile action="copy" source="#requestObject.getVar("cmsmachineroot")#docs\assets\unittesting.docx" destination="#requestObject.getVar("cmsmachineroot")#docs\assets\#variables.assetid#\unittesting.docx">
+	
 		<cfquery name="lcl.qry" datasource="#variables.requestObject.getVar('dsn')#">
 			SELECT id FROM users
 			WHERE username = 'sa@spiremedia.com'
@@ -52,6 +55,11 @@
 		<cfquery datasource="#variables.requestObject.getVar('dsn')#">
 			DELETE FROM assetGroups WHERE id = <cfqueryparam value="#variables.assetgroupid#" cfsqltype="cf_sql_varchar">
 		</cfquery>
+		<cftry>
+			<cffile action="delete" file="#requestObject.getVar("cmsmachineroot")#docs/assets/#variables.assetid#/unittesting.docx">
+			<cfdirectory action="delete" directory="#requestObject.getVar("cmsmachineroot")#docs/assets/#variables.assetid#/">
+			<cfcatch>mwhouiin - asset test failed to delete unittesting.docx</cfcatch>
+		</cftry>
 	</cffunction>
     
     <cffunction name="loadController" access="private">

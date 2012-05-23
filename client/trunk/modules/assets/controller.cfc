@@ -80,7 +80,7 @@
         <cfloop query="assets">
         	<cfset indexable = aggregator.newFileIndexable()>
             <cfset indexable.setkey(assets.id)>
-			<cfset indexable.setpath('docs/assets/' & assets.filename)>
+			<cfset indexable.setpath('docs\assets\' & assets.id & '\' & assets.filename)>
             <cfset indexable.settitle(assets.name)>
             <cfset indexable.setdescription(assets.description)>
             <cfset indexable.saveForIndex()>

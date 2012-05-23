@@ -4,7 +4,7 @@
 		<cfargument name="data">
 		<cfargument name="requestObject">
 		<cfset var model = getModel(requestObject = arguments.requestObject)>
-		<cfset var xtnsions = 'doc,jpg,pdf,rtf,txt,xls,mp3'>
+		<cfset var xtnsions = 'doc,jpg,pdf,rtf,txt,xls'>
 		<cfset var tmp = arraynew(1)>
 		<cfset var tmpxtn = "">
 
@@ -58,7 +58,7 @@
 					<cfset extText = '<a href="www.microsoft.com/windows/windowsmedia/" title="" target="_blank">' & extText & '</a>'>
 				</cfif>
 				<div class="supportingData  doc_#xtn#">
-					<a href="/docs/assets/#id#/#filename#" target="_blank">#name#<!---> (#extText# | #sizeText#) ---></a>
+					<a href="/docs/assets/#filename#" target="_blank">#name#<!---> (#extText# | #sizeText#) ---></a>
 				</div>
 			</cfoutput>
 	
@@ -80,7 +80,7 @@
         <cfloop query="assets">
         	<cfset indexable = aggregator.newFileIndexable()>
             <cfset indexable.setkey(assets.id)>
-			<cfset indexable.setpath('docs/assets/' & assets.filename)>
+			<cfset indexable.setpath('docs\assets\' & assets.id & '\' & assets.filename)>
             <cfset indexable.settitle(assets.name)>
             <cfset indexable.setdescription(assets.description)>
             <cfset indexable.saveForIndex()>

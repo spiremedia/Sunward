@@ -20,6 +20,17 @@
 		<cfloop collection="#l.cookies#" item="l.cookie">
 			<cfset variables.httpObj.addCookie(l.cookie, l.cookies[l.cookie].val)>
 		</cfloop>
+		
+		<cfset variables.httpObj.clear()>
+		<cfif response.existsbypattern("choosesite")>
+			<cfset variables.httpObj.setPath("/login/chooseSite/")>
+			<cfset response = variables.httpObj.load()>
+			<cfset assertfalse(condition=(response.didError()),message="Error seeing choose site")>
+			<cfset l.link = response.getByPattern("/login/startPage/\?switchsiteid\=[A-Z0-9\-]{35}")>
+			<cfset variables.httpObj.setPath(l.link)>
+			<cfset response = variables.httpObj.load()>
+			<cfset assertfalse(condition=(response.didError()),message="Error choosing site")>
+		</cfif>
 
 		<cfreturn variables.httpObj>
 	</cffunction>

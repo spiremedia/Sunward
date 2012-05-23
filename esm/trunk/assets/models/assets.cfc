@@ -159,6 +159,7 @@
 			<cfdirectory action="create" directory="#variables.request.getVar('machineroot') & "docs/assets/" & id#">
 		</cfif>
 		
+
 		<cfset mainfile = createObject('component','utilities.fileuploadandsave').init(target = 'assets/#id#', sitepath = variables.request.getVar('machineroot'), file = 'filename')>
 		
 		<cfif NOT mainfile.success()>

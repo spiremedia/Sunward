@@ -30,6 +30,10 @@
 		<cfreturn val(variables.result.statusCode)>
 	</cffunction>
 	
+	<cffunction name="didError"  output="false">
+		<cfreturn val(variables.result.statusCode) NEQ 200>
+	</cffunction>
+	
 	<cffunction name="getHTML"  output="false">
 		<cfreturn variables.result.filecontent>
 	</cffunction>
@@ -82,7 +86,7 @@
 		<cfreturn items>
 	</cffunction>
 	
-	<!---<cffunction name="getESMFormFieldValue" output="false">
+	<cffunction name="getESMFormFieldValue" output="false">
 		<cfargument name="field">
 		<cfset var l = structnew()>
 		<cfset l.html = getHTML()>
@@ -123,7 +127,7 @@
 		</cfloop>
 		
 		<cfreturn l.val>
-	</cffunction>--->
+	</cffunction>
 	
 	<cffunction name="getESMSubmitsTo" output="false">
 		<cfset var l = structnew()>

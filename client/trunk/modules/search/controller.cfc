@@ -40,6 +40,7 @@
 			WHERE siteid = <cfqueryparam value="#variables.requestObject.getVar('siteid')#:published">
 			AND pagename not in ('404', 'Search Results')
             AND searchindexable = 1
+			AND expired = 0
 			ORDER BY len(urlpath)
 		</cfquery>
 		

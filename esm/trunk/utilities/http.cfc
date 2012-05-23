@@ -82,7 +82,7 @@
 	</cffunction>
 	
 	<cffunction name="clear">
-		<cfargument name="f">
+		<cfargument name="f" default="formfields,urlfields,headeritems">
 		<cfset var s = structnew()>
 		<cfif NOT structkeyexists(arguments,'f')>
 			<cfset init()>

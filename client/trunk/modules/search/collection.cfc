@@ -91,7 +91,7 @@
 		
 		<cfset lcl.q = querynew("key,urlpath,title,custom1,custom2,custom3,custom4")>
 
-		<cfset items="#aggregator.getPageIndexables()#">	
+		<cfset items="#aggregator.getFileIndexables()#">	
 		<cfloop from="1" to="#arrayLen(items)#" index="x">
 			<cfset queryaddrow(lcl.q)>
 			<cfset querysetcell(lcl.q, 'key', 	items[x].getPath(requestObject.getVar('cmsmachineroot')) )>

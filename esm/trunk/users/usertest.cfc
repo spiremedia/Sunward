@@ -19,7 +19,6 @@
 				
 		<cfset variables.httpObj.setPath('/Users/StartPage/')>
 		<cfset response = variables.httpObj.load()>
-		<cfdump var="#response#"><cfabort>
 
 		<cfset assertfalse(condition=(response.is302relocate()),message="sa logged in but can't see users")>
 		
