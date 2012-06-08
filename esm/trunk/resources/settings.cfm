@@ -1,4 +1,7 @@
 dsn=sunwardESM3
-systememailfrom=timholt@spiremedia.com
-mailsmtp=smtp.gmail.com
-esmurl=http://sunward.esm.amazonaws.com/
+
+systememailfrom=ITProjects@sunwardconsolidatedgroup.com
+systememailto=ITProjects@sunwardconsolidatedgroup.com
+systememailalertflag=1
+mailsmtp=SCGWebDen-01
+esmurl=http://sunward.esm.com/

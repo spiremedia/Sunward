@@ -131,7 +131,7 @@
 				<cfset add("<input type='text' name='#arguments.name#' id='#arguments.name#' value=""#htmleditformat(value)#"" #arguments.addtlinfo.style# #arguments.addtlinfo.maxlength#> (auto complete)")>
 				<cfset add('<div id="#arguments.name#_autocomplete" class="autocomplete"></div>')>
 				<cfset add('<script type="text/javascript">//<![CDATA[')>
-				<cfset add("var #arguments.name#_auto_completer = new Autocompleter.lcl('#arguments.name#', '#arguments.name#_autocomplete', [#arguments.addtlinfo.list#], {})")>
+				<cfset add("var #arguments.name#_auto_completer = new Autocompleter.Local('#arguments.name#', '#arguments.name#_autocomplete', [#arguments.addtlinfo.list#], {})")>
 				<cfset add('//]]></script>')>
 			</cfcase>		
 			

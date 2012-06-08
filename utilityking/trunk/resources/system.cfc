@@ -35,7 +35,7 @@
 		<cfset request.start = gettickcount()>
 	</cffunction>
 	
-	<cffunction name="onrequestend"><!--<cfoutput>#gettickcount() - request.start#</cfoutput>--></cffunction>
+	<cffunction name="onrequestend"><!---<cfoutput>#gettickcount() - request.start#</cfoutput>---></cffunction>
 
 	<cffunction name="onSessionStart">
 		<!--- check not a bot? --->
@@ -70,7 +70,6 @@
 		hint=''>
 	
 	</cffunction>
-	<!---
 	<cffunction name="onError">
 		<!--- The onError method gets two arguments:
 		An exception structure, which is identical to a cfcatch variable.
@@ -78,7 +77,12 @@
 		happened.--->
 		<cfargument name="Except" required=true/>
 		<cfargument type="String" name = "EventName" required=true/>
-		<cfset var fromemail = replace(replace(application.system.hostname, "http://", "","all"),"/","","all")>
+		<cfset var fromemail = application.settings.getVar('systememailfrom')>
+		<cfset var server = application.settings.getVar('mailsmtp')>
+		<cfset var systememailto = application.settings.getVar('systememailto')>
+		<cfset var systememailalertflag = application.settings.getVar('systememailalertflag')>
+		<cfset var siteName = application.settings.getVar('siteName')>
+		<cfset var siteurl = application.settings.getVar('siteurl')>
 
 		<cfif isdefined("arguments.exception.rootCause") AND arguments.exception.rootCause eq "coldfusion.runtime.AbortException">
 			<cfreturn/>
@@ -87,32 +91,32 @@
 		<cfif isdefined("arguments.exception.type") AND arguments.exception.type eq "coldfusion.runtime.AbortException">
 			<cfreturn/>
 		</cfif>
-
-		<!--- You can replace this cfoutput tag with application-specific error-handling code. --->
-		<cfif left(cgi.remote_addr, 6) EQ "10.1.1" OR cgi.remote_addr EQ "216.87.69.98" or cgi.remote_addr EQ '127.0.0.1'>
-			<p>Error Event: <cfoutput>#EventName#</cfoutput></p>
+		
+		<cfsavecontent variable="errorContent"><cfoutput>
+			<p>Error Event: #EventName#</p>
 			<p>Error details:<br>
 			<cfdump var=#except#></p>
-			<p>SESSION:<br>
-			<cfdump var=#session#></p>
 			<p>cgi:<br>
 			<cfdump var=#cgi#></p>
+		</cfoutput></cfsavecontent>
+ 
+		<!--- You can replace this cfoutput tag with application-specific error-handling code. --->
+		<cfif left(cgi.remote_addr, 6) EQ "10.1.1" OR cgi.remote_addr EQ "216.87.69.98" or cgi.remote_addr EQ '127.0.0.1'>
+			<cfoutput>#errorContent#</cfoutput>
 		<cfelse>
 			<cfcontent reset="yes">
-			<p><img src="/ui/images/aornLogo.gif"></p>
-			<p>Despite our best efforts, an unexpected error occured. We have been notified of the issue and will be working to fix the problem.  Please try again soon.</p>
+			
+			<p><a href="/"><img src="/ui/images/Logo.gif"></a></p>
+			<p>Despite our best efforts, an unexpected error occurred. We have been notified of the issue and will be working to fix the problem.  Please try again soon.</p>
 
-			<cfmail to="mountaingoat@gmail.com;tina@spiremedia.com" from="system@#fromemail#" subject="#fromemail# Site Error" server="#application.system.MailSMTP#" type="html">
-				<p>Error Event: #EventName#</p>
-				<p>Error details:<br>
-				<cfdump var=#except#></p>
-				<p>Session:<br>
-				<cfdump var=#session#></p>
-				<p>cgi:<br>
-				<cfdump var=#cgi#></p>
-			</cfmail>
+			<cfif systememailalertflag eq 1>
+				<cfmail to="#systememailto#" from="#fromemail#" subject="#siteName# Site Error (#siteurl#)" server="#server#" type="html">
+					<cfoutput>#errorContent#</cfoutput>
+				</cfmail>
+			</cfif>
+
+			<cflog file="#replace(siteName," ", "", "ALL")#_Site" text="#except#" type="error">
 			<cfabort>
 		</cfif>
 	</cffunction>
-	--->
 </cfcomponent>
